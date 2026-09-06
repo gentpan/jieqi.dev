@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 1,
+  "version": "ff53d816-2423-4eb5-831f-d97a0907dcfa",
+  "publishedAt": "2026-09-06T18:08:05.429Z",
+  "events": [
+    {
+      "id": "childrens-day",
+      "name": "儿童节",
+      "category": "festival",
+      "rule": {
+        "kind": "solar",
+        "month": 6,
+        "day": 1
+      },
+      "quote": "把快乐装进口袋，把好奇留给世界。",
+      "description": "六一儿童节，愿孩子们在关爱中自在成长，也愿每个大人都保留一点童心。",
+      "image": "/assets/childrens-day-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "double-ninth",
+      "name": "重阳节",
+      "category": "festival",
+      "rule": {
+        "kind": "lunar",
+        "month": 9,
+        "day": 9,
+        "dayOffset": 0
+      },
+      "quote": "秋高宜登远，相伴是长情。",
+      "description": "九月初九，登高赏菊，也把陪伴和问候送给长辈。",
+      "image": "/assets/double-ninth-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "dragon-boat",
+      "name": "端午节",
+      "category": "festival",
+      "rule": {
+        "kind": "lunar",
+        "month": 5,
+        "day": 5,
+        "dayOffset": 0
+      },
+      "quote": "粽叶飘香，岁岁安康。",
+      "description": "五月初五，粽叶飘香。包粽子、赛龙舟、悬艾草，是各地常见的端午习俗。",
+      "image": "/assets/dragon-boat-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "laba",
+      "name": "腊八",
+      "category": "festival",
+      "rule": {
+        "kind": "lunar",
+        "month": 12,
+        "day": 8,
+        "dayOffset": 0
+      },
+      "quote": "一碗热粥，慢慢把年煮近。",
+      "description": "腊月初八，许多地方有喝腊八粥的习俗。谷物与豆子的香气，带来岁末的暖意。",
+      "image": "/assets/laba-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "labour-day",
+      "name": "五一",
+      "category": "festival",
+      "rule": {
+        "kind": "solar",
+        "month": 5,
+        "day": 1
+      },
+      "quote": "认真耕耘，也好好休息。",
+      "description": "五一劳动节，向每一份认真付出致意。让忙碌暂歇，把时间留给生活与身边的人。",
+      "image": "/assets/labour-day-stamp-v1.webp",
+      "accent": "#a4533c",
+      "enabled": true,
+      "priority": 80
+    },
+    {
+      "id": "lantern-festival",
+      "name": "元宵节",
+      "category": "festival",
+      "rule": {
+        "kind": "lunar",
+        "month": 1,
+        "day": 15,
+        "dayOffset": 0
+      },
+      "quote": "灯火万家，团圆此刻。",
+      "description": "正月十五，赏花灯、猜灯谜，汤圆与元宵盛着团圆的祝愿。",
+      "image": "/assets/lantern-festival-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "mid-autumn",
+      "name": "中秋节",
+      "category": "festival",
+      "rule": {
+        "kind": "lunar",
+        "month": 8,
+        "day": 15,
+        "dayOffset": 0
+      },
+      "quote": "月满人间，心有团圆。",
+      "description": "八月十五，望月思亲。月饼与团聚，把远近的牵挂连在一起。",
+      "image": "/assets/mid-autumn-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "national-day",
+      "name": "国庆节",
+      "category": "festival",
+      "rule": {
+        "kind": "solar",
+        "month": 10,
+        "day": 1
+      },
+      "quote": "山河锦绣，秋光正好。",
+      "description": "十月开启，秋光正好。记录旅途风景，也珍惜与亲友相聚的时光。",
+      "image": "/assets/national-day-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "new-year",
+      "name": "元旦",
+      "category": "festival",
+      "rule": {
+        "kind": "solar",
+        "month": 1,
+        "day": 1
+      },
+      "quote": "翻开新页，写下期待。",
+      "description": "新岁开启，愿接下来的日子有光、有暖，也有新的期待。",
+      "image": "/assets/new-year-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "new-years-eve",
+      "name": "除夕",
+      "category": "festival",
+      "rule": {
+        "kind": "lunar",
+        "month": 1,
+        "day": 1,
+        "dayOffset": -1
+      },
+      "quote": "灯火可亲，家人闲坐。",
+      "description": "农历岁末的最后一夜，年夜饭、守岁与辞旧迎新，把一家人的牵挂聚在灯火之下。",
+      "image": "/assets/new-years-eve-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 85
+    },
+    {
+      "id": "qingming-festival",
+      "name": "清明节",
+      "category": "festival",
+      "rule": {
+        "kind": "term",
+        "name": "清明"
+      },
+      "quote": "春和景明，念念在心。",
+      "description": "清明兼有节气与节日的意义。人们祭扫追思，也在春光中踏青。",
+      "image": "/assets/qingming-festival-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "qixi",
+      "name": "七夕",
+      "category": "festival",
+      "rule": {
+        "kind": "lunar",
+        "month": 7,
+        "day": 7,
+        "dayOffset": 0
+      },
+      "quote": "此夕有星，此心有你。",
+      "description": "七夕承载着乞巧的传统，也寄托着人们对美好相逢的期待。",
+      "image": "/assets/qixi-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "spring-festival",
+      "name": "春节",
+      "category": "festival",
+      "rule": {
+        "kind": "lunar",
+        "month": 1,
+        "day": 1,
+        "dayOffset": 0
+      },
+      "quote": "灯火映团圆，新岁启好景。",
+      "description": "春节是农历新年的开始。贴春联、拜年、团圆饭，寄托着辞旧迎新与阖家团圆的心愿。",
+      "image": "/assets/spring-festival-stamp-v1.webp",
+      "accent": "#b64a32",
+      "enabled": true,
+      "priority": 90
+    },
+    {
+      "id": "teachers-day",
+      "name": "教师节",
+      "category": "festival",
+      "rule": {
+        "kind": "solar",
+        "month": 9,
+        "day": 10
+      },
+      "quote": "一盏灯，照亮许多个明天。",
+      "description": "九月十日，向每一位耐心引路的老师说声谢谢。知识与关怀，在一代代人的成长中延续。",
+      "image": "/assets/teachers-day-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "term-bailu",
+      "name": "白露",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "白露"
+      },
+      "quote": "白露沾衣，秋意有信。",
+      "description": "白露时节，昼夜温差渐大，清晨草木凝露。部分地区有饮白露茶、吃龙眼等习俗。",
+      "image": "/assets/term-bailu-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-chunfen",
+      "name": "春分",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "春分"
+      },
+      "quote": "春色平分，花开正好。",
+      "description": "春分时节，昼夜大致均分。春光渐盛，适合出门踏青。",
+      "image": "/assets/term-chunfen-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-chushu",
+      "name": "处暑",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "处暑"
+      },
+      "quote": "暑气渐散，好景入秋。",
+      "description": "处暑意味着暑热逐渐退去，早晚开始透出秋意。",
+      "image": "/assets/term-chushu-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-dahan",
+      "name": "大寒",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "大寒"
+      },
+      "quote": "岁末有盼，春日将来。",
+      "description": "大寒是二十四节气的最后一个节气，岁末渐近，人们忙着除旧迎新。",
+      "image": "/assets/term-dahan-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-dashu",
+      "name": "大暑",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "大暑"
+      },
+      "quote": "盛夏热烈，心有清凉。",
+      "description": "大暑时节，炎热与雨水交织，荷塘与绿荫留下盛夏的颜色。",
+      "image": "/assets/term-dashu-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-daxue",
+      "name": "大雪",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "大雪"
+      },
+      "quote": "岁暮天寒，灯火可亲。",
+      "description": "大雪时节，冬意更深。围炉、赏冬景，都是慢下来的好理由。",
+      "image": "/assets/term-daxue-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-dongzhi",
+      "name": "冬至",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "冬至"
+      },
+      "quote": "冬至已至，春归有期。",
+      "description": "冬至时节，北半球白昼较短。饺子、汤圆等节令食物，承载着各地的团圆心意。",
+      "image": "/assets/term-dongzhi-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-guyu",
+      "name": "谷雨",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "谷雨"
+      },
+      "quote": "雨生百谷，春意将浓。",
+      "description": "谷雨是春季最后一个节气，雨润百谷，新茶飘香。",
+      "image": "/assets/term-guyu-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-hanlu",
+      "name": "寒露",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "寒露"
+      },
+      "quote": "露寒情暖，秋色渐深。",
+      "description": "寒露时节，秋意更浓。赏菊、登高，是不少地方的秋日习俗。",
+      "image": "/assets/term-hanlu-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-jingzhe",
+      "name": "惊蛰",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "惊蛰"
+      },
+      "quote": "春雷唤醒，满眼新绿。",
+      "description": "惊蛰时节，春雷渐起，万物生发，农事也逐渐忙碌起来。",
+      "image": "/assets/term-jingzhe-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-lichun",
+      "name": "立春",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "立春"
+      },
+      "quote": "春风有信，万物有期。",
+      "description": "立春开启新的四季轮转，草木渐醒，春意萌动。",
+      "image": "/assets/term-lichun-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-lidong",
+      "name": "立冬",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "立冬"
+      },
+      "quote": "冬日初临，心有所暖。",
+      "description": "立冬开启冬季，万物渐藏，人们用热食与团聚迎接寒意。",
+      "image": "/assets/term-lidong-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-liqiu",
+      "name": "立秋",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "立秋"
+      },
+      "quote": "一叶知秋，万物有收。",
+      "description": "立秋是秋季的第一个节气，暑意未尽，季节已悄悄转向。",
+      "image": "/assets/term-liqiu-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-lixia",
+      "name": "立夏",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "立夏"
+      },
+      "quote": "风暖人间，万物并秀。",
+      "description": "立夏标志着夏季的开始，绿荫渐浓，万物进入生长的旺季。",
+      "image": "/assets/term-lixia-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-mangzhong",
+      "name": "芒种",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "芒种"
+      },
+      "quote": "种下期待，收获日常。",
+      "description": "芒种时节，收获与播种相接，田间迎来忙碌的日子。",
+      "image": "/assets/term-mangzhong-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-qingming",
+      "name": "清明",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "清明"
+      },
+      "quote": "春和景明，念念在心。",
+      "description": "清明时节，草木清新。踏青与慎终追远，是人们寄托春日心意的方式。",
+      "image": "/assets/term-qingming-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-qiufen",
+      "name": "秋分",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "秋分"
+      },
+      "quote": "秋色平分，收获正好。",
+      "description": "秋分时节，昼夜大致均分。稻谷渐熟，田野铺开收获的颜色。",
+      "image": "/assets/term-qiufen-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-shuangjiang",
+      "name": "霜降",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "霜降"
+      },
+      "quote": "霜染万叶，秋藏温柔。",
+      "description": "霜降是秋季最后一个节气，草木染色，凉意日深。",
+      "image": "/assets/term-shuangjiang-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-xiaohan",
+      "name": "小寒",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "小寒"
+      },
+      "quote": "岁寒有暖，人间有期。",
+      "description": "小寒时节，寒意渐深。围炉取暖，静候春归。",
+      "image": "/assets/term-xiaohan-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-xiaoman",
+      "name": "小满",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "小满"
+      },
+      "quote": "小得盈满，恰是欢喜。",
+      "description": "小满时节，部分夏熟作物籽粒渐满，一切正在慢慢丰盈。",
+      "image": "/assets/term-xiaoman-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-xiaoshu",
+      "name": "小暑",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "小暑"
+      },
+      "quote": "蝉鸣半夏，清风入怀。",
+      "description": "小暑时节，暑气渐盛。树荫、清风与蝉鸣，组成夏日的日常。",
+      "image": "/assets/term-xiaoshu-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-xiaoxue",
+      "name": "小雪",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "小雪"
+      },
+      "quote": "小雪未满，暖意正浓。",
+      "description": "小雪时节，寒意渐浓。各地气候有别，节气名称并不代表当地一定降雪。",
+      "image": "/assets/term-xiaoxue-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-xiazhi",
+      "name": "夏至",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "夏至"
+      },
+      "quote": "昼长如诗，夏日有期。",
+      "description": "夏至时节，北半球迎来一年中白昼最长的一段时光。",
+      "image": "/assets/term-xiazhi-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "term-yushui",
+      "name": "雨水",
+      "category": "solar-term",
+      "rule": {
+        "kind": "term",
+        "name": "雨水"
+      },
+      "quote": "一场春雨，一场新生。",
+      "description": "雨水时节，降水渐增。冰雪消融，田间开始为春耕作准备。",
+      "image": "/assets/term-yushui-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 20
+    },
+    {
+      "id": "womens-day",
+      "name": "妇女节",
+      "category": "festival",
+      "rule": {
+        "kind": "solar",
+        "month": 3,
+        "day": 8
+      },
+      "quote": "愿每一种选择，都自在而有光。",
+      "description": "三月八日，致意女性的创造、勇气与贡献。尊重每一种选择，让平等与关怀落在日常。",
+      "image": "/assets/womens-day-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    },
+    {
+      "id": "youth-day",
+      "name": "青年节",
+      "category": "festival",
+      "rule": {
+        "kind": "solar",
+        "month": 5,
+        "day": 4
+      },
+      "quote": "心怀热望，步履不停。",
+      "description": "五四青年节，致意蓬勃的理想与勇敢的行动。把好奇留在心里，把可能写进明天。",
+      "image": "/assets/youth-day-stamp-v1.webp",
+      "accent": "#b56f69",
+      "enabled": true,
+      "priority": 50
+    }
+  ],
+  "schedules": [
+    {
+      "year": 2026,
+      "status": "confirmed",
+      "sourceUrl": "https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html",
+      "sourceTitle": "国务院办公厅关于2026年部分节假日安排的通知（国办发明电〔2025〕7号）",
+      "holidays": [
+        {
+          "id": "new-year-2026",
+          "eventId": "new-year",
+          "name": "元旦假期",
+          "start": "2026-01-01",
+          "end": "2026-01-03",
+          "workdays": [
+            "2026-01-04"
+          ]
+        },
+        {
+          "id": "spring-festival-2026",
+          "eventId": "spring-festival",
+          "name": "春节假期",
+          "start": "2026-02-15",
+          "end": "2026-02-23",
+          "workdays": [
+            "2026-02-14",
+            "2026-02-28"
+          ]
+        },
+        {
+          "id": "qingming-2026",
+          "eventId": "qingming-festival",
+          "name": "清明假期",
+          "start": "2026-04-04",
+          "end": "2026-04-06",
+          "workdays": []
+        },
+        {
+          "id": "labour-day-2026",
+          "eventId": "labour-day",
+          "name": "五一假期",
+          "start": "2026-05-01",
+          "end": "2026-05-05",
+          "workdays": [
+            "2026-05-09"
+          ]
+        },
+        {
+          "id": "dragon-boat-2026",
+          "eventId": "dragon-boat",
+          "name": "端午假期",
+          "start": "2026-06-19",
+          "end": "2026-06-21",
+          "workdays": []
+        },
+        {
+          "id": "mid-autumn-2026",
+          "eventId": "mid-autumn",
+          "name": "中秋假期",
+          "start": "2026-09-25",
+          "end": "2026-09-27",
+          "workdays": []
+        },
+        {
+          "id": "national-day-2026",
+          "eventId": "national-day",
+          "name": "国庆假期",
+          "start": "2026-10-01",
+          "end": "2026-10-07",
+          "workdays": [
+            "2026-09-20",
+            "2026-10-10"
+          ]
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "timezone": "Asia/Shanghai",
+    "popupEnabled": true,
+    "solarTermsEnabled": true,
+    "festivalsEnabled": true,
+    "holidaysEnabled": true,
+    "advanceDays": 0,
+    "frequency": "once-per-event",
+    "delayMs": 1500
+  }
+}
