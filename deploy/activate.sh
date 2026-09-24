@@ -6,6 +6,7 @@ test -f "$release/site/dist/server/index.js"
 test -d "$release/site/dist/client/_next/static"
 id jieqi >/dev/null 2>&1 || useradd --system --home-dir /opt/jieqi --shell /usr/sbin/nologin jieqi
 install -d -o jieqi -g jieqi /opt/jieqi/shared
+install -d -o jieqi -g jieqi /opt/jieqi/shared/uploads
 mkdir -p /opt/jieqi/static "$release/public/assets"
 cp -a "$release/site/public/assets/." "$release/public/assets/"
 if [ ! -f /opt/jieqi/shared/api.env ]; then

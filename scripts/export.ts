@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync, cpSync } from 'node:fs';
+import { mkdirSync, writeFileSync, cpSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { join, resolve } from 'node:path';
 import { Store } from '../src/database.ts';
@@ -16,5 +16,6 @@ try {
   writeFileSync(join(output,'v1','manifest.json'),JSON.stringify({...snapshot,events:snapshot.events.filter(e=>e.enabled),supportedYears:{from:2000,to:2100}},null,2));
   for(const year of years) writeFileSync(join(output,'v1','calendar',`${year}.json`),JSON.stringify(annual(snapshot,year),null,2));
   cpSync(fileURLToPath(new URL('../public/assets',import.meta.url)),join(output,'assets'),{recursive:true});
+  if(process.env.UPLOADS_DIR&&existsSync(process.env.UPLOADS_DIR)) cpSync(process.env.UPLOADS_DIR,join(output,'assets/uploads'),{recursive:true});
   console.log(`静态发布包：${output}`);
 } finally {store.close();}

@@ -26,7 +26,7 @@ npm run build
 
 静态根目录 `/opt/jieqi/static` 只含公开构建资源；按哈希命名的脚本和样式缓存一年，更新时保留旧文件。普通图片缓存一小时。静态资源允许跨域 GET/HEAD/OPTIONS，`?download=1` 返回 attachment，让跨域插画下载保持有效。API 日期判断 no-store，Widget 和其他公开 API 短缓存。
 
-图片按风格保存在 `/opt/jieqi/static/assets/<style>/`，邮票图片使用 `stamp/`，管理员上传使用 `uploads/`。旧的平铺图片地址重定向到新目录。
+图片按风格保存在 `/opt/jieqi/static/assets/<style>/`，邮票图片使用 `stamp/`。管理员上传保存在 `/opt/jieqi/shared/uploads/`，由静态域名的 `/assets/uploads/` 路径读取。旧的平铺图片地址重定向到新目录。
 
 主域名旧 `/v1/*` 地址跳转至 API 域名，旧图片路径跳转至静态域名。Caddy 自动申请和续签四个域名证书，Cloudflare 代理保持现有配置。
 

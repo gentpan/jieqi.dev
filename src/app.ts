@@ -19,10 +19,14 @@ class HttpError extends Error {
 const yearParam=(value:unknown)=>yearSchema.parse(Number(z.string().regex(/^\d{4}$/).parse(value)));
 const hash=(value:string)=>createHash('sha256').update(value).digest();
 
-function validateContent(content:Content,assetsDir:string) {
+function validateContent(content:Content,assetsDir:string,uploadsDir:string) {
   content.events.forEach(e=>{
     eventSchema.parse(e);
-    if(e.image && !existsSync(join(assetsDir,groupedAssetPath(e.image).slice('/assets/'.length)))) throw new HttpError(422,`图片不存在：${e.image}`);
+    if(e.image) {
+      const relative=groupedAssetPath(e.image).slice('/assets/'.length);
+      const path=relative.startsWith('uploads/')?join(uploadsDir,relative.slice('uploads/'.length)):join(assetsDir,relative);
+      if(!existsSync(path)) throw new HttpError(422,`图片不存在：${e.image}`);
+    }
   });
   content.schedules.forEach(s=>{
     scheduleSchema.parse(s);
@@ -33,9 +37,10 @@ function validateContent(content:Content,assetsDir:string) {
   settingsSchema.parse(content.settings);
 }
 
-export function createApp(store:Store,options:{adminToken:string;assetsDir:string;staticOrigin?:string;widgetPath?:string}) {
+export function createApp(store:Store,options:{adminToken:string;assetsDir:string;uploadsDir?:string;staticOrigin?:string;widgetPath?:string}) {
   if(options.adminToken.length<32) throw new Error('ADMIN_TOKEN 至少需要32个字符；请运行 npm run setup');
   const app=express();
+  const uploadsDir=options.uploadsDir??join(options.assetsDir,'uploads');
   const imageOrigin=staticOrigin(options.staticOrigin);
   const publicContent=(value:unknown,style:unknown=undefined)=>withPublicImages(withArtworkStyle(value,styleSchema.parse(style??'stamp')),imageOrigin);
   app.disable('x-powered-by');
@@ -54,6 +59,7 @@ export function createApp(store:Store,options:{adminToken:string;assetsDir:strin
     if(grouped===req.path) return next();
     res.redirect(308,grouped+new URL(req.originalUrl,'http://localhost').search);
   });
+  app.use('/assets/uploads',express.static(uploadsDir,{dotfiles:'deny',index:false,maxAge:'1d'}));
   app.use('/assets',express.static(options.assetsDir,{dotfiles:'deny',index:false,maxAge:'1d'}));
   app.use('/v1',cors,(_req,res,next)=>{res.set('Cache-Control','public, max-age=60');next();});
   if(options.widgetPath) app.get('/v1/widget.js',(_req,res)=>res.sendFile(options.widgetPath!));
@@ -93,7 +99,6 @@ export function createApp(store:Store,options:{adminToken:string;assetsDir:strin
     if(mime==='image/webp'&&body.toString('ascii',0,4)==='RIFF'&&body.toString('ascii',8,12)==='WEBP') extension='webp';
     if(!extension) throw new HttpError(415,'图片类型与文件签名不匹配');
     const filename=`${createHash('sha256').update(body).digest('hex')}.${extension}`;
-    const uploadsDir=join(options.assetsDir,'uploads');
     mkdirSync(uploadsDir,{recursive:true});
     if(!existsSync(join(uploadsDir,filename))) writeFileSync(join(uploadsDir,filename),body,{flag:'wx'});
     res.status(201).json({image:`/assets/uploads/${filename}`});
@@ -134,7 +139,7 @@ export function createApp(store:Store,options:{adminToken:string;assetsDir:strin
     res.json(resolveDate({schemaVersion:1,version:'draft',publishedAt:new Date().toISOString(),...store.content()},date));
   });
   app.post('/admin/publish',(_req,res)=>{
-    validateContent(store.content(),options.assetsDir);
+    validateContent(store.content(),options.assetsDir,uploadsDir);
     const snapshot=store.publish();res.status(201).json({version:snapshot.version,publishedAt:snapshot.publishedAt});
   });
   app.get('/admin/publications',(_req,res)=>{

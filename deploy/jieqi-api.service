@@ -8,6 +8,7 @@ User=jieqi
 Group=jieqi
 WorkingDirectory=/opt/jieqi/current
 Environment=NODE_ENV=production
+Environment=UPLOADS_DIR=/opt/jieqi/shared/uploads
 EnvironmentFile=/opt/jieqi/shared/api.env
 ExecStart=/usr/bin/node src/server.ts
 Restart=on-failure

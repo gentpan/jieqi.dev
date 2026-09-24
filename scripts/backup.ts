@@ -11,5 +11,6 @@ const db=new DatabaseSync(path,{readOnly:true});
 try {
   await backup(db,join(output,'calendar.sqlite'));
   cpSync(fileURLToPath(new URL('../public/assets',import.meta.url)),join(output,'assets'),{recursive:true});
+  if(process.env.UPLOADS_DIR&&existsSync(process.env.UPLOADS_DIR)) cpSync(process.env.UPLOADS_DIR,join(output,'assets/uploads'),{recursive:true});
   console.log(`数据库和图片已备份：${output}`);
 } finally {db.close();}

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
-import { mkdtempSync, cpSync, rmSync, readFileSync, readdirSync } from 'node:fs';
+import { mkdtempSync, cpSync, rmSync, readFileSync, readdirSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -11,16 +11,17 @@ import { seed } from '../src/seed.ts';
 import { createApp } from '../src/app.ts';
 
 const token='test-only-private-token-32-characters-long';
-async function harness(fn:(request:(path:string,method?:string,body?:unknown,auth?:boolean)=>Promise<Response>,store:Store)=>Promise<void>,published=true,staticOrigin='') {
+async function harness(fn:(request:(path:string,method?:string,body?:unknown,auth?:boolean)=>Promise<Response>,store:Store,uploadsDir:string)=>Promise<void>,published=true,staticOrigin='') {
   const dir=mkdtempSync(join(tmpdir(),'jieqi-test-'));
   cpSync(fileURLToPath(new URL('../public/assets',import.meta.url)),join(dir,'assets'),{recursive:true});
+  const uploadsDir=join(dir,'uploads');
   const store=new Store(join(dir,'test.sqlite'));seed(store);if(published) store.publish();
-  const server=createApp(store,{adminToken:token,assetsDir:join(dir,'assets'),staticOrigin,widgetPath:fileURLToPath(new URL('../site/public/v1/widget.js',import.meta.url))}).listen(0,'127.0.0.1');await once(server,'listening');
+  const server=createApp(store,{adminToken:token,assetsDir:join(dir,'assets'),uploadsDir,staticOrigin,widgetPath:fileURLToPath(new URL('../site/public/v1/widget.js',import.meta.url))}).listen(0,'127.0.0.1');await once(server,'listening');
   const url=`http://127.0.0.1:${(server.address() as AddressInfo).port}`;
   const request=(path:string,method='GET',body?:unknown,auth=true)=>fetch(url+path,{method,
     headers:{...(auth?{Authorization:`Bearer ${token}`} : {}),...(body===undefined?{}:{'Content-Type':Buffer.isBuffer(body)?'image/png':'application/json'})},
     body:body===undefined?undefined:Buffer.isBuffer(body)?new Uint8Array(body):JSON.stringify(body)});
-  try {await fn(request,store);} finally {server.closeAllConnections();await new Promise<void>(resolve=>server.close(()=>resolve()));store.close();rmSync(dir,{recursive:true,force:true});}
+  try {await fn(request,store,uploadsDir);} finally {server.closeAllConnections();await new Promise<void>(resolve=>server.close(()=>resolve()));store.close();rmSync(dir,{recursive:true,force:true});}
 }
 
 test('published images are grouped into style directories with no flat files',()=>{
@@ -70,13 +71,17 @@ test('publishing missing images fails without replacing last good publication',a
     assert.equal(store.publication()!.version,version);
   });
 });
-test('image upload returns a content-addressed URL; rejects wrong image signatures and traversal',async()=>{
-  await harness(async(request,store)=>{
+test('image upload uses the shared upload directory; rejects wrong signatures and traversal',async()=>{
+  await harness(async(request,store,uploadsDir)=>{
     const image=readFileSync(fileURLToPath(new URL('../public/assets/stamp/labour-day-v1.png',import.meta.url)));
     const upload=await request('/admin/assets','POST',image);assert.equal(upload.status,201);
     const result=await upload.json();assert.match(result.image,/^\/assets\/uploads\/[a-f0-9]{64}\.png$/);
+    assert.equal(existsSync(join(uploadsDir,result.image.split('/').at(-1)!)),true);
     const downloaded=await request(result.image,'GET',undefined,false);assert.equal(downloaded.status,200);
     assert.deepEqual(Buffer.from(await downloaded.arrayBuffer()),image);
+    const event={...store.content().events.find(e=>e.id==='labour-day')!,image:result.image};
+    assert.equal((await request('/admin/events/labour-day','PUT',event)).status,200);
+    assert.equal((await request('/admin/publish','POST',{})).status,201);
     const legacy=await request('/assets/labour-day-v1.png','GET',undefined,false);
     assert.equal(legacy.status,200);
     assert.match(legacy.url,/\/assets\/stamp\/labour-day-v1\.png$/);
