@@ -2,7 +2,7 @@
 
 独立的节气、节日、假期卡片项目，包含 Node.js + TypeScript + Express + SQLite 后端、网站、Widget 和完整插画资料。项目可整体搬迁，不依赖 WordPress 项目。
 
-正式站点：[jieqi.dev](https://jieqi.dev)。`www.jieqi.dev` 308 跳转至主域名；API 和 Widget 使用 `https://api.jieqi.dev/v1/`；图片、CSS、JS 使用 `https://static.jieqi.dev`。服务器、服务管理、构建和回滚步骤见 [部署说明](deploy/README.md)。
+正式站点：[jieqi.dev](https://jieqi.dev)。API 和 Widget 使用 `https://api.jieqi.dev/v1/`；图片、CSS、JS 使用 `https://static.jieqi.dev`。部署步骤见 [部署说明](deploy/README.md)。
 
 已实现：24节气、16个主要节日、2026官方放假与补班安排；文案和图片管理；弹窗触发规则；草稿预览、发布、历史版本回退；公开跨域接口；静态导出；数据库与图片备份。
 

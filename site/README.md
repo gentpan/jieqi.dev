@@ -2,7 +2,7 @@
 
 面向 jieqi.dev 的首页、40张节气节日卡片集、五套完整插画与风格小样、弹窗预览、JS嵌入组件和公开日期接口。
 
-正式站点部署于独立服务器：`jieqi.dev` 首页、`api.jieqi.dev/v1/` 接口和 Widget、`static.jieqi.dev` 静态资源；www 使用 308 跳转至主域名。部署步骤、服务与回滚方式见上级 `deploy/README.md`。原 Sites 项目保留为独立预览。
+正式站点：[jieqi.dev](https://jieqi.dev)。部署步骤见上级 [部署说明](../deploy/README.md)。原 Sites 项目保留为独立预览。
 
 每张卡片包含四句原创古风短诗、来源标注与两段时节/习俗说明。首页和 Widget 同时显示公历与农历干支年、生肖、月日。日期由对应事件的实际发生日换算；假期显示起止两端的农历日期，干支年与生肖采用正月初一换年的民用农历口径，闰月保留“闰”字。API 的 `lunarStart` / `lunarEnd` 提供结构化字段，`resolve.lunar` 则对应所查询的当天。
 
