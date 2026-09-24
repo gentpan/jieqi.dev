@@ -66,9 +66,11 @@ for (const [oldPath, newPath] of [
   ['/assets/term-lidong-clay-v1.webp', '/assets/clay/term-lidong-clay-v1.webp'],
   ['/assets/term-bailu-stamp-v1.png', '/assets/stamp/term-bailu-stamp-v1.png'],
 ]) {
-  const response = await fetch(`https://static.jieqi.dev${oldPath}`, { redirect: 'manual', signal: AbortSignal.timeout(30000) });
+  const query = `?grouped-verify=${Date.now()}`;
+  const response = await fetch(`https://static.jieqi.dev${oldPath}${query}`, { redirect: 'manual', signal: AbortSignal.timeout(30000) });
   assert.equal(response.status, 308, oldPath);
   assert.equal(new URL(response.headers.get('location'), response.url).pathname, newPath);
+  assert.equal(new URL(response.headers.get('location'), response.url).search, query);
 }
 const widgetResponse = await get(`${api}/v1/widget.js`);
 assert.equal(widgetResponse.headers.get('access-control-allow-origin'), '*');
