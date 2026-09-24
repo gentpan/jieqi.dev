@@ -1,0 +1,12 @@
+{
+  "id": "labour-day",
+  "name": "五一",
+  "category": "festival",
+  "rule": { "kind": "solar", "month": 5, "day": 1 },
+  "quote": "认真耕耘，也好好休息。",
+  "description": "五一劳动节，向每一份认真付出致意。让忙碌暂歇，把时间留给生活与身边的人。",
+  "image": "/assets/labour-day-v1.png",
+  "accent": "#a4533c",
+  "enabled": true,
+  "priority": 80
+}

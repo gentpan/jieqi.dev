@@ -4,6 +4,15 @@
   const script = document.currentScript;
   if (!script || !script.src) return;
   const origin = new URL(script.src).origin;
+  const defaultStyle = script.dataset.style || 'stamp';
+  const assetOrigin = origin === 'https://api.jieqi.dev' ? 'https://static.jieqi.dev' : origin;
+  const imageUrl = (value) => {
+    if (typeof value !== 'string') return null;
+    try {
+      const url = new URL(value, assetOrigin);
+      return [origin, assetOrigin].includes(url.origin) && /^\/assets\/[a-zA-Z0-9._-]+$/.test(url.pathname) && !url.search && !url.hash && !url.username && !url.password ? url.href : null;
+    } catch { return null; }
+  };
   if (window.Jieqi) {
     if (script.dataset.mode === 'popup') window.Jieqi.start();
     return;
@@ -16,7 +25,7 @@
   let pending = false;
   let generation = 0;
   let lastAttempt = 0;
-  const css = `:host{font-family:"PingFang SC","Microsoft YaHei",sans-serif;color:#30382e;display:block;color-scheme:light;--jieqi-bg:#fffdf7;--jieqi-text:#30382e;--jieqi-muted:#626c5b;--jieqi-accent:#a23e32}*{box-sizing:border-box}.card{position:relative;background:var(--jieqi-bg);color:var(--jieqi-text);border:1px solid #e0dfd1;border-radius:10px;padding:44px;display:grid;grid-template-columns:1.55fr 1fr;gap:38px;width:100%;text-align:left;box-shadow:0 16px 50px #242d2310}.copy{align-self:center;min-width:0}.kind{font-size:12px;letter-spacing:2px;color:var(--jieqi-muted);margin:0 0 20px}.name{font-family:"Songti SC",STSong,serif;font-size:52px;letter-spacing:8px;line-height:1.3;margin:0 0 14px;font-weight:600}.date{font:13px monospace;letter-spacing:1px;color:var(--jieqi-muted);line-height:1.7}.quote{font-family:"Songti SC",STSong,serif;color:var(--jieqi-accent);font-size:24px;line-height:1.8;margin:24px 0 12px}.description{font-size:16px;line-height:1.9;color:var(--jieqi-muted);margin:0}.holiday{font-size:13px;color:var(--jieqi-accent);line-height:1.8}.art{display:flex;align-items:center;justify-content:center}.art img{display:block;width:100%;max-width:230px;aspect-ratio:2/3;object-fit:contain;transform:rotate(4deg)}.footer{font-size:12px;margin-top:24px;color:var(--jieqi-muted);letter-spacing:2px}.close{position:absolute;right:12px;top:12px;border:1px solid #a7ad9d;border-radius:50%;background:var(--jieqi-bg);color:var(--jieqi-text);width:34px;height:34px;font-size:24px;line-height:1;cursor:pointer;z-index:2}.reopen{position:fixed;right:20px;bottom:20px;z-index:2147483000;border:1px solid #d1d3c5;background:var(--jieqi-bg);color:var(--jieqi-text);border-radius:50%;width:52px;height:52px;font-family:"Songti SC",STSong,serif;font-size:22px;box-shadow:0 5px 20px #26332422;cursor:pointer}.close:focus-visible,.reopen:focus-visible{outline:2px solid var(--jieqi-accent);outline-offset:4px}dialog{border:0;padding:0;background:transparent;width:min(950px,calc(100vw - 32px));max-width:none;max-height:90dvh;overflow:auto;position:fixed;margin:auto;box-shadow:0 20px 90px #16201233;border-radius:10px}dialog::backdrop{background:#20291e77;backdrop-filter:blur(4px)}.status{padding:16px;font-size:14px;color:var(--jieqi-muted)}@media(max-width:600px){.card{grid-template-columns:1fr;padding:28px 24px;gap:22px}.art{grid-row:1}.art img{width:140px}.name{font-size:40px}.quote{font-size:22px}.description{font-size:16px}.kind{margin-bottom:14px}dialog{width:calc(100vw - 24px);max-height:92dvh}.reopen{bottom:16px;right:16px}.footer{margin-top:20px}}@media(prefers-color-scheme:dark){:host(:not([theme="light"])){--jieqi-bg:#252b25;--jieqi-text:#eeeee5;--jieqi-muted:#c2cbb9;--jieqi-accent:#e6a18c}.card{border-color:#697263}}:host([theme="dark"]){--jieqi-bg:#252b25;--jieqi-text:#eeeee5;--jieqi-muted:#c2cbb9;--jieqi-accent:#e6a18c}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}`;
+  const css = `:host{font-family:"PingFang SC","Microsoft YaHei",sans-serif;color:#30382e;display:block;color-scheme:light;--jieqi-bg:#fffdf7;--jieqi-text:#30382e;--jieqi-muted:#626c5b;--jieqi-accent:#a23e32}*{box-sizing:border-box}.card{position:relative;background:var(--jieqi-bg);color:var(--jieqi-text);border:1px solid #e0dfd1;border-radius:10px;padding:32px;display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);grid-template-areas:"copy art" "signoff dates";gap:20px 28px;width:100%;text-align:left;box-shadow:0 16px 50px #242d2310}.copy{grid-area:copy;align-self:center;min-width:0}.kind{font-size:12px;letter-spacing:2px;color:var(--jieqi-muted);margin:0 0 20px}.name{font-family:"Songti SC",STSong,serif;font-size:44px;letter-spacing:8px;line-height:1.3;margin:0 0 14px;font-weight:600}.date{font:13px monospace;letter-spacing:1px;color:var(--jieqi-muted);line-height:1.7}.quote{white-space:pre-line;font-family:"Songti SC",STSong,serif;color:var(--jieqi-accent);font-size:22px;line-height:1.8;margin:20px 0 12px}.description{font-size:16px;line-height:1.9;color:var(--jieqi-muted);margin:0}.lunar-date{font-size:14px;line-height:1.8;color:var(--jieqi-muted);margin:8px 0 0}.description+.description{margin-top:12px}.holiday{font-size:13px;color:var(--jieqi-accent);line-height:1.8}.art{grid-area:art;min-width:0;display:flex;align-items:center;justify-content:center}.art img{display:block;width:100%;max-width:200px;height:auto;aspect-ratio:2/3;object-fit:contain;transform:rotate(4deg)}.dates{grid-area:dates;align-self:center;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;gap:4px 12px;text-align:center}.dates .date,.dates .lunar-date{margin:0;font-size:14px;letter-spacing:0;line-height:1.7}.card.no-art{grid-template-columns:1fr;grid-template-areas:"copy" "dates" "signoff"}.footer{grid-area:signoff;align-self:center;font-size:12px;margin:0;color:var(--jieqi-muted);letter-spacing:2px}.close{position:absolute;right:12px;top:12px;border:1px solid #a7ad9d;border-radius:50%;background:var(--jieqi-bg);color:var(--jieqi-text);width:34px;height:34px;font-size:24px;line-height:1;cursor:pointer;z-index:2}.reopen{position:fixed;right:20px;bottom:20px;z-index:2147483000;border:1px solid #d1d3c5;background:var(--jieqi-bg);color:var(--jieqi-text);border-radius:50%;width:52px;height:52px;font-family:"Songti SC",STSong,serif;font-size:22px;box-shadow:0 5px 20px #26332422;cursor:pointer}.close:focus-visible,.reopen:focus-visible{outline:2px solid var(--jieqi-accent);outline-offset:4px}dialog{border:0;padding:0;background:transparent;width:min(880px,calc(100vw - 48px));height:fit-content;max-width:none;max-height:calc(100dvh - 64px);overflow:auto;position:fixed;inset:0;margin:auto;box-shadow:0 20px 90px #16201233;border-radius:10px}dialog::backdrop{background:#20291e66}.status{padding:16px;font-size:14px;color:var(--jieqi-muted)}@media(max-width:600px){.card{grid-template-columns:1fr;grid-template-areas:"art" "dates" "copy" "signoff";padding:28px 24px;gap:22px}.art{grid-row:1}.art img{width:140px}.name{font-size:40px}.quote{font-size:22px}.description{font-size:16px}.kind{margin-bottom:14px}dialog{width:calc(100vw - 32px);max-height:calc(100dvh - 48px)}.reopen{bottom:16px;right:16px}.footer{margin-top:0}}@media(prefers-color-scheme:dark){:host(:not([theme="light"])){--jieqi-bg:#252b25;--jieqi-text:#eeeee5;--jieqi-muted:#c2cbb9;--jieqi-accent:#e6a18c}.card{border-color:#697263}}:host([theme="dark"]){--jieqi-bg:#252b25;--jieqi-text:#eeeee5;--jieqi-muted:#c2cbb9;--jieqi-accent:#e6a18c}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}`;
   const element = (tag, className, text) => {
     const item = document.createElement(tag);
     if (className) item.className = className;
@@ -39,8 +48,10 @@
       /* device disallows storage */
     }
   };
-  const get = async (path) => {
-    const response = await fetch(origin + path, {
+  const get = async (path, style = defaultStyle) => {
+    const url = new URL(path, origin);
+    url.searchParams.set('style', style);
+    const response = await fetch(url.href, {
       credentials: 'omit',
       signal: AbortSignal.timeout(10000),
     });
@@ -54,8 +65,8 @@
       month: '2-digit',
       day: '2-digit',
     }).format(new Date());
-  const calendar = async () =>
-    get('/v1/calendar/' + chinaDate().slice(0, 4) + '.json');
+  const calendar = async (style = defaultStyle) =>
+    get('/v1/calendar/' + chinaDate().slice(0, 4) + '.json', style);
   function createCard(event) {
     const article = element('article', 'card');
     const copy = element('div', 'copy');
@@ -70,19 +81,22 @@
     );
     const title = element('h2', 'name', event.card.name);
     title.id = 'jieqi-title';
-    copy.append(
-      title,
+    copy.append(title);
+    const dates = element('div', 'dates');
+    dates.setAttribute('aria-label', '公历与农历日期');
+    dates.append(
       element(
         'p',
         'date',
-        event.start.replaceAll('-', ' / ') +
+        '公历 ' + event.start.replaceAll('-', '/') +
           (event.end !== event.start
-            ? ' — ' + event.end.replaceAll('-', ' / ')
+            ? ' — ' + event.end.replaceAll('-', '/')
             : ''),
       ),
     );
+    if (event.lunarStart) dates.append(element('p', 'lunar-date', '农历 ' + event.lunarStart.label + (event.end !== event.start && event.lunarEnd ? ' — ' + event.lunarEnd.label : '')));
     if (event.card.quote) copy.append(element('p', 'quote', event.card.quote));
-    copy.append(element('p', 'description', event.card.description));
+    for (const paragraph of event.card.description.split(/\n\s*\n/)) copy.append(element('p', 'description', paragraph));
     if (event.category === 'holiday')
       copy.append(
         element(
@@ -94,15 +108,12 @@
               : ''),
         ),
       );
-    copy.append(element('p', 'footer', '愿日子有光，心有所期。'));
     article.append(copy);
-    if (
-      event.card.image &&
-      /^\/assets\/[a-zA-Z0-9._-]+$/.test(event.card.image)
-    ) {
+    const illustration = imageUrl(event.card.image);
+    if (illustration) {
       const art = element('div', 'art');
       const img = element('img');
-      img.src = new URL(event.card.image, origin).href;
+      img.src = illustration;
       img.alt = event.card.name + '插画';
       img.width = 1024;
       img.height = 1536;
@@ -110,13 +121,14 @@
         'error',
         () => {
           art.remove();
-          article.style.gridTemplateColumns = '1fr';
+          article.classList.add('no-art');
         },
         { once: true },
       );
       art.append(img);
       article.append(art);
-    } else article.style.gridTemplateColumns = '1fr';
+    } else article.classList.add('no-art');
+    article.append(element('p', 'footer', '愿日子有光，心有所期。'), dates);
     return article;
   }
   function shadow(host) {
@@ -228,17 +240,18 @@
   }
   class JieqiCard extends HTMLElement {
     static get observedAttributes() {
-      return ['event', 'theme'];
+      return ['event', 'theme', 'data-style'];
     }
     connectedCallback() {
       if (!this.shadowRoot) shadow(this);
       void this.renderCard();
     }
     attributeChangedCallback(name) {
-      if (name === 'event' && this.isConnected) void this.renderCard();
+      if ((name === 'event' || name === 'data-style') && this.isConnected) void this.renderCard();
     }
     async renderCard() {
       const requested = this.getAttribute('event');
+      const style = this.getAttribute('data-style') || defaultStyle;
       const ticket = Symbol();
       this.renderTicket = ticket;
       const root = this.shadowRoot;
@@ -247,12 +260,12 @@
       try {
         let event;
         if (requested) {
-          const data = await calendar();
+          const data = await calendar(style);
           event = data.events.find(
             (item) => item.eventId === requested && item.category !== 'holiday',
           );
         } else {
-          const data = await get('/v1/resolve');
+          const data = await get('/v1/resolve', style);
           event = data.popup.selected || data.currentTerm || data.next;
         }
         if (this.renderTicket !== ticket || !this.isConnected) return;

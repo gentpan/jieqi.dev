@@ -1,0 +1,58 @@
+# Imported by the existing /etc/frankenphp/Caddyfile; no other sites change.
+www.jieqi.dev {
+  redir https://jieqi.dev{uri} 308
+}
+
+jieqi.dev {
+  encode zstd gzip
+  header X-Content-Type-Options nosniff
+  handle /v1/* {
+    redir https://api.jieqi.dev{uri} 308
+  }
+  @static path /assets/* /_next/static/* /favicon.svg
+  handle @static {
+    redir https://static.jieqi.dev{uri} 308
+  }
+  handle {
+    reverse_proxy 127.0.0.1:4319
+  }
+}
+
+api.jieqi.dev {
+  encode zstd gzip
+  handle /v1/* {
+    reverse_proxy 127.0.0.1:4318
+  }
+  handle {
+    respond "Not found" 404
+  }
+}
+
+static.jieqi.dev {
+  root * /opt/jieqi/static
+  encode zstd gzip
+  header {
+    Access-Control-Allow-Origin "*"
+    Access-Control-Allow-Methods "GET, HEAD, OPTIONS"
+    Access-Control-Expose-Headers "ETag, Content-Length, Content-Disposition"
+    X-Content-Type-Options nosniff
+  }
+  @preflight method OPTIONS
+  respond @preflight 204
+  @write not method GET HEAD OPTIONS
+  respond @write 405
+  @download query download=1
+  header @download Content-Disposition attachment
+  handle /_next/static/* {
+    header Cache-Control "public, max-age=31536000, immutable"
+    file_server
+  }
+  @public path /assets/* /favicon.svg
+  handle @public {
+    header Cache-Control "public, max-age=3600"
+    file_server
+  }
+  handle {
+    respond "Not found" 404
+  }
+}

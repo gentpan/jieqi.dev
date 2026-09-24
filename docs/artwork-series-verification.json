@@ -1,0 +1,1394 @@
+{
+  "checkedAt": "2026-09-06T21:37:23.562Z",
+  "site": "https://jieqi.dev",
+  "api": "https://api.jieqi.dev",
+  "series": [
+    {
+      "style": "minimal",
+      "coverage": "complete",
+      "years": [
+        {
+          "year": 2026,
+          "occurrences": 47,
+          "uniqueEvents": 40,
+          "fallbacks": 0
+        },
+        {
+          "year": 2027,
+          "occurrences": 40,
+          "uniqueEvents": 40,
+          "fallbacks": 0
+        }
+      ]
+    },
+    {
+      "style": "character",
+      "coverage": "complete",
+      "years": [
+        {
+          "year": 2026,
+          "occurrences": 47,
+          "uniqueEvents": 40,
+          "fallbacks": 0
+        },
+        {
+          "year": 2027,
+          "occurrences": 40,
+          "uniqueEvents": 40,
+          "fallbacks": 0
+        }
+      ]
+    },
+    {
+      "style": "anime",
+      "coverage": "complete",
+      "years": [
+        {
+          "year": 2026,
+          "occurrences": 47,
+          "uniqueEvents": 40,
+          "fallbacks": 0
+        },
+        {
+          "year": 2027,
+          "occurrences": 40,
+          "uniqueEvents": 40,
+          "fallbacks": 0
+        }
+      ]
+    },
+    {
+      "style": "sweet",
+      "coverage": "complete",
+      "years": [
+        {
+          "year": 2026,
+          "occurrences": 47,
+          "uniqueEvents": 40,
+          "fallbacks": 0
+        },
+        {
+          "year": 2027,
+          "occurrences": 40,
+          "uniqueEvents": 40,
+          "fallbacks": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "style": "minimal",
+      "eventId": "childrens-day",
+      "url": "https://static.jieqi.dev/assets/childrens-day-minimal-v1.webp",
+      "status": 200,
+      "bytes": 89930,
+      "sha256": "955564b7903494bab3d18ae646c33a7ac2343bd58f21720ae582684801b95d9a"
+    },
+    {
+      "style": "minimal",
+      "eventId": "double-ninth",
+      "url": "https://static.jieqi.dev/assets/double-ninth-minimal-v1.webp",
+      "status": 200,
+      "bytes": 196396,
+      "sha256": "e5b83e5bdb52d73275150861866d99e60e8047624eed0e030a92eb3896d20862"
+    },
+    {
+      "style": "minimal",
+      "eventId": "dragon-boat",
+      "url": "https://static.jieqi.dev/assets/dragon-boat-minimal-v1.webp",
+      "status": 200,
+      "bytes": 156624,
+      "sha256": "4fb2651b6f2459b8e76c00905ef86f5bafdc88bd40e156cbb2fad2167fa1597a"
+    },
+    {
+      "style": "minimal",
+      "eventId": "laba",
+      "url": "https://static.jieqi.dev/assets/laba-minimal-v1.webp",
+      "status": 200,
+      "bytes": 197834,
+      "sha256": "c83b1c10ae21603750cead816903d212db6027343a2633327e3e69bcd90a9745"
+    },
+    {
+      "style": "minimal",
+      "eventId": "labour-day",
+      "url": "https://static.jieqi.dev/assets/labour-day-minimal-v1.webp",
+      "status": 200,
+      "bytes": 173796,
+      "sha256": "8da2111c9aca8e65f5132f19918918833bd3ee9b95208e1f26af903c225f329f"
+    },
+    {
+      "style": "minimal",
+      "eventId": "lantern-festival",
+      "url": "https://static.jieqi.dev/assets/lantern-festival-minimal-v1.webp",
+      "status": 200,
+      "bytes": 202288,
+      "sha256": "470a3de6a2ec24059e193eb789fe0047c7bce04d6c30e33311c594002a9f9eb0"
+    },
+    {
+      "style": "minimal",
+      "eventId": "mid-autumn",
+      "url": "https://static.jieqi.dev/assets/mid-autumn-minimal-v1.webp",
+      "status": 200,
+      "bytes": 112788,
+      "sha256": "8b7843929316e58b996ffe2d0ff8ea908e6ba25105881d0e7f3f591389b7d8da"
+    },
+    {
+      "style": "minimal",
+      "eventId": "national-day",
+      "url": "https://static.jieqi.dev/assets/national-day-minimal-v1.webp",
+      "status": 200,
+      "bytes": 157220,
+      "sha256": "9e35402b198bfb8806f354e66cd40fda72c7d2b1381399cebda2aacf8fed7eb4"
+    },
+    {
+      "style": "minimal",
+      "eventId": "new-year",
+      "url": "https://static.jieqi.dev/assets/new-year-minimal-v1.webp",
+      "status": 200,
+      "bytes": 171810,
+      "sha256": "efbf80cfdaf18cc14bbdf1aa7452e7273258e28bf6970844657c01c84ecd0c8d"
+    },
+    {
+      "style": "minimal",
+      "eventId": "new-years-eve",
+      "url": "https://static.jieqi.dev/assets/new-years-eve-minimal-v1.webp",
+      "status": 200,
+      "bytes": 171816,
+      "sha256": "dad63ed8cea5a5c2e7adfdf59ae7e85fc09afe84104d28ef83293c8a52875d96"
+    },
+    {
+      "style": "minimal",
+      "eventId": "qingming-festival",
+      "url": "https://static.jieqi.dev/assets/qingming-festival-minimal-v1.webp",
+      "status": 200,
+      "bytes": 148638,
+      "sha256": "2c422837c5371a48ca53c48510c6c56ec932c982e132ca6fe54d750c26a44d3e"
+    },
+    {
+      "style": "minimal",
+      "eventId": "qixi",
+      "url": "https://static.jieqi.dev/assets/qixi-minimal-v1.webp",
+      "status": 200,
+      "bytes": 134508,
+      "sha256": "b816b8330aaa9c2ddf0fbd72ed565ba99618478d16f4f4063dc79ff089e02a93"
+    },
+    {
+      "style": "minimal",
+      "eventId": "spring-festival",
+      "url": "https://static.jieqi.dev/assets/spring-festival-minimal-v1.webp",
+      "status": 200,
+      "bytes": 160958,
+      "sha256": "cdcf169eef8b7d284bf4dedb0573c66f600b0c0f0afd5b805f91ac63d6800706"
+    },
+    {
+      "style": "minimal",
+      "eventId": "teachers-day",
+      "url": "https://static.jieqi.dev/assets/teachers-day-minimal-v1.webp",
+      "status": 200,
+      "bytes": 135982,
+      "sha256": "80327196786a835c18fba2a36ec1dcb88cd0a34f0140cb22f1f49fe45ceab265"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-bailu",
+      "url": "https://static.jieqi.dev/assets/bailu-minimal.webp",
+      "status": 200,
+      "bytes": 72826,
+      "sha256": "b991b3147a8ca27765c9d72e6136d163aff0c84805f385ddae290ceff5d56bde"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-chunfen",
+      "url": "https://static.jieqi.dev/assets/term-chunfen-minimal-v1.webp",
+      "status": 200,
+      "bytes": 102736,
+      "sha256": "06ff0b600333a99644e12948b06a91308f7c97287966f6898b486eac95e51f74"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-chushu",
+      "url": "https://static.jieqi.dev/assets/term-chushu-minimal-v1.webp",
+      "status": 200,
+      "bytes": 141332,
+      "sha256": "59b5b141e36d688bce2aff380f42954ef28b6708a679334b154cb4e4007eea41"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-dahan",
+      "url": "https://static.jieqi.dev/assets/term-dahan-minimal-v1.webp",
+      "status": 200,
+      "bytes": 196692,
+      "sha256": "1930ecee8678dec777fcefe036dc7304723203d1442bd91da6c71cfeb8bf19e6"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-dashu",
+      "url": "https://static.jieqi.dev/assets/term-dashu-minimal-v1.webp",
+      "status": 200,
+      "bytes": 120546,
+      "sha256": "bc22bfec6b116451ff0bb0117c122bd340a1c35f1d5972c2868a25ff4be22752"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-daxue",
+      "url": "https://static.jieqi.dev/assets/term-daxue-minimal-v1.webp",
+      "status": 200,
+      "bytes": 206750,
+      "sha256": "c93c4d4e4231722d4438ffba19789c187600f6d70cd8ba6e7ee0f93670ec3fd6"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-dongzhi",
+      "url": "https://static.jieqi.dev/assets/term-dongzhi-minimal-v1.webp",
+      "status": 200,
+      "bytes": 168108,
+      "sha256": "8157316d4a0a87e678e7e73bcc7f097d495d39fb04df0bd9e27875254cf5caa5"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-guyu",
+      "url": "https://static.jieqi.dev/assets/term-guyu-minimal-v1.webp",
+      "status": 200,
+      "bytes": 165952,
+      "sha256": "4597e290d83454798870c3417a3c712b00132f7555301cb093b8b9effa5de294"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-hanlu",
+      "url": "https://static.jieqi.dev/assets/term-hanlu-minimal-v1.webp",
+      "status": 200,
+      "bytes": 236906,
+      "sha256": "e0e5fa10643d110ea6c2616fdd36c120d0d9db6b624256c001edacfd0fe90a26"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-jingzhe",
+      "url": "https://static.jieqi.dev/assets/term-jingzhe-minimal-v1.webp",
+      "status": 200,
+      "bytes": 126560,
+      "sha256": "565006ae7cf03541ccff902f489bda2b27e8caa5d7f2ef1ee845577fa0a9baed"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-lichun",
+      "url": "https://static.jieqi.dev/assets/term-lichun-minimal-v1.webp",
+      "status": 200,
+      "bytes": 123548,
+      "sha256": "0d846f6b5cc933495c4d7520b020dc5a2f23e8d53b2a13e4a89d698e29f5b7dc"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-lidong",
+      "url": "https://static.jieqi.dev/assets/term-lidong-minimal-v1.webp",
+      "status": 200,
+      "bytes": 199120,
+      "sha256": "843406082ec306ff716791adb7149440f2a534f7238ec15c8689a40a4995812c"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-liqiu",
+      "url": "https://static.jieqi.dev/assets/term-liqiu-minimal-v1.webp",
+      "status": 200,
+      "bytes": 129280,
+      "sha256": "e34f1a0358bb769f52562ad9fe2356715145861726cf0567b9d498c7d495f08f"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-lixia",
+      "url": "https://static.jieqi.dev/assets/term-lixia-minimal-v1.webp",
+      "status": 200,
+      "bytes": 107656,
+      "sha256": "d2705508e805e1d1fab3651cd9df8430c81b8c66092e101b391132f3eed4f418"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-mangzhong",
+      "url": "https://static.jieqi.dev/assets/term-mangzhong-minimal-v1.webp",
+      "status": 200,
+      "bytes": 204480,
+      "sha256": "f80bf65171958792c98f6f8b69e9bc8b29d3a75556156200ab2ff3520501b463"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-qingming",
+      "url": "https://static.jieqi.dev/assets/term-qingming-minimal-v1.webp",
+      "status": 200,
+      "bytes": 130274,
+      "sha256": "320838a943dba703684f01b7ed67cb6d2e48197d2617559ccd88f4475eee6b74"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-qiufen",
+      "url": "https://static.jieqi.dev/assets/term-qiufen-minimal-v1.webp",
+      "status": 200,
+      "bytes": 143218,
+      "sha256": "7dfd81dcef400e2b6f29694092959f63bd56dd76e5119f2aeac078f4fa40fa9d"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-shuangjiang",
+      "url": "https://static.jieqi.dev/assets/term-shuangjiang-minimal-v1.webp",
+      "status": 200,
+      "bytes": 292720,
+      "sha256": "3c87e1b586c6bae439f02da0b785f0833a17037dbab711dc6d0dd19ce661c860"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-xiaohan",
+      "url": "https://static.jieqi.dev/assets/term-xiaohan-minimal-v1.webp",
+      "status": 200,
+      "bytes": 125406,
+      "sha256": "f52a469d1a0d151927e9c8e3421b1e416fb54da1a7b78009b2696061c00b05f6"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-xiaoman",
+      "url": "https://static.jieqi.dev/assets/term-xiaoman-minimal-v1.webp",
+      "status": 200,
+      "bytes": 178816,
+      "sha256": "ea124424d3a4f8a8935890a464f2cb2186cce620f5d3728a16246ab5bf7ce2c6"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-xiaoshu",
+      "url": "https://static.jieqi.dev/assets/term-xiaoshu-minimal-v1.webp",
+      "status": 200,
+      "bytes": 168334,
+      "sha256": "f9672c2fb9a1de9a7703f6142a8284b4099fd5027cadb2b83850776e91121cd1"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-xiaoxue",
+      "url": "https://static.jieqi.dev/assets/term-xiaoxue-minimal-v1.webp",
+      "status": 200,
+      "bytes": 120434,
+      "sha256": "7a6001e100a51f929a34ac97792f40b4b335027e2b42aa7ab3549cd9e6a1f02a"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-xiazhi",
+      "url": "https://static.jieqi.dev/assets/term-xiazhi-minimal-v1.webp",
+      "status": 200,
+      "bytes": 169932,
+      "sha256": "9b57c1a47602088fe5a92c95b0c13b1eeaec744957546781b3005831cd9f0be2"
+    },
+    {
+      "style": "minimal",
+      "eventId": "term-yushui",
+      "url": "https://static.jieqi.dev/assets/term-yushui-minimal-v1.webp",
+      "status": 200,
+      "bytes": 175006,
+      "sha256": "97237faf511942ad99d330c246bb8f920acc1127b5453c56cb7f7fa6017eeb64"
+    },
+    {
+      "style": "minimal",
+      "eventId": "womens-day",
+      "url": "https://static.jieqi.dev/assets/womens-day-minimal-v1.webp",
+      "status": 200,
+      "bytes": 168536,
+      "sha256": "85a92ff0a5d469b78fec2548c7143cdd8d3a75077781398ed707b658a0595ba6"
+    },
+    {
+      "style": "minimal",
+      "eventId": "youth-day",
+      "url": "https://static.jieqi.dev/assets/youth-day-minimal-v1.webp",
+      "status": 200,
+      "bytes": 125008,
+      "sha256": "7c1e230282275264f8f81fec2b457331ea0ec84eccf529835ae5d4e654d7f835"
+    },
+    {
+      "style": "character",
+      "eventId": "childrens-day",
+      "url": "https://static.jieqi.dev/assets/childrens-day-character-v1.webp",
+      "status": 200,
+      "bytes": 174412,
+      "sha256": "aa642cc732ea6fb405cd18a6694a9a70212ea263a5988a4e78158595cb2d7971"
+    },
+    {
+      "style": "character",
+      "eventId": "double-ninth",
+      "url": "https://static.jieqi.dev/assets/double-ninth-character-v1.webp",
+      "status": 200,
+      "bytes": 261230,
+      "sha256": "ebca679cf51877137fe7fad71a4dea16bff2c8d02a634f48fa048e3b451cfb13"
+    },
+    {
+      "style": "character",
+      "eventId": "dragon-boat",
+      "url": "https://static.jieqi.dev/assets/dragon-boat-character-v1.webp",
+      "status": 200,
+      "bytes": 248566,
+      "sha256": "77f564c3538662909e3ada90f34b9cb16bb187f84ff67d555c4fa592f1834689"
+    },
+    {
+      "style": "character",
+      "eventId": "laba",
+      "url": "https://static.jieqi.dev/assets/laba-character-v1.webp",
+      "status": 200,
+      "bytes": 230836,
+      "sha256": "9c6ab45572c875f64f3d7230eb82dca67fda46734aef2cca5e7514e43e3ad1ca"
+    },
+    {
+      "style": "character",
+      "eventId": "labour-day",
+      "url": "https://static.jieqi.dev/assets/labour-day-character-v1.webp",
+      "status": 200,
+      "bytes": 249632,
+      "sha256": "0f58bf817c5fd95bae20355a82387427ef99f2edbaa96c458d82b800a8ac9483"
+    },
+    {
+      "style": "character",
+      "eventId": "lantern-festival",
+      "url": "https://static.jieqi.dev/assets/lantern-festival-character-v1.webp",
+      "status": 200,
+      "bytes": 249252,
+      "sha256": "8fab688a161d7bb5a3c7b2845ef6f6830b6d7dbeb1203009744dab7340d9a92e"
+    },
+    {
+      "style": "character",
+      "eventId": "mid-autumn",
+      "url": "https://static.jieqi.dev/assets/mid-autumn-character-v1.webp",
+      "status": 200,
+      "bytes": 256944,
+      "sha256": "39e6b967b38d0de28938d5d2a1567b037253239620a18db576391d5baaf7c75a"
+    },
+    {
+      "style": "character",
+      "eventId": "national-day",
+      "url": "https://static.jieqi.dev/assets/national-day-character-v1.webp",
+      "status": 200,
+      "bytes": 358104,
+      "sha256": "0763737da003ca9b0a4defdeee6e205a2c394f57bf2481d46ef0c45f3105b10e"
+    },
+    {
+      "style": "character",
+      "eventId": "new-year",
+      "url": "https://static.jieqi.dev/assets/new-year-character-v1.webp",
+      "status": 200,
+      "bytes": 208240,
+      "sha256": "816b6e7b45bb430c5f40bc252a029485fd92016723d53f198dcfb9825644b5e9"
+    },
+    {
+      "style": "character",
+      "eventId": "new-years-eve",
+      "url": "https://static.jieqi.dev/assets/new-years-eve-character-v1.webp",
+      "status": 200,
+      "bytes": 232238,
+      "sha256": "9b1adfd24c4e6a4b5db8a06ebd5f49f5f834160287b88e51e9a3bb73dab58044"
+    },
+    {
+      "style": "character",
+      "eventId": "qingming-festival",
+      "url": "https://static.jieqi.dev/assets/qingming-festival-character-v1.webp",
+      "status": 200,
+      "bytes": 278512,
+      "sha256": "87db569fcc3a46aa7caab974219e568576a8318bac38fe9a926b5c2d0b8335eb"
+    },
+    {
+      "style": "character",
+      "eventId": "qixi",
+      "url": "https://static.jieqi.dev/assets/qixi-character-v1.webp",
+      "status": 200,
+      "bytes": 267484,
+      "sha256": "e88c849d62fc8c8366275244a0b9ec170c1f8f9c9d66ddc73408ae47ca98cbfa"
+    },
+    {
+      "style": "character",
+      "eventId": "spring-festival",
+      "url": "https://static.jieqi.dev/assets/spring-festival-character-v1.webp",
+      "status": 200,
+      "bytes": 218880,
+      "sha256": "aee1256e9a91a5457fd4ad8c14d05bace4f53a70efc3952ac5d7f962299840c2"
+    },
+    {
+      "style": "character",
+      "eventId": "teachers-day",
+      "url": "https://static.jieqi.dev/assets/teachers-day-character-v1.webp",
+      "status": 200,
+      "bytes": 232958,
+      "sha256": "4cf24bfdfb4c92aa877fd783dcb29a976a8a1e12e385eda35fc5737f36ab7461"
+    },
+    {
+      "style": "character",
+      "eventId": "term-bailu",
+      "url": "https://static.jieqi.dev/assets/bailu-character.webp",
+      "status": 200,
+      "bytes": 146940,
+      "sha256": "0f708376dbca34c5a64a01a10a8438a20d786b72fc4b20b6d293d08364075b13"
+    },
+    {
+      "style": "character",
+      "eventId": "term-chunfen",
+      "url": "https://static.jieqi.dev/assets/term-chunfen-character-v1.webp",
+      "status": 200,
+      "bytes": 256680,
+      "sha256": "4168238f41db7276ae0c8cc9c5eff1248c8af7567eca2fd34beb1009540c9e13"
+    },
+    {
+      "style": "character",
+      "eventId": "term-chushu",
+      "url": "https://static.jieqi.dev/assets/term-chushu-character-v1.webp",
+      "status": 200,
+      "bytes": 234958,
+      "sha256": "cfc2c143d77ded240a865ac4c1e37c80c4659a3bb508c0f9bee293cb5ff55fc1"
+    },
+    {
+      "style": "character",
+      "eventId": "term-dahan",
+      "url": "https://static.jieqi.dev/assets/term-dahan-character-v1.webp",
+      "status": 200,
+      "bytes": 288996,
+      "sha256": "6a72de0909df047301956b934f989eb2cb1ab69cf673047c4935b809ade532fb"
+    },
+    {
+      "style": "character",
+      "eventId": "term-dashu",
+      "url": "https://static.jieqi.dev/assets/term-dashu-character-v1.webp",
+      "status": 200,
+      "bytes": 212400,
+      "sha256": "bb9b87fb3f44be18dfa950ed4d8ce0670517eb796f4a4b5ee287330a79003e01"
+    },
+    {
+      "style": "character",
+      "eventId": "term-daxue",
+      "url": "https://static.jieqi.dev/assets/term-daxue-character-v1.webp",
+      "status": 200,
+      "bytes": 266726,
+      "sha256": "2d38b488ee29447f7dcd5a90ca7da0a991410cf6f340330bf52e4bae7435010b"
+    },
+    {
+      "style": "character",
+      "eventId": "term-dongzhi",
+      "url": "https://static.jieqi.dev/assets/term-dongzhi-character-v1.webp",
+      "status": 200,
+      "bytes": 232818,
+      "sha256": "e4c29a76ff660d83052939250d23c632e393b3128be9386ffd83f159b9daddb7"
+    },
+    {
+      "style": "character",
+      "eventId": "term-guyu",
+      "url": "https://static.jieqi.dev/assets/term-guyu-character-v1.webp",
+      "status": 200,
+      "bytes": 216612,
+      "sha256": "521a9f89c8d01a70faa86e52fab12ccfe19dbb191bffec0b17db50752e7dae18"
+    },
+    {
+      "style": "character",
+      "eventId": "term-hanlu",
+      "url": "https://static.jieqi.dev/assets/term-hanlu-character-v1.webp",
+      "status": 200,
+      "bytes": 244446,
+      "sha256": "2b901f010af7cff50ddc86c08eca34f20c46c215fd034486525d6462031693e3"
+    },
+    {
+      "style": "character",
+      "eventId": "term-jingzhe",
+      "url": "https://static.jieqi.dev/assets/term-jingzhe-character-v1.webp",
+      "status": 200,
+      "bytes": 192434,
+      "sha256": "432c5d09fe9e6eb89162d5f0d302979157b80063029a2211361cb964698d247d"
+    },
+    {
+      "style": "character",
+      "eventId": "term-lichun",
+      "url": "https://static.jieqi.dev/assets/term-lichun-character-v1.webp",
+      "status": 200,
+      "bytes": 221730,
+      "sha256": "4cd27e6436dd147030b77c484781ed926ae1d78d29cbc002874c227cdc383f3a"
+    },
+    {
+      "style": "character",
+      "eventId": "term-lidong",
+      "url": "https://static.jieqi.dev/assets/term-lidong-character-v1.webp",
+      "status": 200,
+      "bytes": 193874,
+      "sha256": "c3b5c52bddf9886d2f27fd0717eaf63ef9b8221296e57affa681e3532d43c03f"
+    },
+    {
+      "style": "character",
+      "eventId": "term-liqiu",
+      "url": "https://static.jieqi.dev/assets/term-liqiu-character-v1.webp",
+      "status": 200,
+      "bytes": 223648,
+      "sha256": "198c9a24c59ba8684c73f05b66d236bb08cf17aa2441637414abfaf3b249c858"
+    },
+    {
+      "style": "character",
+      "eventId": "term-lixia",
+      "url": "https://static.jieqi.dev/assets/term-lixia-character-v1.webp",
+      "status": 200,
+      "bytes": 177642,
+      "sha256": "a19c57d463b8a152591e7a7212bed6b79d096b1d8a4e2c18b5f8283fc4393e7a"
+    },
+    {
+      "style": "character",
+      "eventId": "term-mangzhong",
+      "url": "https://static.jieqi.dev/assets/term-mangzhong-character-v1.webp",
+      "status": 200,
+      "bytes": 296040,
+      "sha256": "c745363fd3d48a109c66cfb211dc3280c3596fb98b24c7be30752d11f30133cb"
+    },
+    {
+      "style": "character",
+      "eventId": "term-qingming",
+      "url": "https://static.jieqi.dev/assets/term-qingming-character-v1.webp",
+      "status": 200,
+      "bytes": 285306,
+      "sha256": "e0f7ae143faa19752a4586d82f79511cf843bec9e5c06880ca7ca68b03840bbd"
+    },
+    {
+      "style": "character",
+      "eventId": "term-qiufen",
+      "url": "https://static.jieqi.dev/assets/term-qiufen-character-v1.webp",
+      "status": 200,
+      "bytes": 256428,
+      "sha256": "95633b3c05842a08ed55684e25a6665fe10bc9001ce9afc45eb33c478feb4fab"
+    },
+    {
+      "style": "character",
+      "eventId": "term-shuangjiang",
+      "url": "https://static.jieqi.dev/assets/term-shuangjiang-character-v1.webp",
+      "status": 200,
+      "bytes": 309708,
+      "sha256": "b27f037b4823dbf5bf717585ab55545101078d72d7d5b344fb1d8f7ab69001c9"
+    },
+    {
+      "style": "character",
+      "eventId": "term-xiaohan",
+      "url": "https://static.jieqi.dev/assets/term-xiaohan-character-v1.webp",
+      "status": 200,
+      "bytes": 218444,
+      "sha256": "36f36292daec119e125afd54cc879a6c2686e1cfa5a603b4cc96f772fd83991a"
+    },
+    {
+      "style": "character",
+      "eventId": "term-xiaoman",
+      "url": "https://static.jieqi.dev/assets/term-xiaoman-character-v1.webp",
+      "status": 200,
+      "bytes": 269112,
+      "sha256": "a7753db1bd138fc917a835eb0533302baf09202990b4d0f6b45c64e49e4ad45c"
+    },
+    {
+      "style": "character",
+      "eventId": "term-xiaoshu",
+      "url": "https://static.jieqi.dev/assets/term-xiaoshu-character-v1.webp",
+      "status": 200,
+      "bytes": 218576,
+      "sha256": "83657dc5e6524b604fedb8ab5584399c7c4a901c1912fc50aec2200fff146908"
+    },
+    {
+      "style": "character",
+      "eventId": "term-xiaoxue",
+      "url": "https://static.jieqi.dev/assets/term-xiaoxue-character-v1.webp",
+      "status": 200,
+      "bytes": 203712,
+      "sha256": "a6223d7b30def31c9267a0a8dbfe3692b98c2cea14469135d45578bd9f9fd122"
+    },
+    {
+      "style": "character",
+      "eventId": "term-xiazhi",
+      "url": "https://static.jieqi.dev/assets/term-xiazhi-character-v1.webp",
+      "status": 200,
+      "bytes": 270286,
+      "sha256": "f6ecda4a5723840f05be6adc2b3d498210d64e4389a9df5b67883c87f824ed16"
+    },
+    {
+      "style": "character",
+      "eventId": "term-yushui",
+      "url": "https://static.jieqi.dev/assets/term-yushui-character-v1.webp",
+      "status": 200,
+      "bytes": 256042,
+      "sha256": "cc31ad73af80e83ca4216042073ffa066ab8bccb8b8ac4c8a837146731857b19"
+    },
+    {
+      "style": "character",
+      "eventId": "womens-day",
+      "url": "https://static.jieqi.dev/assets/womens-day-character-v1.webp",
+      "status": 200,
+      "bytes": 181992,
+      "sha256": "5615be0047d3c8b3829f3cbcdeb9093de2c86be7da2923615a835ddb10f67049"
+    },
+    {
+      "style": "character",
+      "eventId": "youth-day",
+      "url": "https://static.jieqi.dev/assets/youth-day-character-v1.webp",
+      "status": 200,
+      "bytes": 203768,
+      "sha256": "dbec353ece5162e5896b82f54e6b4d860f831b111b0910d9f169f6c5bc06ddb2"
+    },
+    {
+      "style": "anime",
+      "eventId": "childrens-day",
+      "url": "https://static.jieqi.dev/assets/childrens-day-anime-v1.webp",
+      "status": 200,
+      "bytes": 360950,
+      "sha256": "604ca193af804f7c9e9a44c6b0503acec64b21c6e56ffd1e4120a249392f8478"
+    },
+    {
+      "style": "anime",
+      "eventId": "double-ninth",
+      "url": "https://static.jieqi.dev/assets/double-ninth-anime-v1.webp",
+      "status": 200,
+      "bytes": 341640,
+      "sha256": "27d13268b4a640a3eb0802cb866097b72f071c3b78037bab3f4fa9cfb69da879"
+    },
+    {
+      "style": "anime",
+      "eventId": "dragon-boat",
+      "url": "https://static.jieqi.dev/assets/dragon-boat-anime-v1.webp",
+      "status": 200,
+      "bytes": 462436,
+      "sha256": "544878564a9d1bf8e54d951c5d84b26b28cd9d3237f5fbeb37c0edfae8990ddc"
+    },
+    {
+      "style": "anime",
+      "eventId": "laba",
+      "url": "https://static.jieqi.dev/assets/laba-anime-v1.webp",
+      "status": 200,
+      "bytes": 397294,
+      "sha256": "685c332609774cd522dce48643d46953fe8b7063b23b2d30c5b3686e0cd61375"
+    },
+    {
+      "style": "anime",
+      "eventId": "labour-day",
+      "url": "https://static.jieqi.dev/assets/labour-day-anime-v1.webp",
+      "status": 200,
+      "bytes": 404352,
+      "sha256": "d5045ff59cf459221640ca27431cb2427dbfc403ce458ebe3b3b844d7c832561"
+    },
+    {
+      "style": "anime",
+      "eventId": "lantern-festival",
+      "url": "https://static.jieqi.dev/assets/lantern-festival-anime-v1.webp",
+      "status": 200,
+      "bytes": 349258,
+      "sha256": "86131ce7bd1a28f635376d2bf45364fb6cdabd7c550741467ced2fa78b19bb16"
+    },
+    {
+      "style": "anime",
+      "eventId": "mid-autumn",
+      "url": "https://static.jieqi.dev/assets/mid-autumn-anime-v1.webp",
+      "status": 200,
+      "bytes": 386010,
+      "sha256": "bdb36b1fb72e50fa602c574bd711de1fa6cbc3331d73b7483a04c2b53ee39483"
+    },
+    {
+      "style": "anime",
+      "eventId": "national-day",
+      "url": "https://static.jieqi.dev/assets/national-day-anime-v1.webp",
+      "status": 200,
+      "bytes": 430630,
+      "sha256": "b8782c710f0b99b2526e7fb5f118f5c800b0ebcf1d51281c2c51a6ab1c034bb1"
+    },
+    {
+      "style": "anime",
+      "eventId": "new-year",
+      "url": "https://static.jieqi.dev/assets/new-year-anime-v1.webp",
+      "status": 200,
+      "bytes": 334850,
+      "sha256": "bb2fde290d8e025aed684e03315afd009b462bef047ed2a817a51cc67d58a58d"
+    },
+    {
+      "style": "anime",
+      "eventId": "new-years-eve",
+      "url": "https://static.jieqi.dev/assets/new-years-eve-anime-v1.webp",
+      "status": 200,
+      "bytes": 353018,
+      "sha256": "a48fa7b32b2d894bf65840354b63173c93120b6a091ed16c92804b6419749e2c"
+    },
+    {
+      "style": "anime",
+      "eventId": "qingming-festival",
+      "url": "https://static.jieqi.dev/assets/qingming-festival-anime-v1.webp",
+      "status": 200,
+      "bytes": 423610,
+      "sha256": "416762cef8f9ba19595506d51b58ee78f8e0772c8e9a315caabdc597b30e4bf4"
+    },
+    {
+      "style": "anime",
+      "eventId": "qixi",
+      "url": "https://static.jieqi.dev/assets/qixi-anime-v1.webp",
+      "status": 200,
+      "bytes": 442118,
+      "sha256": "b6844df4e225f00c2e6f37afe03e4b7e711434f133e695d7745070b89ba13c10"
+    },
+    {
+      "style": "anime",
+      "eventId": "spring-festival",
+      "url": "https://static.jieqi.dev/assets/spring-festival-anime-v1.webp",
+      "status": 200,
+      "bytes": 363210,
+      "sha256": "2d152bd97002fc63d872f82dcfe622127756edc2b75dcc654213dcc9c43e85c3"
+    },
+    {
+      "style": "anime",
+      "eventId": "teachers-day",
+      "url": "https://static.jieqi.dev/assets/teachers-day-anime-v1.webp",
+      "status": 200,
+      "bytes": 299196,
+      "sha256": "a65412b3fde43153816c1c68c15bda1a710a9aafccbcc90ed74a2cbd54b0b596"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-bailu",
+      "url": "https://static.jieqi.dev/assets/bailu-anime.webp",
+      "status": 200,
+      "bytes": 404898,
+      "sha256": "1fbde5e7839e0072c7acbd70b6779db0704857bfdebe339330571344c25a488b"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-chunfen",
+      "url": "https://static.jieqi.dev/assets/term-chunfen-anime-v1.webp",
+      "status": 200,
+      "bytes": 295698,
+      "sha256": "dbf3e7b6c7b71c6ea3aa792c18c235ca59513a5bd1b785425f106a3daf15d21d"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-chushu",
+      "url": "https://static.jieqi.dev/assets/term-chushu-anime-v1.webp",
+      "status": 200,
+      "bytes": 283278,
+      "sha256": "639b3c2c9bc0c40efa09819b6edfd45a638904a6197a532e11aaab5f64435d6d"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-dahan",
+      "url": "https://static.jieqi.dev/assets/term-dahan-anime-v1.webp",
+      "status": 200,
+      "bytes": 408452,
+      "sha256": "27c4394a06fb9994dd91042f3cbc22f316e7051490a8c700a3175c1f5666cee6"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-dashu",
+      "url": "https://static.jieqi.dev/assets/term-dashu-anime-v1.webp",
+      "status": 200,
+      "bytes": 351694,
+      "sha256": "0a9e6e797e9a5b9a6c3bd93fa9d7eb3f08be824bd174f5d0b3df3684489b88f6"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-daxue",
+      "url": "https://static.jieqi.dev/assets/term-daxue-anime-v1.webp",
+      "status": 200,
+      "bytes": 368546,
+      "sha256": "2fcdd5609b0f2aee71afb57eb8bd3ca6bacb0e4bd99752ad396d2507d0d4e0af"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-dongzhi",
+      "url": "https://static.jieqi.dev/assets/term-dongzhi-anime-v1.webp",
+      "status": 200,
+      "bytes": 232654,
+      "sha256": "bdb3a29cbf458becfc2a5a468b5d160c537cfdd21ab854874d8d0568c5beab3f"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-guyu",
+      "url": "https://static.jieqi.dev/assets/term-guyu-anime-v1.webp",
+      "status": 200,
+      "bytes": 427324,
+      "sha256": "6ed4d58ee5e232b1c7bb09b1c62933d738ddd62c1ed17e976a4b52e8a46d580a"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-hanlu",
+      "url": "https://static.jieqi.dev/assets/term-hanlu-anime-v1.webp",
+      "status": 200,
+      "bytes": 340712,
+      "sha256": "d820a285ae07f04bf84618a189ba037b6d6ae0620646f72c2036d4bb8df1a835"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-jingzhe",
+      "url": "https://static.jieqi.dev/assets/term-jingzhe-anime-v1.webp",
+      "status": 200,
+      "bytes": 407768,
+      "sha256": "b483899daddedc506ae7350caf6586e98c789d462c0e04a3980869895caddda5"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-lichun",
+      "url": "https://static.jieqi.dev/assets/term-lichun-anime-v1.webp",
+      "status": 200,
+      "bytes": 365830,
+      "sha256": "b3cd162d1e428aefc54933fa76fd85041474bc49bc0b9e3366637557c0bd65d0"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-lidong",
+      "url": "https://static.jieqi.dev/assets/term-lidong-anime-v1.webp",
+      "status": 200,
+      "bytes": 285216,
+      "sha256": "aeb5e12f53b52db8eda9561d23fd267411ad811e17c452f71ee769e29238a0ac"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-liqiu",
+      "url": "https://static.jieqi.dev/assets/term-liqiu-anime-v1.webp",
+      "status": 200,
+      "bytes": 336650,
+      "sha256": "f20ad69e5e7e4769ab599cb95e5db4c829df0f1ca740d9b6bea4ca88d1ee5525"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-lixia",
+      "url": "https://static.jieqi.dev/assets/term-lixia-anime-v1.webp",
+      "status": 200,
+      "bytes": 372778,
+      "sha256": "5cab21ec0f53b24a8d0bab9d96b76551aa8bc40b78adeefac82b1131693082c4"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-mangzhong",
+      "url": "https://static.jieqi.dev/assets/term-mangzhong-anime-v1.webp",
+      "status": 200,
+      "bytes": 415412,
+      "sha256": "5fa1e3c4c60bfb344639638f0ebfc932761fb773e0dec80cf4b0222815fb4977"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-qingming",
+      "url": "https://static.jieqi.dev/assets/term-qingming-anime-v1.webp",
+      "status": 200,
+      "bytes": 494770,
+      "sha256": "d66f7bb9eb5379f75c541a3453fd7712801ac9dd036afbdcb82b2cb273c6237f"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-qiufen",
+      "url": "https://static.jieqi.dev/assets/term-qiufen-anime-v1.webp",
+      "status": 200,
+      "bytes": 389284,
+      "sha256": "197bb09a1a8ce67542177a02c7e66cf0760f821a4508e62235eeabfe931736f7"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-shuangjiang",
+      "url": "https://static.jieqi.dev/assets/term-shuangjiang-anime-v1.webp",
+      "status": 200,
+      "bytes": 547458,
+      "sha256": "e7b15b53b530b8690caa5077da81c17cacfe852b0f3ea5b99c79ab81c1296b58"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-xiaohan",
+      "url": "https://static.jieqi.dev/assets/term-xiaohan-anime-v1.webp",
+      "status": 200,
+      "bytes": 363518,
+      "sha256": "3229f67d8f9116e9e46c3ba06dc6c8580827202386163036a44de5c1b09c5c8d"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-xiaoman",
+      "url": "https://static.jieqi.dev/assets/term-xiaoman-anime-v1.webp",
+      "status": 200,
+      "bytes": 318858,
+      "sha256": "c725299c0f9469fac4ad4dd90f3a6c6ed9f4e4b4b298d3bd6b0da82d0e5378da"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-xiaoshu",
+      "url": "https://static.jieqi.dev/assets/term-xiaoshu-anime-v1.webp",
+      "status": 200,
+      "bytes": 443122,
+      "sha256": "37ffbb3cef9e8df37a258f342817566f234d991b56dbfb077c48d4f3fae1156f"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-xiaoxue",
+      "url": "https://static.jieqi.dev/assets/term-xiaoxue-anime-v1.webp",
+      "status": 200,
+      "bytes": 337812,
+      "sha256": "955c0b1c44898f6eb3d71e0f56cc4d0bd8db432b08bd5385f1efeeb2186d5087"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-xiazhi",
+      "url": "https://static.jieqi.dev/assets/term-xiazhi-anime-v1.webp",
+      "status": 200,
+      "bytes": 492446,
+      "sha256": "4e4fbfb7a8204cd6b1f56ea8dda7cade160016d0e2015b915a8a3657a25a2a77"
+    },
+    {
+      "style": "anime",
+      "eventId": "term-yushui",
+      "url": "https://static.jieqi.dev/assets/term-yushui-anime-v1.webp",
+      "status": 200,
+      "bytes": 522928,
+      "sha256": "9fcdc970904d4266ab5999dd907a342becce1e8c64be7cfb3642fda4e668c3da"
+    },
+    {
+      "style": "anime",
+      "eventId": "womens-day",
+      "url": "https://static.jieqi.dev/assets/womens-day-anime-v1.webp",
+      "status": 200,
+      "bytes": 361690,
+      "sha256": "a7b8964a9f1c5672d8b53d439a3781a969dead8579651420dad7889da6b627e4"
+    },
+    {
+      "style": "anime",
+      "eventId": "youth-day",
+      "url": "https://static.jieqi.dev/assets/youth-day-anime-v1.webp",
+      "status": 200,
+      "bytes": 329180,
+      "sha256": "42d0e825af28b55793fe82f7bc37c48a124ef69d74521982d3aa78b511c8f9e8"
+    },
+    {
+      "style": "sweet",
+      "eventId": "childrens-day",
+      "url": "https://static.jieqi.dev/assets/childrens-day-sweet-v1.webp",
+      "status": 200,
+      "bytes": 213640,
+      "sha256": "ef3323bcdc88ef8e8ebb096780ecc79e326f9efe4ee1ba1613fcd7fba0e81acb"
+    },
+    {
+      "style": "sweet",
+      "eventId": "double-ninth",
+      "url": "https://static.jieqi.dev/assets/double-ninth-sweet-v1.webp",
+      "status": 200,
+      "bytes": 277222,
+      "sha256": "6ad10109f0d24f201fa52a257e46e163f9435fadc46bb0d036ac7f91452ce161"
+    },
+    {
+      "style": "sweet",
+      "eventId": "dragon-boat",
+      "url": "https://static.jieqi.dev/assets/dragon-boat-sweet-v1.webp",
+      "status": 200,
+      "bytes": 320946,
+      "sha256": "6a576b1319eb8b4f798701118961a8b0c67b79ebca3c0f118ff8f07c77d54929"
+    },
+    {
+      "style": "sweet",
+      "eventId": "laba",
+      "url": "https://static.jieqi.dev/assets/laba-sweet-v1.webp",
+      "status": 200,
+      "bytes": 207698,
+      "sha256": "6b83772ae2f5c09233584a71825c9b1e97ead5280a5ba27878f460fbd00fa55e"
+    },
+    {
+      "style": "sweet",
+      "eventId": "labour-day",
+      "url": "https://static.jieqi.dev/assets/labour-day-sweet-v1.webp",
+      "status": 200,
+      "bytes": 239894,
+      "sha256": "dbe3c00793797b0a65f6b6119383176f60d23663199817716b206a26a928ffe9"
+    },
+    {
+      "style": "sweet",
+      "eventId": "lantern-festival",
+      "url": "https://static.jieqi.dev/assets/lantern-festival-sweet-v1.webp",
+      "status": 200,
+      "bytes": 167216,
+      "sha256": "384b684fbeda6d8e20fc84476c567efa86375f263e5d598e0f35694f18235a9e"
+    },
+    {
+      "style": "sweet",
+      "eventId": "mid-autumn",
+      "url": "https://static.jieqi.dev/assets/mid-autumn-sweet-v1.webp",
+      "status": 200,
+      "bytes": 165164,
+      "sha256": "db021d46f93d800f833a090e37e4e1c32ee6b6569f97507cc2319bf04ce33c95"
+    },
+    {
+      "style": "sweet",
+      "eventId": "national-day",
+      "url": "https://static.jieqi.dev/assets/national-day-sweet-v1.webp",
+      "status": 200,
+      "bytes": 326670,
+      "sha256": "7752876ff5fc3028ab82c8d05d97736d2ff0c98630b1c9aa10663aa4829a3315"
+    },
+    {
+      "style": "sweet",
+      "eventId": "new-year",
+      "url": "https://static.jieqi.dev/assets/new-year-sweet-v1.webp",
+      "status": 200,
+      "bytes": 235902,
+      "sha256": "4031551b608e83fa50bf1865c663379d7db9662b86ce935f24ccedbefe3257cb"
+    },
+    {
+      "style": "sweet",
+      "eventId": "new-years-eve",
+      "url": "https://static.jieqi.dev/assets/new-years-eve-sweet-v1.webp",
+      "status": 200,
+      "bytes": 229698,
+      "sha256": "6274afe6936ecbd9581e0ade0944a82cc4d4b55e40235f2fa71149398b9b90d7"
+    },
+    {
+      "style": "sweet",
+      "eventId": "qingming-festival",
+      "url": "https://static.jieqi.dev/assets/qingming-festival-sweet-v1.webp",
+      "status": 200,
+      "bytes": 205012,
+      "sha256": "d519a769248632a019a7c6d06aed41f79a338d7498daf5c01ee826beef62de04"
+    },
+    {
+      "style": "sweet",
+      "eventId": "qixi",
+      "url": "https://static.jieqi.dev/assets/qixi-sweet-v1.webp",
+      "status": 200,
+      "bytes": 315330,
+      "sha256": "f9cdb7cc040e6611394996e0d0cb23029650d78212a4a8de49d22eff08d27b02"
+    },
+    {
+      "style": "sweet",
+      "eventId": "spring-festival",
+      "url": "https://static.jieqi.dev/assets/spring-festival-sweet-v1.webp",
+      "status": 200,
+      "bytes": 196168,
+      "sha256": "8fd2aec0ff78a74fc76c6effe549609ab8b5498420ed308b13bc03ffc262fd71"
+    },
+    {
+      "style": "sweet",
+      "eventId": "teachers-day",
+      "url": "https://static.jieqi.dev/assets/teachers-day-sweet-v1.webp",
+      "status": 200,
+      "bytes": 199208,
+      "sha256": "2b865b77a97ce6809e5cc28969639bf7d327b12cace93815405d34c006d4922f"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-bailu",
+      "url": "https://static.jieqi.dev/assets/bailu-sweet.webp",
+      "status": 200,
+      "bytes": 256324,
+      "sha256": "65305f858d9f4a076be0293be0d4fb173625c61d86cba3fce837bbd7a1ac301c"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-chunfen",
+      "url": "https://static.jieqi.dev/assets/term-chunfen-sweet-v1.webp",
+      "status": 200,
+      "bytes": 207130,
+      "sha256": "3e1f321c178c04c3fdd473a5fa1a75b714366730c186c2a34c9b896b23562947"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-chushu",
+      "url": "https://static.jieqi.dev/assets/term-chushu-sweet-v1.webp",
+      "status": 200,
+      "bytes": 223790,
+      "sha256": "9a858f81029065fe80bc54730570f292e3c6a1078e921546b29109add28bba25"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-dahan",
+      "url": "https://static.jieqi.dev/assets/term-dahan-sweet-v1.webp",
+      "status": 200,
+      "bytes": 227346,
+      "sha256": "79282207bdbec5d4d85449194453193e4674abbba05cec73984abddbd1ee85d7"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-dashu",
+      "url": "https://static.jieqi.dev/assets/term-dashu-sweet-v1.webp",
+      "status": 200,
+      "bytes": 189892,
+      "sha256": "53ce7024e12990dbd910bb5d52b5bb0a22e859daa624cf70fc9207b920b7c92f"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-daxue",
+      "url": "https://static.jieqi.dev/assets/term-daxue-sweet-v1.webp",
+      "status": 200,
+      "bytes": 232162,
+      "sha256": "4bfad3cacf19c7fe7039adc6a58fed1793f968ebb89bf49f7a087d48febda4dc"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-dongzhi",
+      "url": "https://static.jieqi.dev/assets/term-dongzhi-sweet-v1.webp",
+      "status": 200,
+      "bytes": 239972,
+      "sha256": "b61c6494e42e3f1765396469ebdc4cf75189e7c6aa3a84fe1282ec3d8bdf5d2e"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-guyu",
+      "url": "https://static.jieqi.dev/assets/term-guyu-sweet-v1.webp",
+      "status": 200,
+      "bytes": 280950,
+      "sha256": "30b1cf24ffe3bedf49528ffee81a3846bf9aa19aa757cc65765508a33d66861e"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-hanlu",
+      "url": "https://static.jieqi.dev/assets/term-hanlu-sweet-v1.webp",
+      "status": 200,
+      "bytes": 227160,
+      "sha256": "6800500950fc293283d0de49259dfd8ee36926844d6a1d32c458747cd4534a0d"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-jingzhe",
+      "url": "https://static.jieqi.dev/assets/term-jingzhe-sweet-v1.webp",
+      "status": 200,
+      "bytes": 170832,
+      "sha256": "05292c0adea4846e9418e171a002e2ddbb3b3cfa8fb68277b5aa2c1e65f0c8ce"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-lichun",
+      "url": "https://static.jieqi.dev/assets/term-lichun-sweet-v1.webp",
+      "status": 200,
+      "bytes": 272750,
+      "sha256": "e21699ec7426546bfe0c721f57d91631a48c70f9aef30b2037622895e6176bb2"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-lidong",
+      "url": "https://static.jieqi.dev/assets/term-lidong-sweet-v1.webp",
+      "status": 200,
+      "bytes": 209552,
+      "sha256": "1f75fd6235e99b64b80842914aa046b2baa9c450a7eb675d555ac2342ff0cb2d"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-liqiu",
+      "url": "https://static.jieqi.dev/assets/term-liqiu-sweet-v1.webp",
+      "status": 200,
+      "bytes": 224672,
+      "sha256": "776c41d8a8bf478adcf8a27b958a0b66324e9b2a236e527d9593501f4052aa2c"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-lixia",
+      "url": "https://static.jieqi.dev/assets/term-lixia-sweet-v1.webp",
+      "status": 200,
+      "bytes": 166698,
+      "sha256": "8ca069a8fc8ca24d40a83953880138e146c6734f7d57a5fe98921d6f86f3c035"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-mangzhong",
+      "url": "https://static.jieqi.dev/assets/term-mangzhong-sweet-v1.webp",
+      "status": 200,
+      "bytes": 331154,
+      "sha256": "be284385c99b1e3bb89a92650028bbf91f4af1251ed5d2fcf7bb54a8882fffcf"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-qingming",
+      "url": "https://static.jieqi.dev/assets/term-qingming-sweet-v1.webp",
+      "status": 200,
+      "bytes": 288828,
+      "sha256": "0a524ccffbfbdf3136b3121e5e2d33ff268e68ec1441c41ee1999e0b6c46c1a4"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-qiufen",
+      "url": "https://static.jieqi.dev/assets/term-qiufen-sweet-v1.webp",
+      "status": 200,
+      "bytes": 283810,
+      "sha256": "9286ec5735aed552d47c1707e04ee0708742e2ee21b0660499cdff3a232e8882"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-shuangjiang",
+      "url": "https://static.jieqi.dev/assets/term-shuangjiang-sweet-v1.webp",
+      "status": 200,
+      "bytes": 230108,
+      "sha256": "d3a33e9723f28afd42c52e27d5ab74b8ab0e2387cc5d67cd9359b52acd366c79"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-xiaohan",
+      "url": "https://static.jieqi.dev/assets/term-xiaohan-sweet-v1.webp",
+      "status": 200,
+      "bytes": 177262,
+      "sha256": "acaa71ddbe47168c7635f26530882c1aef17b1c22a07ebdaf97d7bb11937af39"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-xiaoman",
+      "url": "https://static.jieqi.dev/assets/term-xiaoman-sweet-v1.webp",
+      "status": 200,
+      "bytes": 261898,
+      "sha256": "814f798670939a3b2d00ca1a5a09a51672f2af08fb7fcfeedb1784ae12dcf5b3"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-xiaoshu",
+      "url": "https://static.jieqi.dev/assets/term-xiaoshu-sweet-v1.webp",
+      "status": 200,
+      "bytes": 174452,
+      "sha256": "77ed286488a22a2e6406577ca13830da38b2f681f962bc9ea354ce541f341705"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-xiaoxue",
+      "url": "https://static.jieqi.dev/assets/term-xiaoxue-sweet-v1.webp",
+      "status": 200,
+      "bytes": 230448,
+      "sha256": "810eeceada7180dbbb52895a73b1403aa0d2361f5e5b5494da3f568c1341e1a7"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-xiazhi",
+      "url": "https://static.jieqi.dev/assets/term-xiazhi-sweet-v1.webp",
+      "status": 200,
+      "bytes": 234872,
+      "sha256": "0fc89b6a4fc096672da5cd5a408fea59114a7b65a0163d34c71cc2c3ddc830da"
+    },
+    {
+      "style": "sweet",
+      "eventId": "term-yushui",
+      "url": "https://static.jieqi.dev/assets/term-yushui-sweet-v1.webp",
+      "status": 200,
+      "bytes": 279294,
+      "sha256": "2ba28ae25aae9a03131704ca010493ef49191b41d9aa4e376f4dade6ec0f2d5a"
+    },
+    {
+      "style": "sweet",
+      "eventId": "womens-day",
+      "url": "https://static.jieqi.dev/assets/womens-day-sweet-v1.webp",
+      "status": 200,
+      "bytes": 170376,
+      "sha256": "5956c6e7016323b0f4fa52405cd22bd14ff029cc26d42e5f75a2a992f82473d9"
+    },
+    {
+      "style": "sweet",
+      "eventId": "youth-day",
+      "url": "https://static.jieqi.dev/assets/youth-day-sweet-v1.webp",
+      "status": 200,
+      "bytes": 244752,
+      "sha256": "a9ad8ddb26e7f1eefb1d9d82f534cec2e271debf49f687a688d3ccbfe5688484"
+    }
+  ],
+  "widget": {
+    "url": "https://api.jieqi.dev/v1/widget.js",
+    "unchanged": true,
+    "styleParameter": true,
+    "imageHeightAuto": true,
+    "dialogHeightFitContent": true,
+    "dialogMaxWidth": 880
+  },
+  "checks": {
+    "httpImages": 160,
+    "uniqueOriginals": 160,
+    "uniquePublishedImages": 160,
+    "matchingHashes": 160,
+    "preservedSamples": 3,
+    "defaultStamp": true,
+    "homepageNewSeries": true
+  },
+  "release": "/opt/jieqi/releases/20260907-complete-series",
+  "validation": {
+    "rootTypecheck": "passed",
+    "unitAndApiTests": {
+      "passed": 26,
+      "failed": 0
+    },
+    "siteTypecheck": "passed locally and on VPS",
+    "siteLint": "passed locally and on VPS",
+    "productionBuild": "passed locally and on VPS",
+    "services": {
+      "jieqi-api": "active",
+      "jieqi-web": "active",
+      "internalHealth": "ok"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "file": "spring-festival-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: standalone vertical festival illustration for the right-hand side of a Chinese seasonal website card, not the full UI. Create one elegant, slightly cartoon-like Chinese New Year postage-stamp artwork, portrait 2:3. Warm ivory paper rectangle with scalloped postage edges, thin cinnabar border, generous quiet margins. Main typography is exactly two large legible Chinese characters arranged vertically: \"春\" above \"节\". Integrate a charming small cartoon lion-dance head, red lanterns and a few plum blossoms around the lower letter; tasteful and restrained, no busy scenery. Flat hand-drawn gouache / screenprint feel with subtle paper grain, muted cinnabar red with tiny warm gold accents on cream, refined editorial illustration, rounded friendly shapes. Character forms must remain correct and easy to read. No other text, no English, no dates, no people, no watermark, no web interface, no photograph. Entire postage stamp visible, straight on, centered, ivory surrounding canvas. This is the first in a consistent festival stamp series."
+    },
+    {
+      "file": "labour-day-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: standalone vertical festival illustration for the right side of a Chinese seasonal website card, not a full UI. Create an elegant slightly cartoon-like Chinese May Day postage-stamp artwork, portrait 2:3. Warm ivory paper rectangle with scalloped postage edges, thin muted brick-red border, generous quiet margins. Main typography exactly two huge legible Chinese characters vertically: \"五\" above \"一\". A friendly small cartoon gardener wearing a straw hat and overalls holds a little trowel beside a flowering potted plant at lower left, with a few simple fresh green leaves decorating corners. Celebrate labor and gentle early-summer warmth. Flat hand-drawn gouache / screenprint look, subtle paper grain, muted brick red typography with sage green and tiny warm ochre accents, refined editorial illustration, rounded friendly shapes. Letters dominate and are correct, \"一\" is one clear single horizontal stroke. No other text, no English, no numbers, no dates, no watermark, no web UI, no photograph. Entire stamp visible, straight on, centered on ivory canvas. Match a Chinese New Year stamp series with warm ivory paper, red calligraphic title, restrained cartoon mascot and a thin red frame."
+    }
+  ]
+}

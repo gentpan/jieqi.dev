@@ -1,0 +1,931 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "file": "spring-festival-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: standalone vertical festival illustration for the right-hand side of a Chinese seasonal website card, not the full UI. Create one elegant, slightly cartoon-like Chinese New Year postage-stamp artwork, portrait 2:3. Warm ivory paper rectangle with scalloped postage edges, thin cinnabar border, generous quiet margins. Main typography is exactly two large legible Chinese characters arranged vertically: \"春\" above \"节\". Integrate a charming small cartoon lion-dance head, red lanterns and a few plum blossoms around the lower letter; tasteful and restrained, no busy scenery. Flat hand-drawn gouache / screenprint feel with subtle paper grain, muted cinnabar red with tiny warm gold accents on cream, refined editorial illustration, rounded friendly shapes. Character forms must remain correct and easy to read. No other text, no English, no dates, no people, no watermark, no web interface, no photograph. Entire postage stamp visible, straight on, centered, ivory surrounding canvas. This is the first in a consistent festival stamp series.",
+      "id": "spring-festival",
+      "path": "public/assets/spring-festival-v1.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "春 correct",
+          "节 correct"
+        ],
+        "notes": "Original artwork rechecked alongside the complete stamp series."
+      }
+    },
+    {
+      "file": "labour-day-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: standalone vertical festival illustration for the right side of a Chinese seasonal website card, not a full UI. Create an elegant slightly cartoon-like Chinese May Day postage-stamp artwork, portrait 2:3. Warm ivory paper rectangle with scalloped postage edges, thin muted brick-red border, generous quiet margins. Main typography exactly two huge legible Chinese characters vertically: \"五\" above \"一\". A friendly small cartoon gardener wearing a straw hat and overalls holds a little trowel beside a flowering potted plant at lower left, with a few simple fresh green leaves decorating corners. Celebrate labor and gentle early-summer warmth. Flat hand-drawn gouache / screenprint look, subtle paper grain, muted brick red typography with sage green and tiny warm ochre accents, refined editorial illustration, rounded friendly shapes. Letters dominate and are correct, \"一\" is one clear single horizontal stroke. No other text, no English, no numbers, no dates, no watermark, no web UI, no photograph. Entire stamp visible, straight on, centered on ivory canvas. Match a Chinese New Year stamp series with warm ivory paper, red calligraphic title, restrained cartoon mascot and a thin red frame.",
+      "id": "labour-day",
+      "path": "public/assets/labour-day-v1.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "五 correct",
+          "一 correct"
+        ],
+        "notes": "Original artwork rechecked alongside the complete stamp series."
+      }
+    },
+    {
+      "id": "term-bailu",
+      "title": "白露",
+      "prompt": "Use case: illustration-story. Create one standalone vertical 2:3 Chinese solar-term postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate vermilion inset frame, fine antique paper grain. Large beautifully legible dark vermilion Chinese characters arranged vertically centered in upper and middle area. Exact only text: 白露. Top character 白, bottom 露; print every stroke correctly in refined bold regular-calligraphic Chinese type. Small charming illustrated white egret standing among dew-covered reeds and pale green leaves at bottom left, pearl-like clear dew droplets, quiet early autumn. Muted sage, warm cream, terracotta red. Restrained slightly cartoon hand-painted vintage picture-book illustration. Generous whitespace. Flat front-facing stamp fills image with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-4ad99a04-7ff6-42e7-b636-425d28ee4c2b.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-bailu.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "白 correct",
+          "露 correct"
+        ],
+        "notes": "Both Chinese glyphs clearly correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "0238afd3c498dafb835b0afad6afc195a30aabf87ef2d1426a0213f054fc9c7e"
+    },
+    {
+      "id": "term-xiaohan",
+      "title": "小寒",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"小寒\". Characters in reading order top to bottom: 小 then 寒. Scene: Cute small sparrow in a red scarf perched on snow-dusted plum branch, tiny red buds. Typography accuracy override: use standard bold printed Kaiti Chinese, no artistic merging or missing strokes. 寒 must show BOTH separate short dots at its bottom (two strokes below the spreading 八 strokes), clearly separated and visible. Render 小寒 exactly.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-220a3559-1015-4621-b59c-02133e3832f0.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-xiaohan.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "小 correct",
+          "寒 correct"
+        ],
+        "notes": "Regenerated once to correct missing bottom dot in 寒. Final 小 and 寒 complete, both bottom dots present."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "3f8fc3cd193834c8f131475a02f89d3f113332dd541a6e03a4c80b9dd8b2c28a"
+    },
+    {
+      "id": "term-dahan",
+      "title": "大寒",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"大寒\". Characters in reading order top to bottom: 大 then 寒. Scene: Round cute white rabbit tucked into red scarf beside snowy pine and warm lantern, deep winter. 寒 must have both separate bottom dots clear, standard Kaiti typography.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-498aff0f-62c1-4dc1-a6de-5c9d42ccceab.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-dahan.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "大 correct",
+          "寒 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "0769fe39fcac142bc6efb54713fcdf7a8a19711e636fe111585e939c98676735"
+    },
+    {
+      "id": "term-lichun",
+      "title": "立春",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"立春\". Characters in reading order top to bottom: 立 then 春. Scene: Cheerful small swallow and fresh green willow shoots, little pink blossoms announcing spring.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-8d5c3f4c-d963-4443-b228-a0ce2996bb4f.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-lichun.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "立 correct",
+          "春 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "eb734660649be78352afc1b3110340af714db21611a4805cbae33e1ea6ff4ae4"
+    },
+    {
+      "id": "term-yushui",
+      "title": "雨水",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"雨水\". Characters in reading order top to bottom: 雨 then 水. Scene: Small smiling frog under broad green leaf sheltering from delicate spring rain, puddle and sprouts.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-04ef81d1-2153-40e2-bbd9-9ec5e0f56a95.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-yushui.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "雨 correct",
+          "水 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "2206505166cffb19263c6a24da3b7e4dd3e0fa5e8a0679508543a786c74a7ed3"
+    },
+    {
+      "id": "term-jingzhe",
+      "title": "惊蛰",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"惊蛰\". Characters in reading order top to bottom: 惊 then 蛰. Scene: Cute little hedgehog awakening beside fresh grass and peach blossom; tiny beetle, subtle storm cloud.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-3b1e5732-de76-444d-9810-5913e92936c9.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-jingzhe.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "惊 correct",
+          "蛰 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "6bf90ea84a06a96142b782cb71399efac53d258bd8d5f859f3c69d0ac6a589c4"
+    },
+    {
+      "id": "term-chunfen",
+      "title": "春分",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"春分\". Characters in reading order top to bottom: 春 then 分. Scene: Two swallows swooping over tender green willow and peach blossoms, balanced spring scene.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-8d0c4e08-7c71-4b8e-b729-56ab6c47bc8b.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-chunfen.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "春 correct",
+          "分 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "48aa7c703000df08391b034003a742563e0aeba78cf89057c44decc9b4902e71"
+    },
+    {
+      "id": "term-qingming",
+      "title": "清明",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"清明\". Characters in reading order top to bottom: 清 then 明. Scene: Swallow resting beside flowing willow branches and pale green hills, soft spring breeze, tiny wild flowers.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-39ff3bfa-aba6-415b-9835-1227c4d4740e.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-qingming.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "清 correct",
+          "明 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "193ea9b9724bad36cb66215ce12106dbb253544c73ee8fc9aacdd5211849f730"
+    },
+    {
+      "id": "term-guyu",
+      "title": "谷雨",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"谷雨\". Characters in reading order top to bottom: 谷 then 雨. Scene: Cute little sparrow beside tea buds and peony flowers in gentle rain, spring abundance.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-0864efdd-631e-4a6f-bd38-4368019a50b8.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-guyu.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "谷 correct",
+          "雨 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "4476975faed83524316b64bdece03a7c780081e3e1fedee3fe179b12e85745ab"
+    },
+    {
+      "id": "term-lixia",
+      "title": "立夏",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"立夏\". Characters in reading order top to bottom: 立 then 夏. Scene: Friendly small green frog beside young lotus leaves and white blossoms, beginning summer.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-e3ec53c3-8096-4471-9c1a-deaecaa13575.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-lixia.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "立 correct",
+          "夏 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "e25be02bf28056ca96de3640158b8fcf4694446ae09a6b5d223735ceff68a822"
+    },
+    {
+      "id": "term-xiaoman",
+      "title": "小满",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"小满\". Characters in reading order top to bottom: 小 then 满. Scene: Small sparrow perched beside swelling green wheat heads with golden tips, gentle summer growth.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-479f7b55-887b-40fe-bfa4-a65af644c77b.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-xiaoman.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "小 correct",
+          "满 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "de916e6d804b64690a8e7ce684576e26bfb8def9132a8072146ce2e4a00862f4"
+    },
+    {
+      "id": "term-mangzhong",
+      "title": "芒种",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"芒种\". Characters in reading order top to bottom: 芒 then 种. Scene: Friendly cartoon young farmer wearing straw hat holding ripe golden wheat, tiny rice seedlings.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-5c24d10f-6e19-455b-bad3-f90b617427f4.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-mangzhong.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "芒 correct",
+          "种 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "9ba3b3152be8edb81af990528fdec890fd2191a2f295f90e35d58ecd22931ef8"
+    },
+    {
+      "id": "term-xiazhi",
+      "title": "夏至",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"夏至\". Characters in reading order top to bottom: 夏 then 至. Scene: Cute dragonfly above blooming pink lotus and broad leaves, long bright summer day.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-27509fe1-4533-4850-8a5b-14bb2607f7c9.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-xiazhi.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "夏 correct",
+          "至 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "30a3f2cb92c9fb00adeeac764f33bf44eb565379a7a6cd1376fa7a87da53993b"
+    },
+    {
+      "id": "term-xiaoshu",
+      "title": "小暑",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"小暑\". Characters in reading order top to bottom: 小 then 暑. Scene: Cute child with round straw fan beside watermelon slice and lotus leaves, gentle summer heat.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-35d6fc1d-23e8-42ce-be16-2d5e5a8530f5.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-xiaoshu.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "小 correct",
+          "暑 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "4f0cc12c14860e539ea9c19d18d013c9304cbfe1346cec750de2ba9563b4c436"
+    },
+    {
+      "id": "term-dashu",
+      "title": "大暑",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"大暑\". Characters in reading order top to bottom: 大 then 暑. Scene: Friendly plump frog resting under giant lotus leaf with watermelon and ice-blue water accents, midsummer.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-1d1cc080-78f5-4e87-b3fe-c069b95ea3a6.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-dashu.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "大 correct",
+          "暑 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "217a412ee2335802b64e3a4ea3873e7e1171ae951a1d40da9917cb96e3099242"
+    },
+    {
+      "id": "term-liqiu",
+      "title": "立秋",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"立秋\". Characters in reading order top to bottom: 立 then 秋. Scene: Cute little squirrel holding golden leaf beside ripening grain and a few green leaves, early autumn.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-9c255434-b6c9-4770-8f13-b51936784ad2.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-liqiu.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "立 correct",
+          "秋 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "390a386acdd35b1f719d20fc767635683f4a90fa7bc08e946dd0858a214c199c"
+    },
+    {
+      "id": "term-chushu",
+      "title": "处暑",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"处暑\". Characters in reading order top to bottom: 处 then 暑. Scene: Small swallow near ripening grapes and subtle fading summer lotus seedpod, mild early autumn.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-db7b6326-8c27-4060-9904-117f6917d9bc.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-chushu.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "处 correct",
+          "暑 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "81a22dd4a261094a2ea700a5e7c7d73ca546f4153ad053535ae574a88b810edf"
+    },
+    {
+      "id": "term-qiufen",
+      "title": "秋分",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"秋分\". Characters in reading order top to bottom: 秋 then 分. Scene: Cute squirrel with acorn beside golden rice sheaf and orange leaves, balanced autumn harvest.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-6a6f70bb-c8ea-4601-a4ba-63819cd29d5a.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-qiufen.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "秋 correct",
+          "分 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "346112d9a4746b01c818a2d896569898b2cd32849ace4f538de4ac1c17228931"
+    },
+    {
+      "id": "term-hanlu",
+      "title": "寒露",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"寒露\". Characters in reading order top to bottom: 寒 then 露. Scene: Small sparrow on red maple twig with clear chilly dew drops and pale chrysanthemums. 寒 must have both separate bottom dots clear, standard Kaiti typography.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-4a3747f1-35f9-4585-b05f-77402943172e.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-hanlu.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "寒 correct",
+          "露 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "1159730c7d5c238baeffabca9497b6fe1fe06b58eaf277bc66e837fe957b59e2"
+    },
+    {
+      "id": "term-shuangjiang",
+      "title": "霜降",
+      "prompt": "Edit only outer canvas: replace black outside scalloped stamp edge with warm ivory #faf7ef. Preserve entire original stamp, all paper, red border, artwork and exact correct characters 霜降 unchanged. No black anywhere outside stamp. Keep 1024x1536 portrait composition.",
+      "originalPrompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing. Exact only text: \"霜降\". Characters in reading order top to bottom: 霜 then 降. Scene: Cute fox curled beside bright ripe persimmons and frost-edged leaves, late autumn.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-ec2cbff1-1c7b-4c5f-8281-cbb4bee138e4.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-shuangjiang.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "霜 correct",
+          "降 correct"
+        ],
+        "notes": "霜 and 降 individually checked correct. Outer black margin corrected to warm ivory with image_gen edit; stamp and text preserved."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "f0b61b2d64ec197c04d0de02ae39d47d99ee59d92e483e3dc1f34d66a7ac65d6"
+    },
+    {
+      "id": "term-lidong",
+      "title": "立冬",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"立冬\". Characters in reading order top to bottom: 立 then 冬. Scene: White rabbit in small red scarf beside red berries and first snow on pine, start of winter.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-057062ea-e1c6-45d6-9a3b-ca26d12ecfa6.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-lidong.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "立 correct",
+          "冬 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "aedb60f9b3cd79a27b1eb5a0b53146d4140ada1596525829e730b6ff93ca360b"
+    },
+    {
+      "id": "term-xiaoxue",
+      "title": "小雪",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"小雪\". Characters in reading order top to bottom: 小 then 雪. Scene: Round robin on lightly snowy branch, scattered gentle snowflakes and red berries.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-80797c45-3e53-4159-b161-e2e86a5b1801.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-xiaoxue.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "小 correct",
+          "雪 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "5a5123482c2ec00760772589b7cbe9a6132354f2a59ac0028143e25337f9fbe5"
+    },
+    {
+      "id": "term-daxue",
+      "title": "大雪",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"大雪\". Characters in reading order top to bottom: 大 then 雪. Scene: Cute little white rabbit beside heavily snow-covered pine boughs and tiny red berries, deep snow.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-ffa9beb5-b0f9-4bc8-8bd8-301e256f4a3d.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-daxue.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "大 correct",
+          "雪 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "726a7c5f22b095c252b21fa220d129121fe0949ae310edd916c5b6fbb7d5cc04"
+    },
+    {
+      "id": "term-dongzhi",
+      "title": "冬至",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"冬至\". Characters in reading order top to bottom: 冬 then 至. Scene: Friendly child in warm red scarf holding bowl of dumplings beside snowy plum branch, cozy winter.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-53cc8fde-a2d7-4cb6-ba82-0106a39f5301.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-dongzhi.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "冬 correct",
+          "至 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ff9100b8f4f5ff9d1186de21258d2a2fbe9b7e3a0288c7ffa38e27f411b78404"
+    },
+    {
+      "id": "new-year",
+      "title": "元旦",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"元旦\". Characters in reading order top to bottom: 元 then 旦. Scene: Cute small red bird with festive golden confetti and fresh pine sprigs, cheerful new beginning.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-ab3c7875-26d0-443c-9ecc-beb0987256bf.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/new-year.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "元 correct",
+          "旦 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "8a04850ae02576f411ed1bce5195d846eaf5676c86208730759ca87a8d70bba8"
+    },
+    {
+      "id": "new-years-eve",
+      "title": "除夕",
+      "prompt": "Edit only the small red diamond label on the brown jar at bottom left: remove its black writing completely, leaving a plain blank red diamond. Keep ALL other pixels visually unchanged including large correct title 除夕, children, food, paper and frame. No new text.",
+      "originalPrompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"除夕\". Characters in reading order top to bottom: 除 then 夕. Scene: Warm family reunion vignette: two charming children beside steaming festive meal, red lantern and plum blossom.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-539a87de-4200-4e3e-9a04-4b51ee68bcee.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/new-years-eve.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "除 correct",
+          "夕 correct"
+        ],
+        "notes": "除 and 夕 correct. Removed unintended tiny jar-label writing via targeted image_gen edit; final has only correct title."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "b9cd98b064e2a04ede4f815fd62e937ab85d94398f23514d762d3bc1a5013e20"
+    },
+    {
+      "id": "lantern-festival",
+      "title": "元宵",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"元宵\". Characters in reading order top to bottom: 元 then 宵. Scene: Cute white rabbit holding red lantern beside bowl of round white tangyuan, festive lantern accents.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-41275aff-5d6c-4c82-a871-b698fc22636c.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/lantern-festival.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "元 correct",
+          "宵 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "f087dda97f56b3f02c40674a0a58e26d335627e503fbd5a43a7a327c1206d3a6"
+    },
+    {
+      "id": "womens-day",
+      "title": "妇女节",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"妇女节\". Characters in reading order top to bottom: 妇 then 女 then 节. Scene: Friendly confident cartoon adult woman holding a book and fresh flowers, elegant spring branches, celebration of women.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-e68ad045-6db0-4767-abde-b779cdab98c1.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/womens-day.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "妇 correct",
+          "女 correct",
+          "节 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "2098fa56f94941660bdf6d1cb74184dbc8deb9cb95e2e58f45bcb73210a88734"
+    },
+    {
+      "id": "youth-day",
+      "title": "青年节",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"青年节\". Characters in reading order top to bottom: 青 then 年 then 节. Scene: Two cheerful young adults carrying books and small backpacks beside bright green shoots, hopeful spring.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-42e65636-94e6-4c29-a161-45888d641a5d.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/youth-day.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "青 correct",
+          "年 correct",
+          "节 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "578a2de2f4ae93c1c0161b9a07385a387d6474ecdeffc32cce9fc8ed9875ac02"
+    },
+    {
+      "id": "childrens-day",
+      "title": "儿童节",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"儿童节\". Characters in reading order top to bottom: 儿 then 童 then 节. Scene: Two joyful cartoon children playing with colorful pinwheel and a small kite, flowers.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-e87ab04c-1b22-4f4d-b8c3-1c96a90bb05a.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/childrens-day.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "儿 correct",
+          "童 correct",
+          "节 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "3142e335e570c8763edf01e32357c4e88249dfb996b77a7e49654a52d490d5a1"
+    },
+    {
+      "id": "dragon-boat",
+      "title": "端午",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"端午\". Characters in reading order top to bottom: 端 then 午. Scene: Cute green leaf-wrapped zongzi mascot next to miniature traditional dragon boat and mugwort leaves.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-6dc5f1a6-d714-42b3-979d-4e098710e522.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/dragon-boat.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "端 correct",
+          "午 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "a6465d72a17db8b26c63f55be15b9f26a49469fba52057307d90931679603934"
+    },
+    {
+      "id": "qixi",
+      "title": "七夕",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"七夕\". Characters in reading order top to bottom: 七 then 夕. Scene: Two charming magpies perched together beside delicate stars and flowering vine, tender romantic scene.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-d687c3a5-817b-4350-953a-790c1aa4a672.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/qixi.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "七 correct",
+          "夕 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "f04607ec6ab3f5457f337c5884db63b15a2c11b54c8bab2e20c4efe05fcb7419"
+    },
+    {
+      "id": "mid-autumn",
+      "title": "中秋",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"中秋\". Characters in reading order top to bottom: 中 then 秋. Scene: Cute white jade rabbit holding a round mooncake beside osmanthus blossoms and soft golden full moon.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-d6044710-7d08-4c19-9c7c-8ca01c2c7018.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/mid-autumn.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "中 correct",
+          "秋 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "81e7cc3d607ee24d83ea28b69a1f28118ea5c0df04c7e9ae7a18971f29976fa9"
+    },
+    {
+      "id": "teachers-day",
+      "title": "教师节",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"教师节\". Characters in reading order top to bottom: 教 then 师 then 节. Scene: Kind confident cartoon teacher with glasses holding a book, surrounded by peach blossoms and small flowers.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-f05dd531-6ba0-4082-b6f9-d7bec28a0772.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/teachers-day.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "教 correct",
+          "师 correct",
+          "节 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "a715e914d3c779d773075388826fa7d70fab6b7b787402d6eecc49d2be466994"
+    },
+    {
+      "id": "national-day",
+      "title": "国庆",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"国庆\". Characters in reading order top to bottom: 国 then 庆. Scene: Warm celebratory red lanterns and golden chrysanthemums with stylized festive red bunting, friendly white dove.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-ac9ef89d-6b61-41ae-b2b3-9365eacb1f30.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/national-day.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "国 correct",
+          "庆 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "5722793983e0611e36f7f7d1a8898407f9b003a060a84f0abdbb07482e4ebe56"
+    },
+    {
+      "id": "double-ninth",
+      "title": "重阳",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"重阳\". Characters in reading order top to bottom: 重 then 阳. Scene: Two friendly elderly adults on a gentle hillside walk, golden chrysanthemums and autumn leaves.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-7b2775c3-68b1-4dec-abb2-955af1e6daf7.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/double-ninth.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "重 correct",
+          "阳 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "373a42348cb9ef2809a1c7ac689b806506d5a49511c349ae2adfa5f8e19f9e04"
+    },
+    {
+      "id": "laba",
+      "title": "腊八",
+      "prompt": "Use case: illustration-story. One standalone vertical 2:3 Chinese postage stamp, 1024x1536. Warm ivory scalloped perforated paper edges, delicate thin vermilion inset frame, subtle antique paper texture. Large beautifully legible dark vermilion Chinese title arranged vertically, each character separate, occupying upper and middle area. Correct standard Chinese regular-calligraphic typography with all strokes correct. Restrained slightly cartoon vintage hand-painted picture-book vignette near lower left, tasteful seasonal botanical accents near corners. Generous whitespace. Muted natural palette, warm cream and terracotta red. Flat front-facing entire stamp with narrow ivory outer margin. No English, dates, numbers, UI, watermark, additional writing.  Outside perforated edge MUST be warm ivory, never black. Exact only text: \"腊八\". Characters in reading order top to bottom: 腊 then 八. Scene: Warm ceramic bowl of colorful eight-treasure porridge beside little red dates, lotus seeds and snowy plum twig.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-a996d0c9-12c6-4bba-a005-47e06d259897.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/laba.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "腊 correct",
+          "八 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "9f3c24c9f58f24402e347c77c59539612fc57b1da20c3983a739314c617fc5e9"
+    },
+    {
+      "id": "qingming-festival",
+      "title": "清明",
+      "prompt": "Deliberately reuse approved 清明 solar-term stamp for Qingming Festival; no new image generation.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-39ff3bfa-aba6-415b-9835-1227c4d4740e.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/term-qingming.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "清 correct",
+          "明 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "reusedFrom": "term-qingming",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "193ea9b9724bad36cb66215ce12106dbb253544c73ee8fc9aacdd5211849f730"
+    },
+    {
+      "id": "bailu-watercolor",
+      "title": "白露",
+      "variant": "Watercolor",
+      "prompt": "Use case: stylized-concept. Standalone vertical 2:3 artwork asset, 1024x1536, one complete scalloped-edge ivory postage stamp on warm ivory canvas, fine restrained red inset frame. Exact only title text: 白露, two large separate Chinese characters arranged vertically, 白 above 露, correct regular Kaiti strokes, upper and middle part. Lower vignette: white egret with dew covered reeds. No English, numerals, dates, UI, card interface, logos, watermark, extra writing. Keep all title characters and stamp edges fully visible with margin. Main stylistic direction: Airy fine-art watercolor on cold-pressed ivory paper, translucent sage washes, wet-on-wet mist, delicate expressive brush edges, gentle white egret among dew-covered reeds. Flat painted typography in muted vermilion.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-41552cf4-6ba7-49ff-9432-74d96fa81643.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/bailu-watercolor.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "白 correct",
+          "露 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "cd5057a9a22f1bf84c6c8b0174e56d0af27b50896ed10edd220cf31f5e88544f"
+    },
+    {
+      "id": "bailu-papercut",
+      "title": "白露",
+      "variant": "Layered paper cut",
+      "prompt": "Use case: stylized-concept. Standalone vertical 2:3 artwork asset, 1024x1536, one complete scalloped-edge ivory postage stamp on warm ivory canvas, fine restrained red inset frame. Exact only title text: 白露, two large separate Chinese characters arranged vertically, 白 above 露, correct regular Kaiti strokes, upper and middle part. Lower vignette: white egret with dew covered reeds. No English, numerals, dates, UI, card interface, logos, watermark, extra writing. Keep all title characters and stamp edges fully visible with margin. Main stylistic direction: Tactile layered paper-cut sculpture with crisp hand-cut ivory, sage, pale jade and muted ochre paper; shallow layered shadows; charming white egret, reeds, dew circles. Letterforms precisely cut from terracotta paper, each stroke accurate.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-51813dca-20fc-4e72-bbfe-a8ff33b055bf.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/bailu-papercut.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "白 correct",
+          "露 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "858fec46fc47ec9c46926dcb1d4cd4566f9b6c88fc6c10e51614b5ccafd63b80"
+    },
+    {
+      "id": "bailu-clay",
+      "title": "白露",
+      "variant": "Soft clay 3D",
+      "prompt": "Use case: stylized-concept. Standalone vertical 2:3 artwork asset, 1024x1536, one complete scalloped-edge ivory postage stamp on warm ivory canvas, fine restrained red inset frame. Exact only title text: 白露, two large separate Chinese characters arranged vertically, 白 above 露, correct regular Kaiti strokes, upper and middle part. Lower vignette: white egret with dew covered reeds. No English, numerals, dates, UI, card interface, logos, watermark, extra writing. Keep all title characters and stamp edges fully visible with margin. Main stylistic direction: Premium soft clay 3D miniature, matte handmade ceramic/clay texture, rounded charming white egret standing amid sage reeds with clear glass dew beads, gentle diffuse light and soft contact shadows. Chinese letterforms in raised terracotta clay, all strokes exact.",
+      "source": "/Users/peter/.codex/generated_images/01a077cb-af84-7881-a2a2-6eeb096ad796/exec-6bc781f7-0d02-483c-9ce2-eb51206b610c.png",
+      "path": ".jieqi-artwork/stamp-series-20260906/bailu-clay.png",
+      "qa": {
+        "status": "approved",
+        "method": "visual inspection",
+        "characters": [
+          "白 correct",
+          "露 correct"
+        ],
+        "notes": "Every title character visually checked, complete and correct; no extra text."
+      },
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ea4097a4182586f3589d04c0862e2bad107fa0497b8d43c0242b8b311735ecbc"
+    }
+  ],
+  "status": "complete",
+  "counts": {
+    "solarTerms": 24,
+    "festivalEntries": 16,
+    "alternativeSamples": 3,
+    "totalEntries": 43,
+    "newGeneratedFinalImages": 40,
+    "reusedExistingImages": 2,
+    "deliberateQingmingReuse": 1,
+    "unverifiedCharacters": 0
+  },
+  "notes": [
+    "All new files individually generated sequentially with built-in image_gen only.",
+    "Each image visually inspected before approval and saving.",
+    "Qingming festival intentionally uses identical term-qingming image.",
+    "Existing spring-festival and labour-day inspected and reused without regeneration.",
+    "No Sites tools or Site checkout mutations performed by artwork agent."
+  ],
+  "reuse": [
+    {
+      "eventId": "qingming-festival",
+      "assetId": "term-qingming",
+      "reason": "清明节与清明节气共用邮票插画"
+    }
+  ]
+}

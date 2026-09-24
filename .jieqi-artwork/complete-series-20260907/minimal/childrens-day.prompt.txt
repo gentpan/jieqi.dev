@@ -1,0 +1,6 @@
+Use case: stylized-concept.
+Asset type: ONE standalone 2:3 portrait illustration, 1024x1536, for Jieqi Chinese seasonal greeting card, same series as an ivory minimalist egret and reed illustration.
+Primary request: 极简风儿童节插画. Elegant playful minimalist editorial art. In the lower half a beautifully simplified wooden rocking horse, one paper pinwheel and two floating pastel balloons evoke joyful childhood in early summer. Crisp organic silhouettes, restrained flat color, fine tactile paper grain, generous warm ivory negative space. Sage green, pale ochre, powder blue and tiny blush accents. Serene, cute, sophisticated.
+Composition: complete portrait canvas, subjects in lower half; large dark sage title near top with generous margins, three characters in one vertical column.
+Text (verbatim): "儿童节". Only these THREE correct simplified Chinese characters; 儿 above 童 above 节, all strokes complete and readable print-quality Chinese typography.
+Avoid: English, numbers, dates, extra Chinese characters, captions, poems, logos, watermarks, stamp borders, perforations, UI screenshots, photorealism.

@@ -1,11 +1,11 @@
-import { getCalendar, respond, preflight, fail } from '@/lib/api';
+import { getCalendar, respondStyled, preflight, fail } from '@/lib/api';
 export async function GET(
-  _request: Request,
+  request: Request,
   context: { params: Promise<{ year: string }> },
 ) {
   try {
     const { year } = await context.params;
-    return respond(getCalendar(year));
+    return respondStyled(getCalendar(year), request);
   } catch {
     return fail();
   }

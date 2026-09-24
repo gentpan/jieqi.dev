@@ -1,0 +1,6 @@
+Use case: illustration-story.
+Asset type: ONE standalone 2:3 portrait illustration, 1024x1536, for Chinese seasonal card.
+Primary request: 儿童节 sweet series. A joyful early-summer childhood scene with a wooden rocking horse, paper pinwheel and two pastel balloons.
+Style and composition: Wholesome cute sweet-girl anime storybook illustration matching the approved 白露 girl: original girl with large expressive eyes, softly wavy brown hair and small bow, modest long-sleeved high-neck knee-length dress with lace trim, opaque tights and flat shoes; adapt outfit warmth and pastel colors to season, fully clothed everyday innocent styling. Natural cheerful full-body pose holding or interacting with one appropriate seasonal object. Ordinary human proportions with gently enlarged cartoon head, no fantasy ears or object-shaped hat. Fine clean anime linework, luminous soft shading, ivory, blush and seasonal pastel palette. Generous ivory background with sparse seasonal framing; girl lower two thirds and clear dark sage horizontal Chinese title at top. No revealing clothing or mature posing.
+Text (verbatim): "儿童节". Exactly these three complete correct simplified Chinese characters only, clearly readable, no missing strokes.
+Avoid: any other writing, dates, English, logos, numbers, poems, watermarks, postage borders, UI screenshots, cropped feet.

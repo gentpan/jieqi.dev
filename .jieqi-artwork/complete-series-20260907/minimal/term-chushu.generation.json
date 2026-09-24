@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0782e-13ae-74b2-94d4-4f390b29c1aa/exec-c29c471b-2b50-4b17-98b5-3b6a4745b95f.png",
+  "source": ".jieqi-artwork/complete-series-20260907/minimal/term-chushu.png",
+  "promptFile": ".jieqi-artwork/complete-series-20260907/minimal/term-chushu.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.\nPrimary request: 处暑 minimal series.\nScene and seasonal subjects: a seed-filled lotus pod beside a softly curling lotus leaf, one dragonfly and gentle lake ripples; late summer heat fading.\nStyle and composition: Elegant playful minimalist editorial art matching the approved 白露 reference: generous warm ivory negative space, restrained flat sage and pale ochre with gentle seasonal accent colors, crisp organic silhouettes, tiny tactile paper grain. Simplify the seasonal objects into sophisticated attractive shapes. No human figures. Main art in lower half. Large dark sage printed Chinese title vertically stacked near top, all characters balanced within generous margins.\nText (verbatim): \"处暑\". Exactly these 2 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.\nAvoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.",
+  "generatedAt": "2026-09-06T19:35:54.065503+00:00",
+  "status": "generated"
+}

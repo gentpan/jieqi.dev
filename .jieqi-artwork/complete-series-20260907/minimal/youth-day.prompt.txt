@@ -1,0 +1,7 @@
+Use case: stylized-concept.
+Asset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.
+Primary request: 青年节 minimal series.
+Scene and seasonal subjects: a soaring paper airplane above vibrant green shoots and sunlit May hills, hopeful youth and new possibilities.
+Style and composition: Elegant playful minimalist editorial art matching the approved 白露 reference: generous warm ivory negative space, restrained flat sage and pale ochre with gentle seasonal accent colors, crisp organic silhouettes, tiny tactile paper grain. Simplify the seasonal objects into sophisticated attractive shapes. No human figures. Main art in lower half. Large dark sage printed Chinese title vertically stacked near top, all characters balanced within generous margins.
+Text (verbatim): "青年节". Exactly these 3 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.
+Avoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.

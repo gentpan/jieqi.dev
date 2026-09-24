@@ -13,5 +13,25 @@
     "id": "bailu-clay",
     "title": "白露",
     "image": "/assets/bailu-clay.webp"
+  },
+  {
+    "id": "bailu-minimal",
+    "title": "白露",
+    "image": "/assets/bailu-minimal.webp"
+  },
+  {
+    "id": "bailu-character",
+    "title": "白露",
+    "image": "/assets/bailu-character.webp"
+  },
+  {
+    "id": "bailu-anime",
+    "title": "白露",
+    "image": "/assets/bailu-anime.webp"
+  },
+  {
+    "id": "bailu-sweet",
+    "title": "白露",
+    "image": "/assets/bailu-sweet.webp"
   }
 ]

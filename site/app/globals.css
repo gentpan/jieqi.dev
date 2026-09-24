@@ -189,16 +189,18 @@ h1 span {
   position: relative;
   display: grid;
   grid-template-columns: 1.65fr 1fr;
+  grid-template-areas: "copy art" "signoff dates";
   min-height: 472px;
   border: 1px solid #e1dccf;
   background: var(--card);
   padding: 45px 55px;
-  gap: 50px;
+  gap: 24px 50px;
   box-shadow: 0 14px 40px -25px #56503b24;
   border-radius: 5px;
   overflow: hidden;
 }
 .card-copy {
+  grid-area: copy;
   align-self: center;
 }
 .card-copy .eyebrow {
@@ -227,12 +229,21 @@ h1 span {
   margin: 0;
 }
 .card-quote {
+  white-space: pre-line;
   font-family: var(--serif);
   font-size: 25px;
   line-height: 1.8;
   color: var(--primary);
   margin: 30px 0 15px;
 }
+.card-lunar {
+  font-size: 15px;
+  color: #73766c;
+  line-height: 1.8;
+  margin: 8px 0 0;
+}
+.card-description p { margin: 0; }
+.card-description p + p { margin-top: 12px; }
 .card-description {
   font-size: 16px;
   line-height: 2;
@@ -241,10 +252,12 @@ h1 span {
   margin: 0;
 }
 .card-signoff {
+  grid-area: signoff;
+  align-self: center;
   display: flex;
   align-items: center;
   gap: 18px;
-  margin-top: 28px;
+  margin-top: 0;
   font-size: 12px;
   letter-spacing: 2px;
   color: #767c6c;
@@ -260,10 +273,28 @@ h1 span {
   transform: rotate(-6deg);
 }
 .card-art {
+  grid-area: art;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.card-dates {
+  grid-area: dates;
+  align-self: center;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  text-align: center;
+}
+.card-dates .card-date,
+.card-dates .card-lunar {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0;
 }
 .card-art > img {
   width: 238px;
@@ -271,6 +302,51 @@ h1 span {
   object-fit: cover;
   transform: rotate(5deg);
   box-shadow: 6px 13px 18px -12px #59412a2b;
+}
+.card-art:not([data-image-state="ready"]) > img,
+.card-art:not([data-image-state="ready"]) > .postmark {
+  visibility: hidden;
+}
+.card-art-status {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--muted-foreground);
+  font-size: 14px;
+}
+.card-art-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid #b56f6926;
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: card-art-spin 0.8s linear infinite;
+}
+.embed-style-choice {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px 22px;
+  border-bottom: 1px solid #d4d8cd;
+  font-size: 14px;
+}
+.embed-style-choice > p {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted-foreground);
+}
+@keyframes card-art-spin {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card-art-spinner { animation: none; }
 }
 .postmark {
   position: absolute;
@@ -574,6 +650,7 @@ footer > span {
   }
   .season-card {
     grid-template-columns: 1fr;
+    grid-template-areas: "art" "dates" "copy" "signoff";
     gap: 25px;
     padding: 30px 25px;
     min-height: auto;
@@ -592,7 +669,7 @@ footer > span {
     font-size: 16px;
   }
   .card-signoff {
-    margin-top: 20px;
+    margin-top: 0;
   }
   .card-art {
     grid-row: 1;
@@ -969,6 +1046,18 @@ footer > span {
   color: #737766;
   font-size: 13px;
 }
+.preview-style-choice {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  padding: 0 32px 20px;
+  color: var(--muted-foreground);
+  font-size: 12px;
+}
+.preview-style-choice [data-slot='select-trigger'] {
+  max-width: 100%;
+}
 .dialog-foot button {
   padding: 8px;
   border: 0;
@@ -1031,6 +1120,12 @@ footer > span {
   .collection-toolbar {
     gap: 10px;
     margin-bottom: 25px;
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+  .collection-toolbar > [data-slot='select-trigger'] {
+    align-self: flex-end;
+    margin-bottom: 8px;
   }
   .collection-toolbar [data-slot='tabs-list'] {
     gap: 24px;
@@ -1096,6 +1191,9 @@ footer > span {
     padding: 12px 15px;
     font-size: 12px;
     gap: 10px;
+  }
+  .preview-style-choice {
+    padding: 0 24px 16px;
   }
   .dialog-foot a {
     font-size: 12px;

@@ -1,5 +1,6 @@
-import Image from 'next/image';
+import CardArtwork from '@/components/card-artwork';
 import type { Occurrence } from '@/lib/calendar/calendar';
+import { assetUrl } from '@/lib/urls';
 
 export default function SeasonCard({
   event,
@@ -27,22 +28,8 @@ export default function SeasonCard({
             : 'A FESTIVAL LETTER'}
         </p>
         <h2>{event.card.name}</h2>
-        <p className="card-date">
-          <time dateTime={event.start}>
-            {event.start.replaceAll('-', ' / ')}
-          </time>
-          {event.end !== event.start && (
-            <>
-              {' '}
-              —{' '}
-              <time dateTime={event.end}>
-                {event.end.replaceAll('-', ' / ')}
-              </time>
-            </>
-          )}
-        </p>
         <p className="card-quote">{event.card.quote}</p>
-        <p className="card-description">{event.card.description}</p>
+        <div className="card-description">{event.card.description.split(/\n\s*\n/).map((paragraph,index)=><p key={index}>{paragraph}</p>)}</div>
         {event.category === 'holiday' && (
           <p className="holiday-note">
             {event.name} · 共{' '}
@@ -54,26 +41,27 @@ export default function SeasonCard({
               ` · 补班 ${event.workdays.map((d) => d.slice(5).replace('-', '/')).join('、')}`}
           </p>
         )}
-        <div className="card-signoff">
-          <span>愿日子有光，心有所期。</span>
-          <span className="small-seal">节期</span>
-        </div>
       </div>
-      <div className="card-art">
-        {(image || event.card.image) && (
-          <Image
-            unoptimized
-            src={image || event.card.image!}
-            alt={`${event.card.name}插画`}
-            width={1024}
-            height={1536}
+      {(image || event.card.image) && (
+          <CardArtwork
+            key={assetUrl(image || event.card.image!)}
+            src={assetUrl(image || event.card.image!)}
+            name={event.card.name}
           />
-        )}
-        <div className="postmark" aria-hidden="true">
-          <span>岁 时 有 信</span>
-          <strong>JIEQI</strong>
-          <span>寄 给 此 刻</span>
-        </div>
+      )}
+      <div className="card-signoff">
+        <span>愿日子有光，心有所期。</span>
+        <span className="small-seal">节期</span>
+      </div>
+      <div className="card-dates" aria-label="公历与农历日期">
+        <p className="card-date">
+          公历 <time dateTime={event.start}>{event.start.replaceAll('-', '/')}</time>
+          {event.end !== event.start && <> — <time dateTime={event.end}>{event.end.replaceAll('-', '/')}</time></>}
+        </p>
+        <p className="card-lunar">
+          农历 {event.lunarStart.label}
+          {event.end !== event.start && <> — {event.lunarEnd.label}</>}
+        </p>
       </div>
     </article>
   );

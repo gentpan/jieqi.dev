@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0782e-13ae-74b2-94d4-4f390b29c1aa/exec-72daa3b2-f585-4706-afe2-a94e6eb7b7aa.png",
+  "source": ".jieqi-artwork/complete-series-20260907/minimal/term-guyu.png",
+  "promptFile": ".jieqi-artwork/complete-series-20260907/minimal/term-guyu.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.\nPrimary request: 谷雨 minimal series.\nScene and seasonal subjects: tender tea leaves, a small rain-fed rice seedling and a few generous spring raindrops; nourishing late spring rain.\nStyle and composition: Elegant playful minimalist editorial art matching the approved 白露 reference: generous warm ivory negative space, restrained flat sage and pale ochre with gentle seasonal accent colors, crisp organic silhouettes, tiny tactile paper grain. Simplify the seasonal objects into sophisticated attractive shapes. No human figures. Main art in lower half. Large dark sage printed Chinese title vertically stacked near top, all characters balanced within generous margins.\nText (verbatim): \"谷雨\". Exactly these 2 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.\nAvoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.",
+  "generatedAt": "2026-09-06T19:38:05.335240+00:00",
+  "status": "generated"
+}

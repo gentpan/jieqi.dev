@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0782e-13ae-74b2-94d4-4f390b29c1aa/exec-4bcf7d61-2927-402c-85d5-52a0e8825979.png",
+  "source": ".jieqi-artwork/complete-series-20260907/character/childrens-day.png",
+  "promptFile": ".jieqi-artwork/complete-series-20260907/character/childrens-day.prompt.txt",
+  "prompt": "Use case: illustration-story.\nAsset type: ONE standalone 2:3 portrait illustration, 1024x1536, for Chinese seasonal card.\nPrimary request: 儿童节 character series. A joyful early-summer childhood scene with a wooden rocking horse, paper pinwheel and two pastel balloons.\nStyle and composition: Charming personification of this specific season or festival: an original tiny gender-neutral seasonal sprite, expressive warm face, rosy cheeks, short soft hair, full-body silhouette, wearing fully clothed layered hanfu-inspired garments and a fanciful hat shaped like the key seasonal object. Sprite holds or interacts with an appropriate object described in the scene; a few seasonal props surround them on warm ivory. Soft clean outlines and gentle cel shading with intricate tasteful costume details. Match the approved dew-sprite reference's 3-head-tall mascot proportions; invent distinct suitable character design per festival. Main character lower two thirds; large clearly legible dark sage horizontal Chinese title at top.\nText (verbatim): \"儿童节\". Exactly these three complete correct simplified Chinese characters only, clearly readable, no missing strokes.\nAvoid: any other writing, dates, English, logos, numbers, poems, watermarks, postage borders, UI screenshots, cropped feet.",
+  "generatedAt": "2026-09-06T20:19:58.717109+00:00",
+  "status": "generated"
+}

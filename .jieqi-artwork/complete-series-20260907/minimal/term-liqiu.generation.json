@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0782e-13ae-74b2-94d4-4f390b29c1aa/exec-97be1ade-367e-40a8-a86d-7a4c7e7a2fde.png",
+  "source": ".jieqi-artwork/complete-series-20260907/minimal/term-liqiu.png",
+  "promptFile": ".jieqi-artwork/complete-series-20260907/minimal/term-liqiu.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.\nPrimary request: 立秋 minimal series.\nScene and seasonal subjects: one golden falling leaf and a ripe pear beside lightly bending grain stalks; first hints of autumn, still lush surroundings.\nStyle and composition: Elegant playful minimalist editorial art matching the approved 白露 reference: generous warm ivory negative space, restrained flat sage and pale ochre with gentle seasonal accent colors, crisp organic silhouettes, tiny tactile paper grain. Simplify the seasonal objects into sophisticated attractive shapes. No human figures. Main art in lower half. Large dark sage printed Chinese title vertically stacked near top, all characters balanced within generous margins.\nText (verbatim): \"立秋\". Exactly these 2 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.\nAvoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.",
+  "generatedAt": "2026-09-06T19:42:11.180626+00:00",
+  "status": "generated"
+}

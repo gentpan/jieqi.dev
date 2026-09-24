@@ -1,0 +1,22 @@
+[Unit]
+Description=Jieqi calendar API
+After=network.target
+
+[Service]
+Type=simple
+User=jieqi
+Group=jieqi
+WorkingDirectory=/opt/jieqi/current
+Environment=NODE_ENV=production
+EnvironmentFile=/opt/jieqi/shared/api.env
+ExecStart=/usr/bin/node src/server.ts
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/jieqi/shared /opt/jieqi/current/public/assets
+
+[Install]
+WantedBy=multi-user.target

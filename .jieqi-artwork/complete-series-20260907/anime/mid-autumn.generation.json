@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0782e-13ae-74b2-94d4-4f390b29c1aa/exec-0c5d643e-f824-40d0-888a-4b7c4406a704.png",
+  "source": ".jieqi-artwork/complete-series-20260907/anime/mid-autumn.png",
+  "promptFile": ".jieqi-artwork/complete-series-20260907/anime/mid-autumn.prompt.txt",
+  "prompt": "Use case: illustration-story.\nAsset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.\nPrimary request: 中秋节 anime series.\nScene and seasonal subjects: a round full moon, a round mooncake without lettering, an osmanthus branch and a little white rabbit; autumn reunion.\nStyle and composition: Studio Ghibli-inspired warm hand-painted Japanese animation illustration, an original Chinese pastoral everyday-life scene. Rich soft gouache landscape background, delicate drawn linework, restrained cel-shaded characters, luminous natural light, nostalgic warmth and wonder. Integrate the described seasonal objects into a believable landscape or cozy interior. Include a small fully clothed original person naturally engaged with the seasonal subject, with season-appropriate everyday clothing. Landscapes and storytelling dominate, no existing movie characters. Calm pale sky or wall in upper quarter reserved for a large horizontal dark moss-green printed Chinese title.\nText (verbatim): \"中秋节\". Exactly these 3 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.\nAvoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.",
+  "generatedAt": "2026-09-06T20:26:28.933087+00:00",
+  "status": "generated"
+}

@@ -1,0 +1,6 @@
+Use case: stylized-concept.
+Asset type: a standalone portrait illustration for the right side of the Chinese seasonal card website Jieqi, aspect ratio 2:3, preferably 1024x1536. Generate ONE minimalist style sample for the solar term 白露.
+Primary request: 极简风的白露节气插画。Elegant playful minimalist editorial art with generous ivory negative space, one exquisitely simplified white egret, a single curving reed leaf bearing one translucent dew drop, small quiet muted sage and pale ochre shapes. Restrained flat color, crisp organic silhouettes, tiny tactile paper grain. It should feel contemporary, serene, slightly cute and sophisticated, strongly different from a vintage stamp.
+Composition: full clean portrait canvas, main illustration in lower half, generously spaced dark sage Chinese title near the top, well inside the edges. No stamp frame, no perforations, no postmark, no outer UI card.
+Text (verbatim): "白露". Exactly these TWO correct simplified Chinese characters only, clearly legible print-quality Chinese typography; 白 above 露 in a balanced vertical title. 露 must have the complete 雨 radical and 路 lower component. No stylized missing strokes.
+Avoid: English, Roman letters, numbers, dates, captions, poems, slogans, logos, watermarks, extra Chinese characters, photorealism, ornate borders, a screenshot of a website.

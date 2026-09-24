@@ -1,0 +1,7 @@
+Use case: illustration-story.
+Asset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.
+Primary request: 清明 anime series.
+Scene and seasonal subjects: fresh bright willow foliage, a swallow over clear spring water and a small distant kite; lively clear spring landscape, focus on solar term.
+Style and composition: Studio Ghibli-inspired warm hand-painted Japanese animation illustration, an original Chinese pastoral everyday-life scene. Rich soft gouache landscape background, delicate drawn linework, restrained cel-shaded characters, luminous natural light, nostalgic warmth and wonder. Integrate the described seasonal objects into a believable landscape or cozy interior. Include a small fully clothed original person naturally engaged with the seasonal subject, with season-appropriate everyday clothing. Landscapes and storytelling dominate, no existing movie characters. Calm pale sky or wall in upper quarter reserved for a large horizontal dark moss-green printed Chinese title.
+Text (verbatim): "清明". Exactly these 2 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.
+Avoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.

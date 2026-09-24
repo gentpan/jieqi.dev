@@ -2,6 +2,7 @@ import snapshotData from './snapshot.json';
 import { dateSchema, yearSchema } from './calendar/schema';
 import type { Snapshot } from './calendar/schema';
 import { annual, chinaDate, resolveDate } from './calendar/calendar';
+import { styleSchema, withArtworkStyle } from './calendar/styles';
 export const snapshot = snapshotData as unknown as Snapshot;
 const calendarCache = new Map<number, ReturnType<typeof annual>>();
 const dateCache = new Map<string, ReturnType<typeof resolveDate>>();
@@ -19,9 +20,14 @@ export function respond(value: unknown, cache = 'public, max-age=60') {
 }
 export function fail() {
   return Response.json(
-    { error: '日期或年份无效。支持2000至2100年。' },
+    { error: `日期、年份或风格无效。年份支持2000至2100年；风格为${styleSchema.options.join('、')}。` },
     { status: 400, headers: { ...headers, 'Cache-Control': 'no-store' } },
   );
+}
+export function respondStyled(value: unknown, request: Request, cache?: string) {
+  const styles = new URL(request.url).searchParams.getAll('style');
+  if(styles.length > 1) throw new Error('Duplicate style');
+  return respond(withArtworkStyle(value, styleSchema.parse(styles[0] ?? 'stamp')), cache);
 }
 export function getCalendar(year: string) {
   const value = year.replace(/\.json$/, '');

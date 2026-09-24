@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0782e-13ae-74b2-94d4-4f390b29c1aa/exec-68867b93-82c3-4b57-8f52-19b71b2c78dc.png",
+  "source": ".jieqi-artwork/complete-series-20260907/minimal/qingming-festival.png",
+  "promptFile": ".jieqi-artwork/complete-series-20260907/minimal/qingming-festival.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.\nPrimary request: 清明节 minimal series.\nScene and seasonal subjects: a small bouquet of white chrysanthemums laid beside a quiet stone path, fresh willow leaves and distant spring hills; tender remembrance, no gravestone lettering.\nStyle and composition: Elegant playful minimalist editorial art matching the approved 白露 reference: generous warm ivory negative space, restrained flat sage and pale ochre with gentle seasonal accent colors, crisp organic silhouettes, tiny tactile paper grain. Simplify the seasonal objects into sophisticated attractive shapes. No human figures. Main art in lower half. Large dark sage printed Chinese title vertically stacked near top, all characters balanced within generous margins.\nText (verbatim): \"清明节\". Exactly these 3 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.\nAvoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.",
+  "generatedAt": "2026-09-06T19:33:45.565909+00:00",
+  "status": "generated"
+}

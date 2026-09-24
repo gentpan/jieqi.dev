@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0782e-13ae-74b2-94d4-4f390b29c1aa/exec-028078c6-4ba5-413f-a317-1b64c122100d.png",
+  "source": ".jieqi-artwork/complete-series-20260907/anime/laba.png",
+  "promptFile": ".jieqi-artwork/complete-series-20260907/anime/laba.prompt.txt",
+  "prompt": "Use case: illustration-story.\nAsset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.\nPrimary request: 腊八 anime series.\nScene and seasonal subjects: a warm bowl of mixed-grain rice porridge with red beans and jujubes, a wooden spoon, snowy winter branches.\nStyle and composition: Studio Ghibli-inspired warm hand-painted Japanese animation illustration, an original Chinese pastoral everyday-life scene. Rich soft gouache landscape background, delicate drawn linework, restrained cel-shaded characters, luminous natural light, nostalgic warmth and wonder. Integrate the described seasonal objects into a believable landscape or cozy interior. Include a small fully clothed original person naturally engaged with the seasonal subject, with season-appropriate everyday clothing. Landscapes and storytelling dominate, no existing movie characters. Calm pale sky or wall in upper quarter reserved for a large horizontal dark moss-green printed Chinese title.\nText (verbatim): \"腊八\". Exactly these 2 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.\nAvoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.",
+  "generatedAt": "2026-09-06T20:23:57.604029+00:00",
+  "status": "generated"
+}

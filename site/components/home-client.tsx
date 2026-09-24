@@ -32,21 +32,33 @@ import {
 } from '@/components/ui/select';
 import SeasonCard from '@/components/season-card';
 import type { Occurrence } from '@/lib/calendar/calendar';
+import { apiOrigin, assetUrl } from '@/lib/urls';
+import { selectArtwork, styleCatalog, styleSchema } from '@/lib/calendar/styles';
+import type { StyleId } from '@/lib/calendar/styles';
 type Variant = { id: string; title: string; image: string };
 const styleNames: Record<string, string> = {
   'bailu-watercolor': '水彩手绘',
   'bailu-papercut': '层叠剪纸',
   'bailu-clay': '软萌黏土',
+  'bailu-minimal': '极简留白',
+  'bailu-character': '时节拟人',
+  'bailu-anime': '手绘动画',
+  'bailu-sweet': '甜系少女',
 };
 const styleNotes: Record<string, string> = {
   'bailu-watercolor': '清透笔触，留住露水与晨光。',
   'bailu-papercut': '纸页之间，让秋意有了层次。',
   'bailu-clay': '圆润小世界，装下一点可爱。',
+  'bailu-minimal': '以留白与简洁轮廓，描绘四季里的小美好。',
+  'bailu-character': '让每个时节，化作一个可爱的小精灵。',
+  'bailu-anime': '走进晨雾与田野，遇见手绘的温柔日常。',
+  'bailu-sweet': '轻柔裙摆与四季风物，把日常写成甜甜的童话。',
 };
+const styleItems = Object.fromEntries(styleCatalog.map(style => [style.id, `${style.name} · ${style.coverage === 'complete' ? '全年 40 张' : '白露小样'}`]));
 
 const subscribeOrigin = () => () => {};
-const getOrigin = () => window.location.origin;
-const getServerOrigin = () => 'https://jieqi.dev';
+const getOrigin = () => apiOrigin || window.location.origin;
+const getServerOrigin = () => apiOrigin || 'https://jieqi.dev';
 
 export default function HomeClient({
   events,
@@ -82,9 +94,12 @@ export default function HomeClient({
     ) ?? defaultEvent;
   const [open, setOpen] = useState(false);
   const [variant, setVariant] = useState<string | undefined>();
+  const [previewStyle, setPreviewStyle] = useState<StyleId>('stamp');
   const [expanded, setExpanded] = useState(false);
   const [category, setCategory] = useState('solar-term');
+  const [collectionStyle, setCollectionStyle] = useState<StyleId>('stamp');
   const [mode, setMode] = useState('popup');
+  const [embedStyle, setEmbedStyle] = useState<StyleId>('stamp');
   const origin = useSyncExternalStore(
     subscribeOrigin,
     getOrigin,
@@ -93,18 +108,24 @@ export default function HomeClient({
   const [copyState, setCopyState] = useState('');
   const code =
     mode === 'popup'
-      ? `<script defer src="${origin}/v1/widget.js" data-mode="popup"></script>`
-      : `<script defer src="${origin}/v1/widget.js"></script>\n<jieqi-card event="${selected.eventId}"></jieqi-card>`;
-  const preview = (event: Occurrence, image?: string) => {
+      ? `<script defer src="${origin}/v1/widget.js" data-mode="popup" data-style="${embedStyle}"></script>`
+      : `<script defer src="${origin}/v1/widget.js"></script>\n<jieqi-card event="${selected.eventId}" data-style="${embedStyle}"></jieqi-card>`;
+  const embedPreviewImage = (event: Occurrence) => {
+    const art = selectArtwork(event.eventId, event.card.image, embedStyle);
+    return art.resolved === 'stamp' ? undefined : art.image ?? undefined;
+  };
+  const preview = (event: Occurrence, image?: string, style: StyleId = 'stamp') => {
     setSelectedKey(`${event.category}:${event.key}`);
     setVariant(image);
+    setPreviewStyle(style);
     setOpen(true);
   };
   const navigate = (delta: number) => {
     const index = ready.findIndex((e) => e.eventId === selected.eventId);
     const next=ready[(index + delta + ready.length) % ready.length];
     setSelectedKey(`${next.category}:${next.key}`);
-    setVariant(undefined);
+    const artwork = selectArtwork(next.eventId, next.card.image, previewStyle);
+    setVariant(artwork.resolved === 'stamp' ? undefined : artwork.image ?? undefined);
   };
   async function copyCode() {
     try {
@@ -173,6 +194,7 @@ export default function HomeClient({
           flushSync(() => {
             setSelectedKey(`${event.category}:${event.key}`);
             setVariant(undefined);
+            setPreviewStyle('stamp');
             setOpen(true);
           });
           return { id: event.eventId, name: event.name, previewOpen: true };
@@ -189,6 +211,9 @@ export default function HomeClient({
     return () => lifecycle.abort();
   }, [ready]);
   if (!selected) return null;
+  const previewArtwork = selectArtwork(selected.eventId, selected.card.image, previewStyle);
+  const resolvedStyle = styleCatalog.find(style => style.id === previewArtwork.resolved)!;
+  const collectionName = styleCatalog.find(style => style.id === collectionStyle)!.name;
   const holiday = holidays.find((e) => e.eventId === selected.eventId);
   const dayLabel =
     selected.start === today
@@ -208,7 +233,7 @@ export default function HomeClient({
           <a href="#collection">卡片集</a>
           {variants.length > 0 && (
             <a className="styles-link" href="#styles">
-              风格小样
+              插画风格
             </a>
           )}
           <a href="#embed">
@@ -275,7 +300,7 @@ export default function HomeClient({
           <p>
             节气有时，节日有情。
             <br />
-            点开一张邮票，读一封时节的来信。
+            点开一张卡片，读一封时节的来信。
           </p>
         </div>
         <Tabs
@@ -295,7 +320,10 @@ export default function HomeClient({
                 中国节日 <span>16</span>
               </TabsTrigger>
             </TabsList>
-            <span className="series-label">邮票风 · STAMP EDITION</span>
+            <Select value={collectionStyle} onValueChange={value => setCollectionStyle(styleSchema.parse(value))} items={styleItems}>
+              <SelectTrigger aria-label="选择卡片集风格"><SelectValue /></SelectTrigger>
+              <SelectContent>{styleCatalog.filter(style => style.coverage === 'complete').map(style => <SelectItem key={style.id} value={style.id}>{style.name} · 全年 40 张</SelectItem>)}</SelectContent>
+            </Select>
           </div>
           {['solar-term', 'festival'].map((kind) => (
             <TabsContent value={kind} key={kind}>
@@ -307,14 +335,14 @@ export default function HomeClient({
                     <button
                       className="stamp-item"
                       key={event.key}
-                      onClick={() => preview(event)}
-                      aria-label={`查看${event.name}卡片`}
+                      onClick={() => preview(event, selectArtwork(event.eventId, event.card.image, collectionStyle).image ?? undefined, collectionStyle)}
+                      aria-label={`查看${event.name}${collectionName}卡片`}
                     >
                       <div className="stamp-well">
                         <Image
                           unoptimized
-                          src={event.card.image!}
-                          alt={`${event.name}邮票插画`}
+                          src={assetUrl(selectArtwork(event.eventId, event.card.image, collectionStyle).image!)}
+                          alt={`${event.name}${collectionName}插画`}
                           width={1024}
                           height={1536}
                           loading="lazy"
@@ -354,7 +382,7 @@ export default function HomeClient({
               <p className="eyebrow">STYLE NOTES · 02</p>
               <h2>同一个时节，不同的心意。</h2>
             </div>
-            <p>以白露为题，试试三种新的表达。</p>
+            <p>五种全年系列，三种白露小样。选一种心意，陪伴四季。</p>
           </div>
           <div className="style-grid">
             {variants.map((v) => (
@@ -365,13 +393,14 @@ export default function HomeClient({
                   preview(
                     ready.find((e) => e.eventId === 'term-bailu')!,
                     v.image,
+                    styleSchema.parse(v.id.replace('bailu-', '')),
                   )
                 }
               >
                 <div className="style-art">
                   <Image
                     unoptimized
-                    src={v.image}
+                    src={assetUrl(v.image)}
                     alt={`白露 · ${styleNames[v.id]}`}
                     width={1024}
                     height={1536}
@@ -379,7 +408,7 @@ export default function HomeClient({
                   />
                 </div>
                 <div className="style-copy">
-                  <span>风格小样</span>
+                  <span>{styleCatalog.find(style => style.id === v.id.replace('bailu-', ''))?.coverage === 'complete' ? '全年系列 · 40 张' : '白露小样 · 1 张'}</span>
                   <h3>{styleNames[v.id]}</h3>
                   <p>{styleNotes[v.id]}</p>
                   <ArrowUpRight size={20} />
@@ -440,6 +469,18 @@ export default function HomeClient({
               <span>{copyState === '已复制' ? '已复制' : '复制代码'}</span>
             </button>
           </div>
+          <div className="embed-style-choice">
+            <span>插画风格</span>
+            <Select
+              value={embedStyle}
+              onValueChange={(value) => setEmbedStyle(styleSchema.parse(value))}
+              items={styleItems}
+            >
+              <SelectTrigger aria-label="选择插画风格"><SelectValue /></SelectTrigger>
+              <SelectContent>{styleCatalog.map(style => <SelectItem key={style.id} value={style.id}>{styleItems[style.id]}</SelectItem>)}</SelectContent>
+            </Select>
+            <p>{styleCatalog.find(style => style.id === embedStyle)?.coverage === 'complete' ? '已覆盖 24 节气与 16 节日。同一个 JS 地址，通过 data-style 选择风格。' : '此风格仅有白露小样；其他节日自动使用邮票插画。'}</p>
+          </div>
           <pre>
             <code>{code}</code>
           </pre>
@@ -450,7 +491,7 @@ export default function HomeClient({
           </p>
           <div className="code-foot">
             <span>WordPress · 静态网站 · 更多网页</span>
-            <button onClick={() => preview(holiday ?? selected)}>
+            <button onClick={() => preview(holiday ?? selected, embedPreviewImage(holiday ?? selected), embedStyle)}>
               看看效果 <ArrowUpRight size={14} />
             </button>
           </div>
@@ -477,17 +518,28 @@ export default function HomeClient({
             <X size={22} />
           </DialogClose>
           <SeasonCard event={selected} image={variant} />
+          <div className="preview-style-choice">
+            <Select value={previewStyle} items={styleItems} onValueChange={value => {
+              const style = styleSchema.parse(value);
+              setPreviewStyle(style);
+              setVariant(selectArtwork(selected.eventId, selected.card.image, style).image ?? undefined);
+            }}>
+              <SelectTrigger aria-label="切换预览风格"><SelectValue /></SelectTrigger>
+              <SelectContent>{styleCatalog.map(style => <SelectItem key={style.id} value={style.id}>{styleItems[style.id]}</SelectItem>)}</SelectContent>
+            </Select>
+            {previewArtwork.fallback && <span>此节日暂无该风格，展示邮票插画。</span>}
+          </div>
           <div className="dialog-foot">
             <button onClick={() => navigate(-1)} aria-label="上一张">
               <ArrowLeft size={18} />
             </button>
             <span>
               {selected.category === 'solar-term' ? '二十四节气' : '中国节日'} ·{' '}
-              {variant ? '风格小样' : '邮票系列'}
+              {resolvedStyle.name}{resolvedStyle.coverage === 'complete' ? '系列' : '小样'}
             </span>
             <a
-              href={variant || selected.card.image!}
-              download={`${selected.name}.webp`}
+              href={`${assetUrl(variant || selected.card.image!)}${apiOrigin ? '?download=1' : ''}`}
+              download={`${selected.name}-${resolvedStyle.name}.webp`}
             >
               <Download size={16} /> 下载插画
             </a>

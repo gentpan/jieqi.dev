@@ -1,0 +1,29 @@
+{
+  "event": "白露",
+  "generator": "built-in image_gen",
+  "status": "style samples",
+  "review": "Visually checked both title characters 白露 in all three outputs.",
+  "samples": [
+    {
+      "style": "minimal",
+      "label": "极简风",
+      "source": "exec-9b99d600-2d1b-4756-8101-73a87d4dd8ea.png",
+      "file": "bailu-minimal.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: a standalone portrait illustration for the right side of the Chinese seasonal card website Jieqi, aspect ratio 2:3, preferably 1024x1536. Generate ONE minimalist style sample for the solar term 白露.\nPrimary request: 极简风的白露节气插画。Elegant playful minimalist editorial art with generous ivory negative space, one exquisitely simplified white egret, a single curving reed leaf bearing one translucent dew drop, small quiet muted sage and pale ochre shapes. Restrained flat color, crisp organic silhouettes, tiny tactile paper grain. It should feel contemporary, serene, slightly cute and sophisticated, strongly different from a vintage stamp.\nComposition: full clean portrait canvas, main illustration in lower half, generously spaced dark sage Chinese title near the top, well inside the edges. No stamp frame, no perforations, no postmark, no outer UI card.\nText (verbatim): \"白露\". Exactly these TWO correct simplified Chinese characters only, clearly legible print-quality Chinese typography; 白 above 露 in a balanced vertical title. 露 must have the complete 雨 radical and 路 lower component. No stylized missing strokes.\nAvoid: English, Roman letters, numbers, dates, captions, poems, slogans, logos, watermarks, extra Chinese characters, photorealism, ornate borders, a screenshot of a website."
+    },
+    {
+      "style": "character",
+      "label": "拟人风",
+      "source": "exec-16dc26c0-da02-469b-86fb-4e4b8113edc9.png",
+      "file": "bailu-character.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3 illustration, preferably 1024x1536, for the right-side artwork in a Chinese solar term website card.\nPrimary request: Generate a 拟人风 character design sample representing the solar term 白露. An original charming personification of morning dew, a tiny youthful gender-neutral seasonal sprite with a pear-shaped dew hat, short silver-white hair, warm expressive face, rosy cheeks, a pale sage layered hanfu-inspired outfit with reed-leaf sleeves and pearl dew ornaments. Fully clothed, standing on a curved reed leaf holding a round crystal dew drop with both hands, a small white egret companion nearby. Clear storybook mascot silhouette, beautiful contemporary Chinese cartoon character illustration, soft clean outlines and gentle cel shading. No existing franchise characters.\nComposition: character full body occupies the middle/lower two thirds of a clean warm ivory background, only a few delicate reeds and suspended dew drops to suggest early autumn. Top has two large well-separated Chinese characters in a single horizontal line. Portrait composition with breathing room, grounded attractive detailed character rather than a stamp.\nText (verbatim): \"白露\". Only these two correct simplified Chinese characters, in clearly legible dark sage Chinese type with full strokes. 露 must have full 雨 radical above 路. No other writing.\nAvoid: English, dates, captions, poems, logos, borders, perforated edges, postal marks, watermarks, website screenshots, extra fingers, crowded scene."
+    },
+    {
+      "style": "anime",
+      "label": "手绘动画风",
+      "source": "exec-c68e2b38-e8f1-469b-a29b-bc51b4a91b68.png",
+      "file": "bailu-anime.png",
+      "prompt": "Use case: illustration-story.\nAsset type: ONE standalone 2:3 portrait illustration, preferably 1024x1536, a seasonal artwork for the right side of a Chinese calendar greeting card.\nPrimary request: A 白露 solar term sample in Studio Ghibli-inspired warm hand-painted Japanese animation style, an original pastoral scene, soft gouache background painting, delicate hand-drawn linework, restrained cel-shaded characters, airy luminous early autumn light, rich natural greens, nostalgic wonder and quiet everyday life. No existing movie characters.\nScene: a small rural Chinese waterside footpath at dawn, reed grasses and dew-beaded leaves in the foreground, a graceful white egret standing in the shallow water, an original fully clothed child in loose cream shirt and sage trousers standing a little further down the path holding a small basket and looking at the dew, distant tiled roofs and misty wooded hills. Emphasize dew and the slightly cool clear morning atmosphere, not summer heat or fantasy action.\nComposition: thoughtfully framed portrait artwork with storytelling in the lower two thirds, simple pale dawn sky in upper quarter reserved for a clearly legible horizontal title, visually calm when shown at small card size. No stamp border, no card UI, no fake book or product mockup.\nText (verbatim): \"白露\". Exactly TWO correct simplified Chinese characters in dark moss-green classic Chinese print lettering at top. All strokes must be correct and complete. 露 is 雨 above 路, no missing parts. No other text.\nAvoid: English text, labels, dates, numbers, poems, signatures, logos, watermark, postal marks, perforated edges, 3D rendering, photorealism, cluttered title area."
+    }
+  ]
+}

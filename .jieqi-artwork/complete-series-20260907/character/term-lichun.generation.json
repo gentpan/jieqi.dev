@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0782e-13ae-74b2-94d4-4f390b29c1aa/exec-7a99a5df-1a89-4472-93b3-ca53ede51d6f.png",
+  "source": ".jieqi-artwork/complete-series-20260907/character/term-lichun.png",
+  "promptFile": ".jieqi-artwork/complete-series-20260907/character/term-lichun.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.\nPrimary request: 立春 character series.\nScene and seasonal subjects: fresh willow buds and a small swallow above gently thawing earth with first tender grass; beginning of spring.\nStyle and composition: Charming personification of this specific season or festival: an original tiny gender-neutral seasonal sprite, expressive warm face, rosy cheeks, short soft hair, full-body silhouette, wearing fully clothed layered hanfu-inspired garments and a fanciful hat shaped like the key seasonal object. Sprite holds or interacts with an appropriate object described in the scene; a few seasonal props surround them on warm ivory. Soft clean outlines and gentle cel shading with intricate tasteful costume details. Match the approved dew-sprite reference's 3-head-tall mascot proportions; invent distinct suitable character design per festival. Main character lower two thirds; large clearly legible dark sage horizontal Chinese title at top.\nText (verbatim): \"立春\". Exactly these 2 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.\nAvoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.",
+  "generatedAt": "2026-09-06T20:07:42.704241+00:00",
+  "status": "generated"
+}

@@ -2,6 +2,14 @@
 
 面向 jieqi.dev 的首页、40张节气节日卡片集、弹窗预览、风格小样、JS嵌入组件和公开日期接口。
 
+正式站点部署于独立服务器：`jieqi.dev` 首页、`api.jieqi.dev/v1/` 接口和 Widget、`static.jieqi.dev` 静态资源；www 使用 308 跳转至主域名。部署步骤、服务与回滚方式见上级 `deploy/README.md`。原 Sites 项目保留为独立预览。
+
+每张卡片包含四句原创古风短诗、来源标注与两段时节/习俗说明。首页和 Widget 同时显示公历与农历干支年、生肖、月日。日期由对应事件的实际发生日换算；假期显示起止两端的农历日期，干支年与生肖采用正月初一换年的民用农历口径，闰月保留“闰”字。API 的 `lunarStart` / `lunarEnd` 提供结构化字段，`resolve.lunar` 则对应所查询的当天。
+
+默认文案保存在上级 `src/editorial.ts`，明确标注“节期原创 · 古风短诗”，不是古人原作或格律诗引文。`scripts/refresh-editorial.ts` 只更新40张卡片的诗文和出处字段，保留日期规则、图片、假期与设置，发布前应备份线上内容。
+
+日期边界测试涵盖春节换年、除夕二十九、闰六月、跨年假期与2000—2100年抽样对照。独立 ICU 对照中2027/2030年的两处日期差异，已依据香港天文台的 [2027年历表](https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2027e.pdf) 和 [2030年历表](https://www.hko.gov.hk/en/gts/time/calendar/pdf/files/2030e.pdf) 确认。
+
 ## 运行
 
 ```sh
@@ -26,6 +34,22 @@ npm run build
 
 ## 公开接口与JS
 
+风格与 API 版本分开：`v1` 是接口兼容版本，插画风格使用 `data-style`，无需更换 JS 地址。当前 `stamp` 覆盖全部卡片；`watercolor`、`papercut`、`clay` 仅有白露小样，未覆盖事件会明确回退到邮票。`/v1/styles.json` 提供风格名称和覆盖范围；日历、日期判断、manifest 接受 `?style=watercolor`。公开卡片的 `artworkStyle` 返回 requested/resolved/fallback，不修改存储内容或污染其他风格请求。
+
+```html
+<script defer src="https://api.jieqi.dev/v1/widget.js" data-mode="popup" data-style="stamp"></script>
+```
+
+固定卡片可以分别设置不同风格（不要使用 HTML 保留的 `style` 属性）：
+
+```html
+<script defer src="https://api.jieqi.dev/v1/widget.js"></script>
+<jieqi-card event="term-bailu" data-style="watercolor"></jieqi-card>
+<jieqi-card event="spring-festival" data-style="stamp"></jieqi-card>
+```
+
+自动弹窗沿用首个脚本的风格；固定卡片优先用自身 `data-style`，未设置时继承脚本值。更换风格不改变同一节日的提醒频率。首页接入区域支持风格选择、复制及对应预览。后续新增拟人、动画手绘、极简系列时，在源端 `src/styles.ts` 注册稳定风格 ID 与具体图片，再同步部署；不需要新建 API 版本。
+
 - `/v1/manifest.json` — 内容和设置。
 - `/v1/calendar/2026.json` — 年度历法与假期数据。
 - `/v1/resolve?date=2026-09-07` — 日期条件判断；省略日期使用北京时间当天。
@@ -34,17 +58,17 @@ npm run build
 自动弹窗：
 
 ```html
-<script defer src="https://jieqi.dev/v1/widget.js" data-mode="popup"></script>
+<script defer src="https://api.jieqi.dev/v1/widget.js" data-mode="popup"></script>
 ```
 
 固定嵌入：
 
 ```html
-<script defer src="https://jieqi.dev/v1/widget.js"></script>
+<script defer src="https://api.jieqi.dev/v1/widget.js"></script>
 <jieqi-card event="spring-festival"></jieqi-card>
 ```
 
-网站当前域名会自动用于首页生成的接入代码。上面的 jieqi.dev 示例只有在域名解析、HTTPS和公开访问配置完成后，才能用于其他网站。
+正式构建使用 `NEXT_PUBLIC_JIEQI_API_ORIGIN` 生成接入代码，用 `NEXT_PUBLIC_JIEQI_STATIC_ORIGIN` 为图片和构建资源加前缀。不设置变量时，本地和 Sites 预览仍使用同源地址。Widget 从脚本所在的 API 域名读取日期，插画从 static 域名加载。
 
 组件使用 Shadow DOM 隔离样式，原生 `dialog` 处理模态交互，按本地存储的事件键防止重复显示；本地存储不可用时使用内存记录。同日重叠事件保持优先级。关闭后保留右下角入口；跨日与恢复页面可见时重新判断。网页关闭后不会发送系统通知。
 

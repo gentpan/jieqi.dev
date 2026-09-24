@@ -1,0 +1,7 @@
+Use case: stylized-concept.
+Asset type: ONE standalone portrait 2:3 illustration, 1024x1536, for jieqi.dev Chinese seasonal greeting card; one complete image, not a collage.
+Primary request: 教师节 character series.
+Scene and seasonal subjects: an open blank book, a pencil and a small bunch of autumn flowers beside a classroom window; gratitude for teachers.
+Style and composition: Charming personification of this specific season or festival: an original tiny gender-neutral seasonal sprite, expressive warm face, rosy cheeks, short soft hair, full-body silhouette, wearing fully clothed layered hanfu-inspired garments and a fanciful hat shaped like the key seasonal object. Sprite holds or interacts with an appropriate object described in the scene; a few seasonal props surround them on warm ivory. Soft clean outlines and gentle cel shading with intricate tasteful costume details. Match the approved dew-sprite reference's 3-head-tall mascot proportions; invent distinct suitable character design per festival. Main character lower two thirds; large clearly legible dark sage horizontal Chinese title at top.
+Text (verbatim): "教师节". Exactly these 3 correct simplified Chinese characters only, complete readable print-quality strokes, no invented forms. Keep title well inside canvas.
+Avoid: any other text, English, numbers, dates, captions, poems, signatures, logos, watermark, postal marks, stamp borders, perforated edges, UI screenshots, photorealism, 3D, cropped main subject or feet.

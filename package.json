@@ -1,0 +1,30 @@
+{
+  "name": "jieqi-dev",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.14.0"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.ts",
+    "start": "node --env-file=.env src/server.ts",
+    "dev": "node --env-file=.env --watch src/server.ts",
+    "test": "node --test test/*.test.ts",
+    "check": "tsc --noEmit",
+    "export": "node --env-file=.env scripts/export.ts",
+    "admin": "node --env-file=.env scripts/admin.ts",
+    "backup": "node --env-file=.env scripts/backup.ts",
+    "sync-site": "node --env-file=.env scripts/sync-site.ts"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "lunar-javascript": "1.7.7",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.6",
+    "@types/node": "26.4.1",
+    "typescript": "7.0.2"
+  }
+}
