@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-6d8cf449-6837-4874-aa4b-02e4e0c13388.png",
+  "source": ".jieqi-artwork/expansion-20260925/embroidery/qixi.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/embroidery/qixi.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 丝线刺绣 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 七夕, the 丝线刺绣 series.\nScene and seasonal subjects: two small magpies meeting above a ribbon-like milky way and a weaving shuttle with fine thread, tranquil late-summer starry sky..\nStyle and composition: Match the reference's delicate Chinese silk embroidery on woven ivory linen: visible directional satin stitches, fine threads, subtle raised texture, luminous silk highlights and calm negative space. Use a restrained seasonal palette and place the motif below the title.\nText (verbatim): \"七夕\". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, 3D toy look.",
+  "generatedAt": "2026-09-24T18:28:38.456311+00:00",
+  "status": "generated"
+}

@@ -109,15 +109,15 @@ test('split-domain public responses use static URLs while admin and stored image
 });
 test('style selection replaces available illustrations, falls back explicitly and never changes stored cards',async()=>{
   await harness(async(request,store)=>{
-    const styles=await(await request('/v1/styles.json')).json();assert.equal(styles.defaultStyle,'stamp');assert.equal(styles.styles.length,8);
-    for(const style of ['watercolor','papercut','clay','minimal','character','anime','sweet']){
+    const styles=await(await request('/v1/styles.json')).json();assert.equal(styles.defaultStyle,'stamp');assert.equal(styles.styles.length,10);
+    for(const style of ['watercolor','papercut','clay','minimal','character','anime','sweet','woodblock','embroidery']){
       const result=await(await request('/v1/resolve?date=2026-09-07&style='+style)).json();
       assert.equal(result.popup.selected.card.image,`https://static.jieqi.dev/assets/bailu-${style}.webp`);
       assert.deepEqual(result.popup.selected.card.artworkStyle,{requested:style,resolved:style,fallback:false});
     }
-    const fallback=await(await request('/v1/resolve?date=2026-02-17&style=watercolor')).json();
-    assert.deepEqual(fallback.popup.selected.card.artworkStyle,{requested:'watercolor',resolved:'stamp',fallback:true});
-    assert.match(fallback.popup.selected.card.image,/spring-festival/);
+    const spring=await(await request('/v1/resolve?date=2026-02-17&style=watercolor')).json();
+    assert.deepEqual(spring.popup.selected.card.artworkStyle,{requested:'watercolor',resolved:'watercolor',fallback:false});
+    assert.match(spring.popup.selected.card.image,/spring-festival-watercolor-v1\.webp$/);
     const annual=await(await request('/v1/calendar/2027.json?style=clay')).json();
     assert.match(annual.events.find((e:{eventId:string})=>e.eventId==='term-bailu').card.image,/bailu-clay.webp$/);
     const manifest=await(await request('/v1/manifest.json?style=papercut')).json();
@@ -129,11 +129,11 @@ test('style selection replaces available illustrations, falls back explicitly an
     for(const path of ['/v1/resolve?style=unknown','/v1/resolve?style=stamp&style=clay','/v1/calendar/2026?style=../../bad','/v1/manifest.json?style=']) assert.equal((await request(path)).status,400,path);
   },true,'https://static.jieqi.dev');
 });
-test('four complete artwork series cover every annual event with distinct downloadable images and no fallback',async()=>{
+test('nine complete artwork series cover every annual event with distinct downloadable images and no fallback',async()=>{
   await harness(async(request)=>{
     const catalog=await(await request('/v1/styles.json')).json();
     const allImages=new Set<string>();
-    for(const style of ['minimal','character','anime','sweet']){
+    for(const style of ['watercolor','papercut','clay','minimal','character','anime','sweet','woodblock','embroidery']){
       const definition=catalog.styles.find((item:{id:string})=>item.id===style);
       assert.equal(definition.coverage,'complete');
       assert.equal(new Set(definition.eventIds).size,40);
@@ -158,7 +158,7 @@ test('four complete artwork series cover every annual event with distinct downlo
         }
       }
     }
-    assert.equal(allImages.size,160);
+    assert.equal(allImages.size,360);
   });
 });
 test('SQLite retains publications across reconnect and setup is idempotent',()=>{

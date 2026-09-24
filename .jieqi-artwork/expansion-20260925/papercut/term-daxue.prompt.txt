@@ -1,0 +1,8 @@
+Use case: stylized-concept.
+Asset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.
+Image 1 is a STYLE REFERENCE ONLY for the 层叠剪纸 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.
+Primary request: 大雪, the 层叠剪纸 series.
+Scene and seasonal subjects: thick softly piled snow on a small tiled-roof cottage, a snow-laden pine and falling large flakes; deep winter..
+Style and composition: Match the reference's warm ivory perforated postage-stamp silhouette and fine terracotta inner border. Build the seasonal scene from physically layered colored paper with crisp hand-cut edges, visible paper fibers, subtle depth and cast shadows. Place the main scene below the title.
+Text (verbatim): "大雪". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.
+Avoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, watercolor washes, clay modeling, woodcut hatching, embroidery.

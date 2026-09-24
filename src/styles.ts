@@ -1,27 +1,21 @@
 import { z } from 'zod';
 import { seriesArtwork, seriesEventIds } from './artwork.ts';
 
-export const styleSchema = z.enum(['stamp', 'watercolor', 'papercut', 'clay', 'minimal', 'character', 'anime', 'sweet']);
+export const styleSchema = z.enum(['stamp', 'watercolor', 'papercut', 'clay', 'minimal', 'character', 'anime', 'sweet', 'woodblock', 'embroidery']);
 export type StyleId = z.infer<typeof styleSchema>;
 export const styleCatalog = [
   { id: 'stamp', name: '邮票', coverage: 'complete', eventIds: null },
-  { id: 'watercolor', name: '水彩', coverage: 'sample', eventIds: ['term-bailu'] },
-  { id: 'papercut', name: '剪纸', coverage: 'sample', eventIds: ['term-bailu'] },
-  { id: 'clay', name: '黏土', coverage: 'sample', eventIds: ['term-bailu'] },
+  { id: 'watercolor', name: '水彩手绘', coverage: 'complete', eventIds: seriesEventIds },
+  { id: 'papercut', name: '层叠剪纸', coverage: 'complete', eventIds: seriesEventIds },
+  { id: 'clay', name: '软萌粘土', coverage: 'complete', eventIds: seriesEventIds },
   { id: 'minimal', name: '极简', coverage: 'complete', eventIds: seriesEventIds },
   { id: 'character', name: '拟人', coverage: 'complete', eventIds: seriesEventIds },
   { id: 'anime', name: '手绘动画', coverage: 'complete', eventIds: seriesEventIds },
   { id: 'sweet', name: '甜系少女', coverage: 'complete', eventIds: seriesEventIds },
+  { id: 'woodblock', name: '木刻版画', coverage: 'complete', eventIds: seriesEventIds },
+  { id: 'embroidery', name: '丝线刺绣', coverage: 'complete', eventIds: seriesEventIds },
 ] as const;
-const artwork: Record<string, Partial<Record<StyleId, string>>> = {
-  ...seriesArtwork,
-  'term-bailu': {
-    ...seriesArtwork['term-bailu'],
-    watercolor: '/assets/bailu-watercolor.webp',
-    papercut: '/assets/bailu-papercut.webp',
-    clay: '/assets/bailu-clay.webp',
-  },
-};
+const artwork: Record<string, Partial<Record<StyleId, string>>> = seriesArtwork;
 
 export function selectArtwork(eventId: string, original: string | null, requested: StyleId) {
   const replacement = artwork[eventId]?.[requested];

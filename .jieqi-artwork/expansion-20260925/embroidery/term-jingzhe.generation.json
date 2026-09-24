@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-cc122221-1e9e-41da-b863-71fd0c80665b.png",
+  "source": ".jieqi-artwork/expansion-20260925/embroidery/term-jingzhe.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/embroidery/term-jingzhe.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 丝线刺绣 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 惊蛰, the 丝线刺绣 series.\nScene and seasonal subjects: a little frog waking beside fresh grass and unfurling fern, one gentle lightning-shaped cloud mark suggesting spring thunder..\nStyle and composition: Match the reference's delicate Chinese silk embroidery on woven ivory linen: visible directional satin stitches, fine threads, subtle raised texture, luminous silk highlights and calm negative space. Use a restrained seasonal palette and place the motif below the title.\nText (verbatim): \"惊蛰\". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, 3D toy look.",
+  "generatedAt": "2026-09-24T18:52:21.621569+00:00",
+  "status": "generated"
+}

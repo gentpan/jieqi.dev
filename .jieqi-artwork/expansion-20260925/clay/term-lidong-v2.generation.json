@@ -1,0 +1,11 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-335432f3-cec7-494b-9282-76c80b087eab.png",
+  "source": ".jieqi-artwork/expansion-20260925/clay/term-lidong-v2.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/clay/term-lidong-v2.prompt.txt",
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET. The vertical title currently has the WRONG first character “白”. Replace that first character ONLY with the correct simplified Chinese character “立” so the title reads exactly “立冬”. The character 立 must have a small top dot, upper horizontal, two middle strokes, and long bottom horizontal; it must have NO enclosing box and NO shape resembling 白, 日, or 目. Sculpt this single corrected character in the same reddish soft clay style, size and placement as the existing title. Keep the second character 冬 exactly as it is, and preserve every other pixel of the winter clay scene, warm stove, snow, tree, stamp border, colors and composition. No other text or additions.",
+  "generatedAt": "2026-09-24T18:46:01.520700+00:00",
+  "status": "generated",
+  "replaces": ".jieqi-artwork/expansion-20260925/clay/term-lidong.png",
+  "reason": "Correct and clarify 立 in 立冬"
+}

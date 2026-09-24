@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-da99d6f3-2997-42ec-b933-c0e923d5f4b3.png",
+  "source": ".jieqi-artwork/expansion-20260925/embroidery/term-xiazhi.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/embroidery/term-xiazhi.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 丝线刺绣 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 夏至, the 丝线刺绣 series.\nScene and seasonal subjects: a high bright sun, long-reaching green tree canopy and a blooming lotus near a shaded pond, longest daylight of summer..\nStyle and composition: Match the reference's delicate Chinese silk embroidery on woven ivory linen: visible directional satin stitches, fine threads, subtle raised texture, luminous silk highlights and calm negative space. Use a restrained seasonal palette and place the motif below the title.\nText (verbatim): \"夏至\". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, 3D toy look.",
+  "generatedAt": "2026-09-24T19:04:02.754150+00:00",
+  "status": "generated"
+}

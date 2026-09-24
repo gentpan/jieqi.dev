@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-f1310c4d-d9a8-42ed-9388-cb1cdb32cb48.png",
+  "source": ".jieqi-artwork/expansion-20260925/watercolor/term-dongzhi.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/watercolor/term-dongzhi.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 水彩手绘 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 冬至, the 水彩手绘 series.\nScene and seasonal subjects: a warm bowl of dumplings beside a low winter sun and long soft shadows; shortest day, family warmth..\nStyle and composition: Match the reference's warm ivory perforated postage-stamp silhouette, fine terracotta inner border, transparent hand-painted watercolor washes, botanical delicacy and airy negative space. Use season-appropriate soft pigments and place the main scene below the title.\nText (verbatim): \"冬至\". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, opaque cut-paper layers, clay modeling, woodcut hatching, embroidery.",
+  "generatedAt": "2026-09-24T18:12:15.783332+00:00",
+  "status": "generated"
+}

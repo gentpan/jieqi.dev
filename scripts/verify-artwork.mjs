@@ -3,8 +3,10 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 
 const root = new URL('../', import.meta.url);
-const progress = JSON.parse(readFileSync(new URL('docs/artwork-series-progress.json', root)));
-const styles = ['minimal', 'character', 'anime', 'sweet'];
+const previous = JSON.parse(readFileSync(new URL('docs/artwork-series-progress.json', root)));
+const expansion = JSON.parse(readFileSync(new URL('docs/artwork-expansion-progress.json', root)));
+const assets = [...previous.assets, ...expansion.assets];
+const styles = ['watercolor', 'papercut', 'clay', 'minimal', 'character', 'anime', 'sweet', 'woodblock', 'embroidery'];
 const api = 'https://api.jieqi.dev';
 const report = { checkedAt: new Date().toISOString(), site: 'https://jieqi.dev', api, series: [], images: [], widget: {}, checks: {} };
 async function get(url) {
@@ -14,7 +16,7 @@ async function get(url) {
 }
 const catalog = await (await get(`${api}/v1/styles.json`)).json();
 assert.equal(catalog.defaultStyle, 'stamp');
-assert.equal(catalog.styles.length, 8);
+assert.equal(catalog.styles.length, 10);
 for (const style of styles) {
   const definition = catalog.styles.find(item => item.id === style);
   assert.equal(definition.coverage, 'complete');
@@ -25,7 +27,7 @@ for (const style of styles) {
     const calendar = await (await get(`${api}/v1/calendar/${year}.json?style=${style}`)).json();
     assert.deepEqual([...new Set(calendar.events.map(event => event.eventId))].sort(), [...definition.eventIds].sort());
     for (const event of calendar.events) {
-      const asset = progress.assets.find(item => item.style === style && item.eventId === event.eventId);
+      const asset = assets.find(item => item.style === style && item.eventId === event.eventId);
       assert.deepEqual(event.card.artworkStyle, { requested: style, resolved: style, fallback: false });
       assert.equal(event.card.image, `https://static.jieqi.dev${asset.publishedAsset}`);
       assert.equal(event.card.image, manifest.events.find(item => item.id === event.eventId).image);
@@ -35,11 +37,11 @@ for (const style of styles) {
   report.series.push({ style, coverage: definition.coverage, years });
   console.log(`${style}: 2026/2027 each cover 40 unique events, no fallback`);
 }
-assert.equal(progress.assets.length, 160);
-assert.equal(new Set(progress.assets.map(asset => asset.sourceSha256)).size, 160);
-assert.equal(new Set(progress.assets.map(asset => asset.sha256)).size, 160);
-for (let offset = 0; offset < progress.assets.length; offset += 8) {
-  const results = await Promise.all(progress.assets.slice(offset, offset + 8).map(async asset => {
+assert.equal(assets.length, 360);
+assert.equal(new Set(assets.map(asset => asset.sourceSha256)).size, 360);
+assert.equal(new Set(assets.map(asset => asset.sha256)).size, 360);
+for (let offset = 0; offset < assets.length; offset += 8) {
+  const results = await Promise.all(assets.slice(offset, offset + 8).map(async asset => {
     assert.equal(asset.status, 'approved');
     const url = `https://static.jieqi.dev${asset.publishedAsset}`;
     const response = await get(url);
@@ -51,13 +53,7 @@ for (let offset = 0; offset < progress.assets.length; offset += 8) {
     return { style: asset.style, eventId: asset.eventId, url, status: 200, bytes: bytes.length, sha256: hash };
   }));
   report.images.push(...results);
-  if (report.images.length % 40 === 0) console.log(`Verified ${report.images.length}/160 image downloads and SHA-256 hashes`);
-}
-for (const style of ['watercolor', 'papercut', 'clay']) {
-  assert.equal(catalog.styles.find(item => item.id === style).coverage, 'sample');
-  const result = await (await get(`${api}/v1/resolve?date=2026-02-17&style=${style}`)).json();
-  assert.deepEqual(result.popup.selected.card.artworkStyle, { requested: style, resolved: 'stamp', fallback: true });
-  await get(`https://static.jieqi.dev/assets/bailu-${style}.webp`);
+  if (report.images.length % 40 === 0) console.log(`Verified ${report.images.length}/360 image downloads and SHA-256 hashes`);
 }
 const defaultResponse = await (await get(`${api}/v1/resolve?date=2026-09-07`)).json();
 assert.equal(defaultResponse.popup.selected.card.artworkStyle.resolved, 'stamp');
@@ -73,8 +69,8 @@ const localWidget = readFileSync(new URL('site/public/v1/widget.js', root), 'utf
 assert.equal(widget, localWidget);
 report.widget = { url: `${api}/v1/widget.js`, unchanged: true, styleParameter: true, imageHeightAuto: true, dialogHeightFitContent: true, dialogMaxWidth: 880 };
 const html = await (await get('https://jieqi.dev')).text();
-assert.ok(html.includes('五种全年系列，三种白露小样'));
+assert.ok(html.includes('十种全年系列'));
 assert.ok(html.includes('选择卡片集风格'));
-report.checks = { httpImages: 160, uniqueOriginals: 160, uniquePublishedImages: 160, matchingHashes: 160, preservedSamples: 3, defaultStamp: true, homepageNewSeries: true };
+report.checks = { httpImages: 360, uniqueOriginals: 360, uniquePublishedImages: 360, matchingHashes: 360, defaultStamp: true, homepageNewSeries: true };
 writeFileSync(new URL('docs/artwork-series-verification.json', root), JSON.stringify(report, null, 2) + '\n');
 console.log('PASS: production artwork, API coverage, preserved samples, Widget, and homepage');

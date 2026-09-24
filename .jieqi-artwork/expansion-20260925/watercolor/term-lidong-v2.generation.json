@@ -1,0 +1,11 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-2dc830fd-8ddb-4886-b9b4-0460fcbb00b5.png",
+  "source": ".jieqi-artwork/expansion-20260925/watercolor/term-lidong-v2.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/watercolor/term-lidong-v2.prompt.txt",
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET. Change only the FIRST Chinese title character at the top of this watercolor postage-stamp card. It must read the standard simplified character “立” with textbook-correct strokes: short top dot, horizontal stroke below it, two center strokes, and a full bottom horizontal stroke. The complete vertical title must read exactly “立冬”. Make the first character visibly distinct from “白” even when the card is viewed as a thumbnail. Preserve the second character “冬”, all watercolor artwork, the clay pot, winter branches, snow, stamp border, palette, spacing, texture, composition and dimensions. Do not add any other text or objects.",
+  "generatedAt": "2026-09-24T18:46:01.518086+00:00",
+  "status": "generated",
+  "replaces": ".jieqi-artwork/expansion-20260925/watercolor/term-lidong.png",
+  "reason": "Correct and clarify 立 in 立冬"
+}

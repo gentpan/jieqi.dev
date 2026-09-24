@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-f661c5bf-7b3d-49d7-8587-13ca814508c5.png",
+  "source": ".jieqi-artwork/expansion-20260925/papercut/national-day.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/papercut/national-day.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 层叠剪纸 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 国庆节, the 层叠剪纸 series.\nScene and seasonal subjects: grand layered Chinese mountains and a winding river with small red celebratory ribbons, golden October foliage; celebrate the homeland..\nStyle and composition: Match the reference's warm ivory perforated postage-stamp silhouette and fine terracotta inner border. Build the seasonal scene from physically layered colored paper with crisp hand-cut edges, visible paper fibers, subtle depth and cast shadows. Place the main scene below the title.\nText (verbatim): \"国庆节\". Exactly these 3 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, watercolor washes, clay modeling, woodcut hatching, embroidery.",
+  "generatedAt": "2026-09-24T18:10:10.533922+00:00",
+  "status": "generated"
+}

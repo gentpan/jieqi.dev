@@ -6,7 +6,7 @@
 
 已实现：24节气、16个主要节日、2026官方放假与补班安排；文案和图片管理；弹窗触发规则；草稿预览、发布、历史版本回退；公开跨域接口；静态导出；数据库与图片备份。
 
-`site/` 包含独立首页、邮票卡片集、极简／拟人／手绘动画／甜系少女四套完整插画（每套 40 张）、其他风格小样、浏览器弹窗与 `widget.js` 嵌入组件。详见 [站点说明](site/README.md)。可视化管理后台和 WordPress 主题内的专用设置页面尚未制作；WordPress 可使用首页提供的通用 JS 接入。
+`site/` 包含独立首页、邮票卡片集、另外九套完整插画（每套 40 张）、浏览器弹窗与 `widget.js` 嵌入组件。详见 [站点说明](site/README.md)。可视化管理后台和 WordPress 主题内的专用设置页面尚未制作；WordPress 可使用首页提供的通用 JS 接入。
 
 ## 本地运行
 
@@ -154,7 +154,7 @@ npm test
 - 春节：`public/assets/spring-festival-v1.png`，竖排“春节”、卡通醒狮、灯笼与梅花。
 - 五一：`public/assets/labour-day-v1.png`，竖排“五一”、卡通园丁、花草。
 - 两张均通过 Codex 内置 `image_gen` 生成，未使用 API/CLI 回退。它们是右侧独立邮票插画，不是整张卡片截图；底色为暖米白，非透明背景。
-- 完整生成提示词保存在 `docs/image-prompts.json`。邮票系列和其他风格白露小样的生成提示词、逐字校验与返工记录保存在 `docs/artwork-qa.json`。
+- 邮票系列提示词和校验记录保存在 `docs/artwork-qa.json`；另外九套系列的原图、提示词和校验记录保存在 `.jieqi-artwork/` 与 `docs/artwork-series-progress.json`、`docs/artwork-expansion-progress.json`。
 - 2026假期来源：[国务院办公厅通知，北京市政府转载](https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html)，2026-09-06核对。年度数据需要在官方通知发布或调整后人工更新并发布。
 - 日期算法：[lunar-javascript](https://github.com/6tail/lunar-javascript)，MIT；版本锁定于 `package-lock.json`。
 - 数据库实现：[Node SQLite 文档](https://nodejs.org/api/sqlite.html)。

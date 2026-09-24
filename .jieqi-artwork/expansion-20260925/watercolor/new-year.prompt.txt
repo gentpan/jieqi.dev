@@ -1,0 +1,8 @@
+Use case: stylized-concept.
+Asset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.
+Image 1 is a STYLE REFERENCE ONLY for the 水彩手绘 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.
+Primary request: 元旦, the 水彩手绘 series.
+Scene and seasonal subjects: first sunrise of the new calendar year over quiet snow-touched hills, a fresh evergreen branch and a small golden bell..
+Style and composition: Match the reference's warm ivory perforated postage-stamp silhouette, fine terracotta inner border, transparent hand-painted watercolor washes, botanical delicacy and airy negative space. Use season-appropriate soft pigments and place the main scene below the title.
+Text (verbatim): "元旦". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.
+Avoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, opaque cut-paper layers, clay modeling, woodcut hatching, embroidery.

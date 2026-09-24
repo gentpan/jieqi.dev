@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-4c6fd800-69bf-4920-a0ee-1bbe40926237.png",
+  "source": ".jieqi-artwork/expansion-20260925/papercut/teachers-day.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/papercut/teachers-day.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 层叠剪纸 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 教师节, the 层叠剪纸 series.\nScene and seasonal subjects: an open blank book, a pencil and a small bunch of autumn flowers beside a classroom window; gratitude for teachers..\nStyle and composition: Match the reference's warm ivory perforated postage-stamp silhouette and fine terracotta inner border. Build the seasonal scene from physically layered colored paper with crisp hand-cut edges, visible paper fibers, subtle depth and cast shadows. Place the main scene below the title.\nText (verbatim): \"教师节\". Exactly these 3 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, watercolor washes, clay modeling, woodcut hatching, embroidery.",
+  "generatedAt": "2026-09-24T18:20:36.391111+00:00",
+  "status": "generated"
+}

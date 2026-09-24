@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-8c8fce30-9dd3-4ddb-a59d-5cf9023863ed.png",
+  "source": ".jieqi-artwork/expansion-20260925/embroidery/term-daxue.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/embroidery/term-daxue.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 丝线刺绣 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 大雪, the 丝线刺绣 series.\nScene and seasonal subjects: thick softly piled snow on a small tiled-roof cottage, a snow-laden pine and falling large flakes; deep winter..\nStyle and composition: Match the reference's delicate Chinese silk embroidery on woven ivory linen: visible directional satin stitches, fine threads, subtle raised texture, luminous silk highlights and calm negative space. Use a restrained seasonal palette and place the motif below the title.\nText (verbatim): \"大雪\". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, 3D toy look.",
+  "generatedAt": "2026-09-24T18:48:20.775322+00:00",
+  "status": "generated"
+}

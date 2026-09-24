@@ -44,6 +44,8 @@ const styleNames: Record<string, string> = {
   'bailu-character': '时节拟人',
   'bailu-anime': '手绘动画',
   'bailu-sweet': '甜系少女',
+  'bailu-woodblock': '木刻版画',
+  'bailu-embroidery': '丝线刺绣',
 };
 const styleNotes: Record<string, string> = {
   'bailu-watercolor': '清透笔触，留住露水与晨光。',
@@ -53,6 +55,8 @@ const styleNotes: Record<string, string> = {
   'bailu-character': '让每个时节，化作一个可爱的小精灵。',
   'bailu-anime': '走进晨雾与田野，遇见手绘的温柔日常。',
   'bailu-sweet': '轻柔裙摆与四季风物，把日常写成甜甜的童话。',
+  'bailu-woodblock': '刀痕与套色，让四季有了鲜明的力量。',
+  'bailu-embroidery': '一针一线，把时节绣进柔软的日常。',
 };
 const styleItems = Object.fromEntries(styleCatalog.map(style => [style.id, `${style.name} · ${style.coverage === 'complete' ? '全年 40 张' : '白露小样'}`]));
 
@@ -382,7 +386,7 @@ export default function HomeClient({
               <p className="eyebrow">STYLE NOTES · 02</p>
               <h2>同一个时节，不同的心意。</h2>
             </div>
-            <p>五种全年系列，三种白露小样。选一种心意，陪伴四季。</p>
+            <p>十种全年系列。选一种心意，陪伴四季。</p>
           </div>
           <div className="style-grid">
             {variants.map((v) => (

@@ -1,0 +1,8 @@
+Use case: stylized-concept.
+Asset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.
+Image 1 is a STYLE REFERENCE ONLY for the 木刻版画 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.
+Primary request: 七夕, the 木刻版画 series.
+Scene and seasonal subjects: two small magpies meeting above a ribbon-like milky way and a weaving shuttle with fine thread, tranquil late-summer starry sky..
+Style and composition: Match the reference's Chinese hand-carved multi-block print character: confident chiseled ink contours, subtle registration offsets, textured handmade rice paper, rich indigo, vermilion and warm cream, with seasonal accent color. Strong silhouette, contemporary balanced composition.
+Text (verbatim): "七夕". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.
+Avoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, embroidery.

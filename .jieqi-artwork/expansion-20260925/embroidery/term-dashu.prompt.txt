@@ -1,0 +1,8 @@
+Use case: stylized-concept.
+Asset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.
+Image 1 is a STYLE REFERENCE ONLY for the 丝线刺绣 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.
+Primary request: 大暑, the 丝线刺绣 series.
+Scene and seasonal subjects: a bright summer lotus, giant green lotus leaf and slice of watermelon; high summer heat and cooling shade..
+Style and composition: Match the reference's delicate Chinese silk embroidery on woven ivory linen: visible directional satin stitches, fine threads, subtle raised texture, luminous silk highlights and calm negative space. Use a restrained seasonal palette and place the motif below the title.
+Text (verbatim): "大暑". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.
+Avoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, 3D toy look.

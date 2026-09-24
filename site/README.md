@@ -1,6 +1,6 @@
 # 节期 · Jieqi 首页
 
-面向 jieqi.dev 的首页、40张节气节日卡片集、五套完整插画与风格小样、弹窗预览、JS嵌入组件和公开日期接口。
+面向 jieqi.dev 的首页、40张节气节日卡片集、十种全年插画风格、弹窗预览、JS嵌入组件和公开日期接口。
 
 正式站点：[jieqi.dev](https://jieqi.dev)。部署步骤见上级 [部署说明](../deploy/README.md)。原 Sites 项目保留为独立预览。
 
@@ -30,11 +30,11 @@ npm run build
 - 16节日：元旦、除夕、春节、元宵、妇女节、清明、五一、青年节、儿童节、端午、七夕、教师节、中秋、国庆、重阳、腊八。
 - 节日日期与放假区间分开。当前录入2026年官方安排；未录入年份显示待公布。
 - 清明节与清明节气共用一张邮票插画，作为两个不同日期条目展示。
-- 邮票、极简、拟人、手绘动画、甜系少女覆盖全部 40 张卡片；水彩、剪纸、黏土仅有白露小样。
+- 邮票、水彩手绘、层叠剪纸、软萌粘土、极简、拟人、手绘动画、甜系少女、木刻版画、丝线刺绣均覆盖全部 40 张卡片。
 
 ## 公开接口与JS
 
-风格与 API 版本分开：`v1` 是接口兼容版本，插画风格使用 `data-style`，无需更换 JS 地址。`stamp`、`minimal`、`character`、`anime`、`sweet` 覆盖全部卡片；`watercolor`、`papercut`、`clay` 仅有白露小样，未覆盖事件会明确回退到邮票。`/v1/styles.json` 提供风格名称和覆盖范围；日历、日期判断、manifest 接受 `?style=watercolor`。公开卡片的 `artworkStyle` 返回 requested/resolved/fallback，不修改存储内容或污染其他风格请求。
+风格与 API 版本分开：`v1` 是接口兼容版本，插画风格使用 `data-style`，无需更换 JS 地址。十种风格均覆盖全部卡片。`/v1/styles.json` 提供风格名称和覆盖范围；日历、日期判断、manifest 接受 `?style=watercolor`。公开卡片的 `artworkStyle` 返回 requested/resolved/fallback，不修改存储内容或污染其他风格请求。
 
 ```html
 <script defer src="https://api.jieqi.dev/v1/widget.js" data-mode="popup" data-style="stamp"></script>
@@ -85,7 +85,7 @@ window.Jieqi.destroy();
 
 ## 校验
 
-`npx tsc --noEmit` 和 `npm run lint` 检查项目代码；模板自带的 `components/ui/`、`hooks/` 保持原样，不纳入项目规则的静态样式语义误报扫描。图片已在源端逐张检查字形，根项目 `docs/artwork-qa.json` 记录提示词、原图路径、逐字检查结果与返工记录。生成原图保留，网页图片只作格式压缩，不重绘汉字。
+`npx tsc --noEmit` 和 `npm run lint` 检查项目代码。插画原图、提示词与校验记录保存在根项目 `.jieqi-artwork/` 和 `docs/`；网页图片只作格式压缩，不重绘汉字。
 
 后端的日期测试覆盖跨年、春节/除夕、农历大小月、冬至、闰年、节假日重叠、提醒频率与假期待公布状态。站点API还校验响应、CORS、错误日期、未来年份及JS可访问性。
 

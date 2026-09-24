@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-4ec4f982-72ce-4045-9d1c-852f5654a99c.png",
+  "source": ".jieqi-artwork/expansion-20260925/clay/lantern-festival.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/clay/lantern-festival.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 软萌粘土 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 元宵节, the 软萌粘土 series.\nScene and seasonal subjects: glowing round red lanterns without lettering and a porcelain bowl of white tangyuan rice balls, warm late-winter festive evening..\nStyle and composition: Match the reference's warm ivory perforated postage-stamp silhouette and thin terracotta inner border. Sculpt a charming seasonal miniature from soft matte clay with rounded forms, gentle handmade fingerprints, tiny realistic shadows and quiet cream background. Cute but not childish. Place the scene below the title.\nText (verbatim): \"元宵节\". Exactly these 3 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, watercolor washes, cut-paper layers, woodcut hatching, embroidery.",
+  "generatedAt": "2026-09-24T18:09:46.849236+00:00",
+  "status": "generated"
+}

@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-70c5c9ec-5b46-4dfa-b90b-f1c1fd7fdeaf.png",
+  "source": ".jieqi-artwork/expansion-20260925/watercolor/term-lichun.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/watercolor/term-lichun.prompt.txt",
+  "prompt": "Use case: stylized-concept. Asset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card for the Jieqi watercolor series. Image 1 is a STYLE REFERENCE ONLY: retain its warm ivory perforated postage-stamp silhouette, fine terracotta inner border, airy transparent hand-painted watercolor washes, elegant vertical rust-red simplified Chinese title, botanical delicacy and calm negative space. Create a NEW card for 立春 (Beginning of Spring): fresh willow buds and a small swallow above gently thawing earth with first tender grass, early spring light. Place all seasonal artwork in the lower half, balanced like the reference but not copying its egret scene. Text (verbatim): \"立春\". Exactly these two correct simplified Chinese characters, vertical near upper center, large and fully legible. No other writing, numbers, logos, dates, watermark, collage, photo or 3D. Keep all edges and title inside the canvas.",
+  "generatedAt": "2026-09-24T17:44:19.276Z",
+  "status": "generated"
+}

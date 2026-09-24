@@ -5,21 +5,25 @@ import { createRequire } from 'node:module';
 
 type Asset = { style: string; eventId: string; title: string; status: string; source: string; publishedAsset: string | null; sha256?: string; bytes?: number; sourceSha256?: string };
 type Variant = { id: string; title: string; image: string };
-const series = ['minimal', 'character', 'anime', 'sweet'];
+const series = ['watercolor', 'papercut', 'clay', 'minimal', 'character', 'anime', 'sweet', 'woodblock', 'embroidery'];
 
 /** Publish only individually reviewed originals; keep the runtime map independent of provenance. */
 export async function syncArtwork(root: string, eventIds: string[], variants: Variant[]) {
   const site = join(root, 'site');
-  const progressPath = join(root, 'docs/artwork-series-progress.json');
-  const progress = JSON.parse(readFileSync(progressPath, 'utf8')) as { assets: Asset[]; [key: string]: unknown };
+  const progressPaths = [
+    join(root, 'docs/artwork-series-progress.json'),
+    join(root, 'docs/artwork-expansion-progress.json'),
+  ];
+  const manifests = progressPaths.map(path => ({ path, data: JSON.parse(readFileSync(path, 'utf8')) as { assets: Asset[]; [key: string]: unknown } }));
+  const assets = manifests.flatMap(manifest => manifest.data.assets);
   const sharp = createRequire(join(site, 'package.json'))('sharp');
   const expected = [...new Set(eventIds)].sort();
   if (expected.length !== 40) throw new Error('Expected 40 distinct calendar events');
   const hashes = new Set<string>();
   for (const style of series) {
-    const assets = progress.assets.filter(a => a.style === style);
-    if (assets.length !== 40 || JSON.stringify(assets.map(a => a.eventId).sort()) !== JSON.stringify(expected)) throw new Error(`${style}: incomplete event coverage`);
-    for (const asset of assets) {
+    const styleAssets = assets.filter(a => a.style === style);
+    if (styleAssets.length !== 40 || JSON.stringify(styleAssets.map(a => a.eventId).sort()) !== JSON.stringify(expected)) throw new Error(`${style}: incomplete event coverage`);
+    for (const asset of styleAssets) {
       const original = resolve(root, asset.source);
       if (asset.status !== 'approved' || !existsSync(original)) throw new Error(`${style}/${asset.eventId}: missing approved original`);
       const hash = createHash('sha256').update(readFileSync(original)).digest('hex');
@@ -32,7 +36,7 @@ export async function syncArtwork(root: string, eventIds: string[], variants: Va
   const artwork: Record<string, Record<string, string>> = {};
   mkdirSync(join(site, 'public/assets'), { recursive: true });
   mkdirSync(join(root, 'public/assets'), { recursive: true });
-  for (const asset of progress.assets) {
+  for (const asset of assets) {
     const image = asset.eventId === 'term-bailu' ? `/assets/bailu-${asset.style}.webp` : `/assets/${asset.eventId}-${asset.style}-v1.webp`;
     const output = join(site, 'public', image);
     const original = resolve(root, asset.source);
@@ -50,10 +54,10 @@ export async function syncArtwork(root: string, eventIds: string[], variants: Va
   for (const variant of byId.values()) {
     if (!existsSync(join(site, 'public', variant.image))) throw new Error(`Missing style preview ${variant.id}`);
   }
-  const source = '// Generated from docs/artwork-series-progress.json by sync-site. Do not edit.\n' +
+  const source = '// Generated from artwork progress manifests by sync-site or sync-styles. Do not edit.\n' +
     `export const seriesEventIds = ${JSON.stringify(expected, null, 2)} as const;\n` +
     `export const seriesArtwork: Record<string, Record<string, string>> = ${JSON.stringify(artwork, null, 2)};\n`;
   writeFileSync(join(root, 'src/artwork.ts'), source);
-  writeFileSync(progressPath, JSON.stringify(progress, null, 2) + '\n');
+  for (const manifest of manifests) writeFileSync(manifest.path, JSON.stringify(manifest.data, null, 2) + '\n');
   return [...byId.values()];
 }

@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-f1f7eae5-ce5b-4bde-9d7d-87344b2ff055.png",
+  "source": ".jieqi-artwork/expansion-20260925/clay/term-lixia.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/clay/term-lixia.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 软萌粘土 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 立夏, the 软萌粘土 series.\nScene and seasonal subjects: a newly opened lotus leaf, a little green frog and two cherries; bright first warmth of summer..\nStyle and composition: Match the reference's warm ivory perforated postage-stamp silhouette and thin terracotta inner border. Sculpt a charming seasonal miniature from soft matte clay with rounded forms, gentle handmade fingerprints, tiny realistic shadows and quiet cream background. Cute but not childish. Place the scene below the title.\nText (verbatim): \"立夏\". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, watercolor washes, cut-paper layers, woodcut hatching, embroidery.",
+  "generatedAt": "2026-09-24T18:43:49.499441+00:00",
+  "status": "generated"
+}

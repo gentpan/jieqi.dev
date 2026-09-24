@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-5441a3c3-c363-41e4-9972-2915e1b388c4.png",
+  "source": ".jieqi-artwork/expansion-20260925/embroidery/term-qingming.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/embroidery/term-qingming.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 丝线刺绣 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 清明, the 丝线刺绣 series.\nScene and seasonal subjects: fresh bright willow foliage, a swallow over clear spring water and a small distant kite; lively clear spring landscape, focus on solar term..\nStyle and composition: Match the reference's delicate Chinese silk embroidery on woven ivory linen: visible directional satin stitches, fine threads, subtle raised texture, luminous silk highlights and calm negative space. Use a restrained seasonal palette and place the motif below the title.\nText (verbatim): \"清明\". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, 3D toy look.",
+  "generatedAt": "2026-09-24T18:55:01.672878+00:00",
+  "status": "generated"
+}

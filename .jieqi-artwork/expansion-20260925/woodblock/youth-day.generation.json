@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-37fd2d0a-17e8-4499-8842-4de1409c3516.png",
+  "source": ".jieqi-artwork/expansion-20260925/woodblock/youth-day.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/woodblock/youth-day.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 木刻版画 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 青年节, the 木刻版画 series.\nScene and seasonal subjects: a soaring paper airplane above vibrant green shoots and sunlit May hills, hopeful youth and new possibilities..\nStyle and composition: Match the reference's Chinese hand-carved multi-block print character: confident chiseled ink contours, subtle registration offsets, textured handmade rice paper, rich indigo, vermilion and warm cream, with seasonal accent color. Strong silhouette, contemporary balanced composition.\nText (verbatim): \"青年节\". Exactly these 3 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, embroidery.",
+  "generatedAt": "2026-09-24T18:58:10.564577+00:00",
+  "status": "generated"
+}

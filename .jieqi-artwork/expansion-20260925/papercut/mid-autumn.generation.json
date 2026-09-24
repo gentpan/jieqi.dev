@@ -1,0 +1,9 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-74675b88-e56f-4863-bdaa-56ec1a8a5930.png",
+  "source": ".jieqi-artwork/expansion-20260925/papercut/mid-autumn.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/papercut/mid-autumn.prompt.txt",
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 层叠剪纸 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 中秋节, the 层叠剪纸 series.\nScene and seasonal subjects: a round full moon, a round mooncake without lettering, an osmanthus branch and a little white rabbit; autumn reunion..\nStyle and composition: Match the reference's warm ivory perforated postage-stamp silhouette and fine terracotta inner border. Build the seasonal scene from physically layered colored paper with crisp hand-cut edges, visible paper fibers, subtle depth and cast shadows. Place the main scene below the title.\nText (verbatim): \"中秋节\". Exactly these 3 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, watercolor washes, clay modeling, woodcut hatching, embroidery.",
+  "generatedAt": "2026-09-24T18:10:10.464256+00:00",
+  "status": "generated"
+}

@@ -33,5 +33,15 @@
     "id": "bailu-sweet",
     "title": "白露",
     "image": "/assets/bailu-sweet.webp"
+  },
+  {
+    "id": "bailu-woodblock",
+    "title": "白露",
+    "image": "/assets/bailu-woodblock.webp"
+  },
+  {
+    "id": "bailu-embroidery",
+    "title": "白露",
+    "image": "/assets/bailu-embroidery.webp"
   }
 ]
