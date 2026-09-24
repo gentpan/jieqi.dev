@@ -23,18 +23,18 @@
   "qa": {
     "method": "Full card and enlarged title contact sheets visually inspected on 2026-09-25",
     "contactSheets": [
-      ".migration/watercolor-contact.jpg",
-      ".migration/papercut-contact.jpg",
-      ".migration/clay-contact.jpg",
-      ".migration/woodblock-contact.jpg",
-      ".migration/embroidery-contact.jpg"
+      ".jieqi-artwork/expansion-20260925/qa/watercolor-contact.jpg",
+      ".jieqi-artwork/expansion-20260925/qa/papercut-contact.jpg",
+      ".jieqi-artwork/expansion-20260925/qa/clay-contact.jpg",
+      ".jieqi-artwork/expansion-20260925/qa/woodblock-contact.jpg",
+      ".jieqi-artwork/expansion-20260925/qa/embroidery-contact.jpg"
     ],
     "titleSheets": [
-      ".migration/watercolor-titles.jpg",
-      ".migration/papercut-titles.jpg",
-      ".migration/clay-titles.jpg",
-      ".migration/woodblock-titles.jpg",
-      ".migration/embroidery-titles.jpg"
+      ".jieqi-artwork/expansion-20260925/qa/watercolor-titles.jpg",
+      ".jieqi-artwork/expansion-20260925/qa/papercut-titles.jpg",
+      ".jieqi-artwork/expansion-20260925/qa/clay-titles.jpg",
+      ".jieqi-artwork/expansion-20260925/qa/woodblock-titles.jpg",
+      ".jieqi-artwork/expansion-20260925/qa/embroidery-titles.jpg"
     ],
     "correction": "Watercolor and clay 立冬 replaced with reviewed v2 originals; rejected v1 retained only as provenance"
   },
