@@ -7,7 +7,7 @@ const root = resolve(import.meta.dirname, '..');
 const variantsPath = join(root, 'site/lib/variants.json');
 const variants = JSON.parse(readFileSync(variantsPath, 'utf8')) as { id: string; title: string; image: string }[];
 const updated = await syncArtwork(root, [...seriesEventIds], variants);
-for (const filename of ['artwork.ts', 'styles.ts']) {
+for (const filename of ['artwork.ts', 'asset-paths.ts', 'schema.ts', 'styles.ts']) {
   copyFileSync(join(root, 'src', filename), join(root, 'site/lib/calendar', filename));
 }
 writeFileSync(variantsPath, JSON.stringify(updated, null, 2) + '\n');

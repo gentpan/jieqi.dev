@@ -21,7 +21,7 @@ export const eventSchema = z.object({
   quote: z.string().max(200).default(''),
   quoteSource: z.string().max(100).default(''),
   description: z.string().max(2000).default(''),
-  image: z.string().regex(/^\/assets\/[a-zA-Z0-9][a-zA-Z0-9._-]*\.(png|jpg|jpeg|webp)$/).nullable().default(null),
+  image: z.string().regex(/^\/assets\/(?:(?:stamp|watercolor|papercut|clay|minimal|character|anime|sweet|woodblock|embroidery|uploads)\/)?[a-zA-Z0-9][a-zA-Z0-9._-]*\.(png|jpg|jpeg|webp)$/).nullable().default(null),
   accent: z.string().regex(/^#[0-9a-fA-F]{6}$/).default('#b56f69'),
   enabled: z.boolean().default(true),
   priority: z.number().int().min(0).max(100).default(50),

@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { seriesArtwork, seriesEventIds } from './artwork.ts';
+import { groupedAssetPath } from './asset-paths.ts';
 
 export const styleSchema = z.enum(['stamp', 'watercolor', 'papercut', 'clay', 'minimal', 'character', 'anime', 'sweet', 'woodblock', 'embroidery']);
 export type StyleId = z.infer<typeof styleSchema>;
@@ -20,7 +21,7 @@ const artwork: Record<string, Partial<Record<StyleId, string>>> = seriesArtwork;
 export function selectArtwork(eventId: string, original: string | null, requested: StyleId) {
   const replacement = artwork[eventId]?.[requested];
   const resolved = replacement ? requested : 'stamp';
-  return { image: replacement ?? original, requested, resolved, fallback: resolved !== requested };
+  return { image: replacement ?? (original === null ? null : groupedAssetPath(original)), requested, resolved, fallback: resolved !== requested };
 }
 
 /** Clone public payloads so one request's style cannot alter shared snapshots/caches. */

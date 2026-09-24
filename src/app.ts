@@ -10,6 +10,7 @@ import type { Store } from './database.ts';
 import type { Content } from './schema.ts';
 import { staticOrigin, withPublicImages } from './public-urls.ts';
 import { styleSchema, styleCatalog, withArtworkStyle } from './styles.ts';
+import { groupedAssetPath } from './asset-paths.ts';
 
 class HttpError extends Error {
   status:number;
@@ -21,7 +22,7 @@ const hash=(value:string)=>createHash('sha256').update(value).digest();
 function validateContent(content:Content,assetsDir:string) {
   content.events.forEach(e=>{
     eventSchema.parse(e);
-    if(e.image && !existsSync(join(assetsDir,e.image.slice('/assets/'.length)))) throw new HttpError(422,`图片不存在：${e.image}`);
+    if(e.image && !existsSync(join(assetsDir,groupedAssetPath(e.image).slice('/assets/'.length)))) throw new HttpError(422,`图片不存在：${e.image}`);
   });
   content.schedules.forEach(s=>{
     scheduleSchema.parse(s);
@@ -47,7 +48,13 @@ export function createApp(store:Store,options:{adminToken:string;assetsDir:strin
     res.set('Access-Control-Expose-Headers','ETag');
     if(_req.method==='OPTIONS') {res.sendStatus(204);return;} next();
   };
-  app.use('/assets',cors,express.static(options.assetsDir,{dotfiles:'deny',index:false,maxAge:'1d'}));
+  app.use('/assets',cors);
+  app.get('/assets/:filename',(req,res,next)=>{
+    const grouped=groupedAssetPath(req.path);
+    if(grouped===req.path) return next();
+    res.redirect(308,grouped+new URL(req.originalUrl,'http://localhost').search);
+  });
+  app.use('/assets',express.static(options.assetsDir,{dotfiles:'deny',index:false,maxAge:'1d'}));
   app.use('/v1',cors,(_req,res,next)=>{res.set('Cache-Control','public, max-age=60');next();});
   if(options.widgetPath) app.get('/v1/widget.js',(_req,res)=>res.sendFile(options.widgetPath!));
   const published=()=>{
@@ -86,9 +93,10 @@ export function createApp(store:Store,options:{adminToken:string;assetsDir:strin
     if(mime==='image/webp'&&body.toString('ascii',0,4)==='RIFF'&&body.toString('ascii',8,12)==='WEBP') extension='webp';
     if(!extension) throw new HttpError(415,'图片类型与文件签名不匹配');
     const filename=`${createHash('sha256').update(body).digest('hex')}.${extension}`;
-    mkdirSync(options.assetsDir,{recursive:true});
-    if(!existsSync(join(options.assetsDir,filename))) writeFileSync(join(options.assetsDir,filename),body,{flag:'wx'});
-    res.status(201).json({image:`/assets/${filename}`});
+    const uploadsDir=join(options.assetsDir,'uploads');
+    mkdirSync(uploadsDir,{recursive:true});
+    if(!existsSync(join(uploadsDir,filename))) writeFileSync(join(uploadsDir,filename),body,{flag:'wx'});
+    res.status(201).json({image:`/assets/uploads/${filename}`});
   });
   app.use('/admin',express.json({limit:'128kb'}));
   app.get('/admin/content',(_req,res)=>res.json(store.content()));

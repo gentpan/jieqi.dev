@@ -1,5 +1,5 @@
 import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { createRequire } from 'node:module';
 
@@ -37,11 +37,14 @@ export async function syncArtwork(root: string, eventIds: string[], variants: Va
   mkdirSync(join(site, 'public/assets'), { recursive: true });
   mkdirSync(join(root, 'public/assets'), { recursive: true });
   for (const asset of assets) {
-    const image = asset.eventId === 'term-bailu' ? `/assets/bailu-${asset.style}.webp` : `/assets/${asset.eventId}-${asset.style}-v1.webp`;
+    const image = asset.eventId === 'term-bailu' ? `/assets/${asset.style}/bailu-${asset.style}.webp` : `/assets/${asset.style}/${asset.eventId}-${asset.style}-v1.webp`;
     const output = join(site, 'public', image);
     const original = resolve(root, asset.source);
+    mkdirSync(dirname(output), { recursive: true });
     await sharp(original).webp({ quality: 90 }).toFile(output);
-    copyFileSync(output, join(root, 'public', image));
+    const publicOutput=join(root, 'public', image);
+    mkdirSync(dirname(publicOutput), { recursive: true });
+    copyFileSync(output, publicOutput);
     (artwork[asset.eventId] ??= {})[asset.style] = image;
     asset.publishedAsset = image;
     asset.sourceSha256 = createHash('sha256').update(readFileSync(original)).digest('hex');

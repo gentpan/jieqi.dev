@@ -2,46 +2,46 @@
   {
     "id": "bailu-watercolor",
     "title": "白露",
-    "image": "/assets/bailu-watercolor.webp"
+    "image": "/assets/watercolor/bailu-watercolor.webp"
   },
   {
     "id": "bailu-papercut",
     "title": "白露",
-    "image": "/assets/bailu-papercut.webp"
+    "image": "/assets/papercut/bailu-papercut.webp"
   },
   {
     "id": "bailu-clay",
     "title": "白露",
-    "image": "/assets/bailu-clay.webp"
+    "image": "/assets/clay/bailu-clay.webp"
   },
   {
     "id": "bailu-minimal",
     "title": "白露",
-    "image": "/assets/bailu-minimal.webp"
+    "image": "/assets/minimal/bailu-minimal.webp"
   },
   {
     "id": "bailu-character",
     "title": "白露",
-    "image": "/assets/bailu-character.webp"
+    "image": "/assets/character/bailu-character.webp"
   },
   {
     "id": "bailu-anime",
     "title": "白露",
-    "image": "/assets/bailu-anime.webp"
+    "image": "/assets/anime/bailu-anime.webp"
   },
   {
     "id": "bailu-sweet",
     "title": "白露",
-    "image": "/assets/bailu-sweet.webp"
+    "image": "/assets/sweet/bailu-sweet.webp"
   },
   {
     "id": "bailu-woodblock",
     "title": "白露",
-    "image": "/assets/bailu-woodblock.webp"
+    "image": "/assets/woodblock/bailu-woodblock.webp"
   },
   {
     "id": "bailu-embroidery",
     "title": "白露",
-    "image": "/assets/bailu-embroidery.webp"
+    "image": "/assets/embroidery/bailu-embroidery.webp"
   }
 ]

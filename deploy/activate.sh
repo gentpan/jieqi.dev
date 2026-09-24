@@ -50,4 +50,5 @@ if ! cmp -s deploy/jieqi.caddy "$config"; then
     exit 1
   fi
 fi
+node scripts/organize-assets.ts /opt/jieqi/static/assets
 printf '\nJieqi services activated; verify public TLS and domains next.\n'

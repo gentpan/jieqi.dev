@@ -57,6 +57,19 @@ for (let offset = 0; offset < assets.length; offset += 8) {
 }
 const defaultResponse = await (await get(`${api}/v1/resolve?date=2026-09-07`)).json();
 assert.equal(defaultResponse.popup.selected.card.artworkStyle.resolved, 'stamp');
+assert.match(defaultResponse.popup.selected.card.image, /^https:\/\/static\.jieqi\.dev\/assets\/stamp\//);
+const stampManifest = await (await get(`${api}/v1/manifest.json?style=stamp`)).json();
+assert.equal(stampManifest.events.length, 40);
+for (const event of stampManifest.events) assert.match(event.image, /^https:\/\/static\.jieqi\.dev\/assets\/stamp\//);
+for (const [oldPath, newPath] of [
+  ['/assets/bailu-watercolor.webp', '/assets/watercolor/bailu-watercolor.webp'],
+  ['/assets/term-lidong-clay-v1.webp', '/assets/clay/term-lidong-clay-v1.webp'],
+  ['/assets/term-bailu-stamp-v1.png', '/assets/stamp/term-bailu-stamp-v1.png'],
+]) {
+  const response = await fetch(`https://static.jieqi.dev${oldPath}`, { redirect: 'manual', signal: AbortSignal.timeout(30000) });
+  assert.equal(response.status, 308, oldPath);
+  assert.equal(new URL(response.headers.get('location'), response.url).pathname, newPath);
+}
 const widgetResponse = await get(`${api}/v1/widget.js`);
 assert.equal(widgetResponse.headers.get('access-control-allow-origin'), '*');
 const widget = await widgetResponse.text();
@@ -71,6 +84,6 @@ report.widget = { url: `${api}/v1/widget.js`, unchanged: true, styleParameter: t
 const html = await (await get('https://jieqi.dev')).text();
 assert.ok(html.includes('十种全年系列'));
 assert.ok(html.includes('选择卡片集风格'));
-report.checks = { httpImages: 360, uniqueOriginals: 360, uniquePublishedImages: 360, matchingHashes: 360, defaultStamp: true, homepageNewSeries: true };
+report.checks = { httpImages: 360, uniqueOriginals: 360, uniquePublishedImages: 360, matchingHashes: 360, groupedStyleFolders: 10, legacyRedirects: true, defaultStamp: true, homepageNewSeries: true };
 writeFileSync(new URL('docs/artwork-series-verification.json', root), JSON.stringify(report, null, 2) + '\n');
 console.log('PASS: production artwork, API coverage, preserved samples, Widget, and homepage');

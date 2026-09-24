@@ -10,7 +10,7 @@ export function withPublicImages(value: unknown, origin: string): unknown {
   if (!origin) return value;
   if (Array.isArray(value)) return value.map(item => withPublicImages(item, origin));
   if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([key, item]) => [key,
-    key === 'image' && typeof item === 'string' && /^\/assets\/[\w.-]+$/.test(item)
+    key === 'image' && typeof item === 'string' && /^\/assets\/(?:[a-z][a-z0-9-]*\/)?[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(item)
       ? origin + item : withPublicImages(item, origin),
   ]));
   return value;

@@ -31,6 +31,12 @@ api.jieqi.dev {
 static.jieqi.dev {
   root * /opt/jieqi/static
   encode zstd gzip
+  @flatSeries path_regexp flatSeries ^/assets/((?:[a-z0-9-]+-)?(watercolor|papercut|clay|minimal|character|anime|sweet|woodblock|embroidery)(?:-v1)?\.webp)$
+  redir @flatSeries /assets/{re.flatSeries.2}/{re.flatSeries.1} 308
+  @flatStamp path_regexp flatStamp ^/assets/((?:[a-z0-9-]+-stamp-v1|spring-festival-v1|labour-day-v1)\.(?:png|webp))$
+  redir @flatStamp /assets/stamp/{re.flatStamp.1} 308
+  @flatUpload path_regexp flatUpload ^/assets/([a-f0-9]{64}\.(?:png|jpe?g|webp))$
+  redir @flatUpload /assets/uploads/{re.flatUpload.1} 308
   header {
     Access-Control-Allow-Origin "*"
     Access-Control-Allow-Methods "GET, HEAD, OPTIONS"

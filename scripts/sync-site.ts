@@ -5,6 +5,7 @@ import { Store } from '../src/database.ts';
 import { seed } from '../src/seed.ts';
 import { eventSchema } from '../src/schema.ts';
 import { syncArtwork } from './sync-artwork.ts';
+import { groupedAssetPath } from '../src/asset-paths.ts';
 
 // One source of truth: publish the local editor's data and package the pure
 // calendar engine into the standalone website, without copying private data.
@@ -21,11 +22,14 @@ const quotes:Record<string,string>={
   'new-year':'翻开新页，写下期待。','lantern-festival':'灯火万家，团圆此刻。','qingming-festival':'春和景明，念念在心。','dragon-boat':'粽叶飘香，岁岁安康。','qixi':'此夕有星，此心有你。','mid-autumn':'月满人间，心有团圆。','national-day':'山河锦绣，秋光正好。','double-ninth':'秋高宜登远，相伴是长情。',
 };
 try {
+  mkdirSync(join(root,'public/assets/stamp'),{recursive:true});
+  mkdirSync(join(site,'public/assets/stamp'),{recursive:true});
   const current=new Map(store.content().events.map(e=>[e.id,e]));
   for(const event of defaults.content().events) if(!current.has(event.id)) current.set(event.id,event);
   for(const [id,event] of current) {
     const found=approved.find(a=>a.id===id)||(id==='qingming-festival'?approved.find(a=>a.id==='term-qingming'):undefined);
-    if(found) {copyFileSync(found.path,join(root,'public/assets',`${id}-stamp-v1.png`));event.image=`/assets/${id}-stamp-v1.png`;}
+    if(found) {copyFileSync(found.path,join(root,'public/assets/stamp',`${id}-stamp-v1.png`));event.image=`/assets/stamp/${id}-stamp-v1.png`;}
+    else if(event.image) event.image=groupedAssetPath(event.image);
     if(!event.quote&&quotes[id]) event.quote=quotes[id];
     store.putEvent(eventSchema.parse(event));
   }
@@ -33,7 +37,6 @@ try {
   const generated=join(site,'lib/calendar');mkdirSync(generated,{recursive:true});
   const require=createRequire(join(site,'package.json'));
   const sharp=require('sharp');
-  mkdirSync(join(site,'public/assets'),{recursive:true});
   for(const event of snapshot.events) if(event.image) {
     const output=event.image.replace(/\.(png|jpe?g)$/i,'.webp');
     await sharp(join(root,'public',event.image)).webp({quality:90}).toFile(join(site,'public',output));
@@ -42,7 +45,7 @@ try {
   const variantsPath=join(site,'lib/variants.json');
   const variants: {id:string;title:string;image:string}[]=existsSync(variantsPath)?JSON.parse(readFileSync(variantsPath,'utf8')):[];
   for(const asset of approved.filter(a=>a.id.startsWith('bailu-'))) {
-    const image=`/assets/${asset.id}.webp`;
+    const image=groupedAssetPath(`/assets/${asset.id}.webp`);
     await sharp(asset.path).webp({quality:90}).toFile(join(site,'public',image));
     copyFileSync(join(site,'public',image),join(root,'public',image));
     const index=variants.findIndex(v=>v.id===asset.id);
@@ -50,14 +53,14 @@ try {
     if(index<0) variants.push(variant); else variants[index]=variant;
   }
   const syncedVariants=await syncArtwork(root,snapshot.events.map(e=>e.id),variants);
-  for(const name of ['calendar.ts','schema.ts','lunar.d.ts','styles.ts','artwork.ts']) copyFileSync(join(root,'src',name),join(generated,name));
+  for(const name of ['calendar.ts','schema.ts','lunar.d.ts','asset-paths.ts','styles.ts','artwork.ts']) copyFileSync(join(root,'src',name),join(generated,name));
   writeFileSync(join(site,'lib/snapshot.json'),JSON.stringify(snapshot,null,2));
   writeFileSync(variantsPath,JSON.stringify(syncedVariants,null,2));
   mkdirSync(join(root,'docs'),{recursive:true});
   const originals=JSON.parse(readFileSync(join(root,'docs/image-prompts.json'),'utf8')).assets.map((asset:{file:string;prompt:string})=>({
     ...asset,
     id:asset.file.startsWith('spring')?'spring-festival':'labour-day',
-    path:`public/assets/${asset.file}`,
+    path:`public/assets/stamp/${asset.file}`,
     qa:{status:'approved',method:'visual inspection',characters:asset.file.startsWith('spring')?['春 correct','节 correct']:['五 correct','一 correct'],notes:'Original artwork rechecked alongside the complete stamp series.'},
   }));
   writeFileSync(join(root,'docs/artwork-qa.json'),JSON.stringify({...assetManifest,assets:[...originals,...assetManifest.assets.filter((a:Asset)=>!originals.some((o:Asset)=>o.id===a.id))],reuse:[{eventId:'qingming-festival',assetId:'term-qingming',reason:'清明节与清明节气共用邮票插画'}]},null,2));

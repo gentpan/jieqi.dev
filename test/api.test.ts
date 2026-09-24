@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
-import { mkdtempSync, cpSync, rmSync, readFileSync } from 'node:fs';
+import { mkdtempSync, cpSync, rmSync, readFileSync, readdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -22,6 +22,20 @@ async function harness(fn:(request:(path:string,method?:string,body?:unknown,aut
     body:body===undefined?undefined:Buffer.isBuffer(body)?new Uint8Array(body):JSON.stringify(body)});
   try {await fn(request,store);} finally {server.closeAllConnections();await new Promise<void>(resolve=>server.close(()=>resolve()));store.close();rmSync(dir,{recursive:true,force:true});}
 }
+
+test('published images are grouped into style directories with no flat files',()=>{
+  const styles=['stamp','watercolor','papercut','clay','minimal','character','anime','sweet','woodblock','embroidery'];
+  for(const relative of ['../public/assets/','../site/public/assets/']){
+    const root=fileURLToPath(new URL(relative,import.meta.url));
+    const entries=readdirSync(root,{withFileTypes:true});
+    assert.equal(entries.filter(entry=>entry.isFile()).length,0);
+    assert.deepEqual(entries.filter(entry=>entry.isDirectory()).map(entry=>entry.name).sort(),[...styles].sort());
+    for(const style of styles){
+      const files=readdirSync(join(root,style));
+      assert.equal(files.length,style==='stamp'?42:40,`${relative}${style}`);
+    }
+  }
+});
 
 test('admin APIs require auth; public APIs allow cross-origin reads without credentials',async()=>{
   await harness(async request=>{
@@ -58,11 +72,14 @@ test('publishing missing images fails without replacing last good publication',a
 });
 test('image upload returns a content-addressed URL; rejects wrong image signatures and traversal',async()=>{
   await harness(async(request,store)=>{
-    const image=readFileSync(fileURLToPath(new URL('../public/assets/labour-day-v1.png',import.meta.url)));
+    const image=readFileSync(fileURLToPath(new URL('../public/assets/stamp/labour-day-v1.png',import.meta.url)));
     const upload=await request('/admin/assets','POST',image);assert.equal(upload.status,201);
-    const result=await upload.json();assert.match(result.image,/^\/assets\/[a-f0-9]{64}\.png$/);
+    const result=await upload.json();assert.match(result.image,/^\/assets\/uploads\/[a-f0-9]{64}\.png$/);
     const downloaded=await request(result.image,'GET',undefined,false);assert.equal(downloaded.status,200);
     assert.deepEqual(Buffer.from(await downloaded.arrayBuffer()),image);
+    const legacy=await request('/assets/labour-day-v1.png','GET',undefined,false);
+    assert.equal(legacy.status,200);
+    assert.match(legacy.url,/\/assets\/stamp\/labour-day-v1\.png$/);
     assert.equal((await request('/admin/assets','POST',Buffer.from('not an image at all'))).status,415);
     assert.equal((await request('/admin/events/labour-day','PUT',{...store.content().events.find(e=>e.id==='labour-day'),image:'/assets/../../.env.png'})).status,400);
   });
@@ -112,7 +129,7 @@ test('style selection replaces available illustrations, falls back explicitly an
     const styles=await(await request('/v1/styles.json')).json();assert.equal(styles.defaultStyle,'stamp');assert.equal(styles.styles.length,10);
     for(const style of ['watercolor','papercut','clay','minimal','character','anime','sweet','woodblock','embroidery']){
       const result=await(await request('/v1/resolve?date=2026-09-07&style='+style)).json();
-      assert.equal(result.popup.selected.card.image,`https://static.jieqi.dev/assets/bailu-${style}.webp`);
+      assert.equal(result.popup.selected.card.image,`https://static.jieqi.dev/assets/${style}/bailu-${style}.webp`);
       assert.deepEqual(result.popup.selected.card.artworkStyle,{requested:style,resolved:style,fallback:false});
     }
     const spring=await(await request('/v1/resolve?date=2026-02-17&style=watercolor')).json();
@@ -125,6 +142,8 @@ test('style selection replaces available illustrations, falls back explicitly an
     const plain=await(await request('/v1/resolve?date=2026-09-07')).json();
     assert.equal(plain.popup.selected.card.artworkStyle.resolved,'stamp');
     assert.notEqual(plain.popup.selected.card.image,manifest.events.find((e:{id:string})=>e.id==='term-bailu').image);
+    const springDefault=await(await request('/v1/resolve?date=2026-02-17')).json();
+    assert.match(springDefault.popup.selected.card.image,/\/assets\/stamp\/spring-festival-v1\.png$/);
     assert.equal('artworkStyle' in store.publication()!.events[0],false);
     for(const path of ['/v1/resolve?style=unknown','/v1/resolve?style=stamp&style=clay','/v1/calendar/2026?style=../../bad','/v1/manifest.json?style=']) assert.equal((await request(path)).status,400,path);
   },true,'https://static.jieqi.dev');

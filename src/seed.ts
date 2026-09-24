@@ -13,11 +13,11 @@ export function seed(store:Store) {
     const festivals=[
       {id:'new-year',name:'元旦',rule:{kind:'solar',month:1,day:1},description:'新岁开启，愿接下来的日子有光、有暖，也有新的期待。'},
       {id:'new-years-eve',name:'除夕',rule:{kind:'lunar',month:1,day:1,dayOffset:-1},quote:'灯火可亲，家人闲坐。',description:'农历岁末的最后一夜，年夜饭、守岁与辞旧迎新，把一家人的牵挂聚在灯火之下。',priority:85},
-      {id:'spring-festival',name:'春节',rule:{kind:'lunar',month:1,day:1},quote:'灯火映团圆，新岁启好景。',description:'春节是农历新年的开始。贴春联、拜年、团圆饭，寄托着辞旧迎新与阖家团圆的心愿。',image:'/assets/spring-festival-v1.png',accent:'#b64a32',priority:90},
+      {id:'spring-festival',name:'春节',rule:{kind:'lunar',month:1,day:1},quote:'灯火映团圆，新岁启好景。',description:'春节是农历新年的开始。贴春联、拜年、团圆饭，寄托着辞旧迎新与阖家团圆的心愿。',image:'/assets/stamp/spring-festival-v1.png',accent:'#b64a32',priority:90},
       {id:'lantern-festival',name:'元宵节',rule:{kind:'lunar',month:1,day:15},description:'正月十五，赏花灯、猜灯谜，汤圆与元宵盛着团圆的祝愿。'},
       {id:'womens-day',name:'妇女节',rule:{kind:'solar',month:3,day:8},quote:'愿每一种选择，都自在而有光。',description:'三月八日，致意女性的创造、勇气与贡献。尊重每一种选择，让平等与关怀落在日常。'},
       {id:'qingming-festival',name:'清明节',rule:{kind:'term',name:'清明'},description:'清明兼有节气与节日的意义。人们祭扫追思，也在春光中踏青。'},
-      {id:'labour-day',name:'五一',rule:{kind:'solar',month:5,day:1},quote:'认真耕耘，也好好休息。',description:'五一劳动节，向每一份认真付出致意。让忙碌暂歇，把时间留给生活与身边的人。',image:'/assets/labour-day-v1.png',accent:'#a4533c',priority:80},
+      {id:'labour-day',name:'五一',rule:{kind:'solar',month:5,day:1},quote:'认真耕耘，也好好休息。',description:'五一劳动节，向每一份认真付出致意。让忙碌暂歇，把时间留给生活与身边的人。',image:'/assets/stamp/labour-day-v1.png',accent:'#a4533c',priority:80},
       {id:'youth-day',name:'青年节',rule:{kind:'solar',month:5,day:4},quote:'心怀热望，步履不停。',description:'五四青年节，致意蓬勃的理想与勇敢的行动。把好奇留在心里，把可能写进明天。'},
       {id:'childrens-day',name:'儿童节',rule:{kind:'solar',month:6,day:1},quote:'把快乐装进口袋，把好奇留给世界。',description:'六一儿童节，愿孩子们在关爱中自在成长，也愿每个大人都保留一点童心。'},
       {id:'dragon-boat',name:'端午节',rule:{kind:'lunar',month:5,day:5},description:'五月初五，粽叶飘香。包粽子、赛龙舟、悬艾草，是各地常见的端午习俗。'},

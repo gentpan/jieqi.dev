@@ -28,8 +28,8 @@ npm start
 - 白露判断：`http://127.0.0.1:4318/v1/resolve?date=2026-09-07`
 - 春节假期：`http://127.0.0.1:4318/v1/resolve?date=2026-02-15`
 - 年度数据：`http://127.0.0.1:4318/v1/calendar/2026.json`
-- 春节图片：`http://127.0.0.1:4318/assets/spring-festival-v1.png`
-- 五一图片：`http://127.0.0.1:4318/assets/labour-day-v1.png`
+- 春节图片：`http://127.0.0.1:4318/assets/stamp/spring-festival-v1.png`
+- 五一图片：`http://127.0.0.1:4318/assets/stamp/labour-day-v1.png`
 
 ## 管理流程
 
@@ -39,8 +39,8 @@ npm start
 # 读取草稿内容
 npm run admin -- GET /admin/content
 
-# 上传图片：返回 /assets/<sha256>.png，后续填入卡片的 image 字段
-npm run admin -- POST /admin/assets public/assets/spring-festival-v1.png
+# 上传图片：返回 /assets/uploads/<sha256>.png，后续填入卡片的 image 字段
+npm run admin -- POST /admin/assets public/assets/stamp/spring-festival-v1.png
 
 # 创建或完整替换卡片，将完整事件 JSON 保存到文件后提交
 npm run admin -- PUT /admin/events/labour-day docs/labour-day.example.json
@@ -151,8 +151,10 @@ npm test
 
 项目代码采用 [MIT 许可证](LICENSE)。仓库内原创插画（`.jieqi-artwork/`、`public/assets/`、`site/public/assets/` 中的图片）采用 [CC BY 4.0](ARTWORK-LICENSE.md)；使用时请标注“节期 · Jieqi”及仓库链接。第三方依赖遵循各自的许可证。数据库、管理员令牌和本地环境文件不包含在仓库中。
 
-- 春节：`public/assets/spring-festival-v1.png`，竖排“春节”、卡通醒狮、灯笼与梅花。
-- 五一：`public/assets/labour-day-v1.png`，竖排“五一”、卡通园丁、花草。
+公开插画按风格分别放在 `public/assets/<风格>/` 和 `site/public/assets/<风格>/`，包括 `stamp`、`watercolor`、`papercut`、`clay`、`minimal`、`character`、`anime`、`sweet`、`woodblock`、`embroidery`。上传图片使用 `uploads/`。
+
+- 春节：`public/assets/stamp/spring-festival-v1.png`，竖排“春节”、卡通醒狮、灯笼与梅花。
+- 五一：`public/assets/stamp/labour-day-v1.png`，竖排“五一”、卡通园丁、花草。
 - 两张均通过 Codex 内置 `image_gen` 生成，未使用 API/CLI 回退。它们是右侧独立邮票插画，不是整张卡片截图；底色为暖米白，非透明背景。
 - 邮票系列提示词和校验记录保存在 `docs/artwork-qa.json`；另外九套系列的原图、提示词和校验记录保存在 `.jieqi-artwork/` 与 `docs/artwork-series-progress.json`、`docs/artwork-expansion-progress.json`。
 - 2026假期来源：[国务院办公厅通知，北京市政府转载](https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html)，2026-09-06核对。年度数据需要在官方通知发布或调整后人工更新并发布。

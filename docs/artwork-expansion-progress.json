@@ -46,7 +46,7 @@
       "title": "儿童节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/childrens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/childrens-day-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/childrens-day-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "儿童节 — all title characters correct and complete",
@@ -67,7 +67,7 @@
       "title": "重阳节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/double-ninth.png",
       "status": "approved",
-      "publishedAsset": "/assets/double-ninth-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/double-ninth-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "重阳节 — all title characters correct and complete",
@@ -88,7 +88,7 @@
       "title": "端午节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/dragon-boat.png",
       "status": "approved",
-      "publishedAsset": "/assets/dragon-boat-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/dragon-boat-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "端午节 — all title characters correct and complete",
@@ -109,7 +109,7 @@
       "title": "腊八",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/laba.png",
       "status": "approved",
-      "publishedAsset": "/assets/laba-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/laba-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "腊八 — all title characters correct and complete",
@@ -130,7 +130,7 @@
       "title": "五一",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/labour-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/labour-day-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/labour-day-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "五一 — all title characters correct and complete",
@@ -151,7 +151,7 @@
       "title": "元宵节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/lantern-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/lantern-festival-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/lantern-festival-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元宵节 — all title characters correct and complete",
@@ -172,7 +172,7 @@
       "title": "中秋节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/mid-autumn.png",
       "status": "approved",
-      "publishedAsset": "/assets/mid-autumn-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/mid-autumn-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "中秋节 — all title characters correct and complete",
@@ -193,7 +193,7 @@
       "title": "国庆节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/national-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/national-day-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/national-day-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "国庆节 — all title characters correct and complete",
@@ -214,7 +214,7 @@
       "title": "元旦",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/new-year.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-year-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/new-year-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元旦 — all title characters correct and complete",
@@ -235,7 +235,7 @@
       "title": "除夕",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/new-years-eve.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-years-eve-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/new-years-eve-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "除夕 — all title characters correct and complete",
@@ -256,7 +256,7 @@
       "title": "清明节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/qingming-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/qingming-festival-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/qingming-festival-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明节 — all title characters correct and complete",
@@ -277,7 +277,7 @@
       "title": "七夕",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/qixi.png",
       "status": "approved",
-      "publishedAsset": "/assets/qixi-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/qixi-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "七夕 — all title characters correct and complete",
@@ -298,7 +298,7 @@
       "title": "春节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/spring-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/spring-festival-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/spring-festival-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春节 — all title characters correct and complete",
@@ -319,7 +319,7 @@
       "title": "教师节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/teachers-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/teachers-day-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/teachers-day-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "教师节 — all title characters correct and complete",
@@ -340,7 +340,7 @@
       "title": "白露",
       "source": ".jieqi-artwork/stamp-series-20260906/bailu-watercolor.png",
       "status": "approved",
-      "publishedAsset": "/assets/bailu-watercolor.webp",
+      "publishedAsset": "/assets/watercolor/bailu-watercolor.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "白露 — all title characters correct and complete",
@@ -360,7 +360,7 @@
       "title": "春分",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-chunfen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chunfen-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-chunfen-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春分 — all title characters correct and complete",
@@ -381,7 +381,7 @@
       "title": "处暑",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-chushu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chushu-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-chushu-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "处暑 — all title characters correct and complete",
@@ -402,7 +402,7 @@
       "title": "大寒",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-dahan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dahan-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-dahan-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大寒 — all title characters correct and complete",
@@ -423,7 +423,7 @@
       "title": "大暑",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-dashu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dashu-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-dashu-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大暑 — all title characters correct and complete",
@@ -444,7 +444,7 @@
       "title": "大雪",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-daxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-daxue-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-daxue-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大雪 — all title characters correct and complete",
@@ -465,7 +465,7 @@
       "title": "冬至",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-dongzhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dongzhi-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-dongzhi-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "冬至 — all title characters correct and complete",
@@ -486,7 +486,7 @@
       "title": "谷雨",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-guyu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-guyu-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-guyu-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "谷雨 — all title characters correct and complete",
@@ -507,7 +507,7 @@
       "title": "寒露",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-hanlu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-hanlu-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-hanlu-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "寒露 — all title characters correct and complete",
@@ -528,7 +528,7 @@
       "title": "惊蛰",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-jingzhe.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-jingzhe-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-jingzhe-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "惊蛰 — all title characters correct and complete",
@@ -549,7 +549,7 @@
       "title": "立春",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-lichun.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lichun-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-lichun-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立春 — all title characters correct and complete",
@@ -570,7 +570,7 @@
       "title": "立冬",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-lidong-v2.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lidong-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-lidong-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立冬 — all title characters correct and complete",
@@ -591,7 +591,7 @@
       "title": "立秋",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-liqiu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-liqiu-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-liqiu-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立秋 — all title characters correct and complete",
@@ -612,7 +612,7 @@
       "title": "立夏",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-lixia.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lixia-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-lixia-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立夏 — all title characters correct and complete",
@@ -633,7 +633,7 @@
       "title": "芒种",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-mangzhong.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-mangzhong-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-mangzhong-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "芒种 — all title characters correct and complete",
@@ -654,7 +654,7 @@
       "title": "清明",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-qingming.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qingming-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-qingming-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明 — all title characters correct and complete",
@@ -675,7 +675,7 @@
       "title": "秋分",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-qiufen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qiufen-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-qiufen-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "秋分 — all title characters correct and complete",
@@ -696,7 +696,7 @@
       "title": "霜降",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-shuangjiang.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-shuangjiang-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-shuangjiang-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "霜降 — all title characters correct and complete",
@@ -717,7 +717,7 @@
       "title": "小寒",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-xiaohan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaohan-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-xiaohan-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小寒 — all title characters correct and complete",
@@ -738,7 +738,7 @@
       "title": "小满",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-xiaoman.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoman-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-xiaoman-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小满 — all title characters correct and complete",
@@ -759,7 +759,7 @@
       "title": "小暑",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-xiaoshu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoshu-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-xiaoshu-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小暑 — all title characters correct and complete",
@@ -780,7 +780,7 @@
       "title": "小雪",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-xiaoxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoxue-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-xiaoxue-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小雪 — all title characters correct and complete",
@@ -801,7 +801,7 @@
       "title": "夏至",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-xiazhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiazhi-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-xiazhi-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "夏至 — all title characters correct and complete",
@@ -822,7 +822,7 @@
       "title": "雨水",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/term-yushui.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-yushui-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/term-yushui-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "雨水 — all title characters correct and complete",
@@ -843,7 +843,7 @@
       "title": "妇女节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/womens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/womens-day-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/womens-day-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "妇女节 — all title characters correct and complete",
@@ -864,7 +864,7 @@
       "title": "青年节",
       "source": ".jieqi-artwork/expansion-20260925/watercolor/youth-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/youth-day-watercolor-v1.webp",
+      "publishedAsset": "/assets/watercolor/youth-day-watercolor-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "青年节 — all title characters correct and complete",
@@ -885,7 +885,7 @@
       "title": "儿童节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/childrens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/childrens-day-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/childrens-day-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "儿童节 — all title characters correct and complete",
@@ -906,7 +906,7 @@
       "title": "重阳节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/double-ninth.png",
       "status": "approved",
-      "publishedAsset": "/assets/double-ninth-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/double-ninth-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "重阳节 — all title characters correct and complete",
@@ -927,7 +927,7 @@
       "title": "端午节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/dragon-boat.png",
       "status": "approved",
-      "publishedAsset": "/assets/dragon-boat-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/dragon-boat-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "端午节 — all title characters correct and complete",
@@ -948,7 +948,7 @@
       "title": "腊八",
       "source": ".jieqi-artwork/expansion-20260925/papercut/laba.png",
       "status": "approved",
-      "publishedAsset": "/assets/laba-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/laba-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "腊八 — all title characters correct and complete",
@@ -969,7 +969,7 @@
       "title": "五一",
       "source": ".jieqi-artwork/expansion-20260925/papercut/labour-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/labour-day-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/labour-day-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "五一 — all title characters correct and complete",
@@ -990,7 +990,7 @@
       "title": "元宵节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/lantern-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/lantern-festival-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/lantern-festival-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元宵节 — all title characters correct and complete",
@@ -1011,7 +1011,7 @@
       "title": "中秋节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/mid-autumn.png",
       "status": "approved",
-      "publishedAsset": "/assets/mid-autumn-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/mid-autumn-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "中秋节 — all title characters correct and complete",
@@ -1032,7 +1032,7 @@
       "title": "国庆节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/national-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/national-day-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/national-day-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "国庆节 — all title characters correct and complete",
@@ -1053,7 +1053,7 @@
       "title": "元旦",
       "source": ".jieqi-artwork/expansion-20260925/papercut/new-year.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-year-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/new-year-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元旦 — all title characters correct and complete",
@@ -1074,7 +1074,7 @@
       "title": "除夕",
       "source": ".jieqi-artwork/expansion-20260925/papercut/new-years-eve.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-years-eve-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/new-years-eve-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "除夕 — all title characters correct and complete",
@@ -1095,7 +1095,7 @@
       "title": "清明节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/qingming-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/qingming-festival-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/qingming-festival-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明节 — all title characters correct and complete",
@@ -1116,7 +1116,7 @@
       "title": "七夕",
       "source": ".jieqi-artwork/expansion-20260925/papercut/qixi.png",
       "status": "approved",
-      "publishedAsset": "/assets/qixi-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/qixi-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "七夕 — all title characters correct and complete",
@@ -1137,7 +1137,7 @@
       "title": "春节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/spring-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/spring-festival-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/spring-festival-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春节 — all title characters correct and complete",
@@ -1158,7 +1158,7 @@
       "title": "教师节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/teachers-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/teachers-day-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/teachers-day-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "教师节 — all title characters correct and complete",
@@ -1179,7 +1179,7 @@
       "title": "白露",
       "source": ".jieqi-artwork/stamp-series-20260906/bailu-papercut.png",
       "status": "approved",
-      "publishedAsset": "/assets/bailu-papercut.webp",
+      "publishedAsset": "/assets/papercut/bailu-papercut.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "白露 — all title characters correct and complete",
@@ -1199,7 +1199,7 @@
       "title": "春分",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-chunfen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chunfen-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-chunfen-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春分 — all title characters correct and complete",
@@ -1220,7 +1220,7 @@
       "title": "处暑",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-chushu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chushu-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-chushu-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "处暑 — all title characters correct and complete",
@@ -1241,7 +1241,7 @@
       "title": "大寒",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-dahan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dahan-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-dahan-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大寒 — all title characters correct and complete",
@@ -1262,7 +1262,7 @@
       "title": "大暑",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-dashu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dashu-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-dashu-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大暑 — all title characters correct and complete",
@@ -1283,7 +1283,7 @@
       "title": "大雪",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-daxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-daxue-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-daxue-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大雪 — all title characters correct and complete",
@@ -1304,7 +1304,7 @@
       "title": "冬至",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-dongzhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dongzhi-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-dongzhi-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "冬至 — all title characters correct and complete",
@@ -1325,7 +1325,7 @@
       "title": "谷雨",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-guyu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-guyu-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-guyu-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "谷雨 — all title characters correct and complete",
@@ -1346,7 +1346,7 @@
       "title": "寒露",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-hanlu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-hanlu-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-hanlu-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "寒露 — all title characters correct and complete",
@@ -1367,7 +1367,7 @@
       "title": "惊蛰",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-jingzhe.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-jingzhe-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-jingzhe-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "惊蛰 — all title characters correct and complete",
@@ -1388,7 +1388,7 @@
       "title": "立春",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-lichun.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lichun-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-lichun-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立春 — all title characters correct and complete",
@@ -1409,7 +1409,7 @@
       "title": "立冬",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-lidong.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lidong-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-lidong-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立冬 — all title characters correct and complete",
@@ -1430,7 +1430,7 @@
       "title": "立秋",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-liqiu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-liqiu-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-liqiu-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立秋 — all title characters correct and complete",
@@ -1451,7 +1451,7 @@
       "title": "立夏",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-lixia.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lixia-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-lixia-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立夏 — all title characters correct and complete",
@@ -1472,7 +1472,7 @@
       "title": "芒种",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-mangzhong.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-mangzhong-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-mangzhong-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "芒种 — all title characters correct and complete",
@@ -1493,7 +1493,7 @@
       "title": "清明",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-qingming.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qingming-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-qingming-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明 — all title characters correct and complete",
@@ -1514,7 +1514,7 @@
       "title": "秋分",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-qiufen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qiufen-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-qiufen-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "秋分 — all title characters correct and complete",
@@ -1535,7 +1535,7 @@
       "title": "霜降",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-shuangjiang.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-shuangjiang-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-shuangjiang-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "霜降 — all title characters correct and complete",
@@ -1556,7 +1556,7 @@
       "title": "小寒",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-xiaohan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaohan-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-xiaohan-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小寒 — all title characters correct and complete",
@@ -1577,7 +1577,7 @@
       "title": "小满",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-xiaoman.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoman-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-xiaoman-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小满 — all title characters correct and complete",
@@ -1598,7 +1598,7 @@
       "title": "小暑",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-xiaoshu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoshu-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-xiaoshu-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小暑 — all title characters correct and complete",
@@ -1619,7 +1619,7 @@
       "title": "小雪",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-xiaoxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoxue-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-xiaoxue-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小雪 — all title characters correct and complete",
@@ -1640,7 +1640,7 @@
       "title": "夏至",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-xiazhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiazhi-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-xiazhi-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "夏至 — all title characters correct and complete",
@@ -1661,7 +1661,7 @@
       "title": "雨水",
       "source": ".jieqi-artwork/expansion-20260925/papercut/term-yushui.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-yushui-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/term-yushui-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "雨水 — all title characters correct and complete",
@@ -1682,7 +1682,7 @@
       "title": "妇女节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/womens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/womens-day-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/womens-day-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "妇女节 — all title characters correct and complete",
@@ -1703,7 +1703,7 @@
       "title": "青年节",
       "source": ".jieqi-artwork/expansion-20260925/papercut/youth-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/youth-day-papercut-v1.webp",
+      "publishedAsset": "/assets/papercut/youth-day-papercut-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "青年节 — all title characters correct and complete",
@@ -1724,7 +1724,7 @@
       "title": "儿童节",
       "source": ".jieqi-artwork/expansion-20260925/clay/childrens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/childrens-day-clay-v1.webp",
+      "publishedAsset": "/assets/clay/childrens-day-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "儿童节 — all title characters correct and complete",
@@ -1745,7 +1745,7 @@
       "title": "重阳节",
       "source": ".jieqi-artwork/expansion-20260925/clay/double-ninth.png",
       "status": "approved",
-      "publishedAsset": "/assets/double-ninth-clay-v1.webp",
+      "publishedAsset": "/assets/clay/double-ninth-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "重阳节 — all title characters correct and complete",
@@ -1766,7 +1766,7 @@
       "title": "端午节",
       "source": ".jieqi-artwork/expansion-20260925/clay/dragon-boat.png",
       "status": "approved",
-      "publishedAsset": "/assets/dragon-boat-clay-v1.webp",
+      "publishedAsset": "/assets/clay/dragon-boat-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "端午节 — all title characters correct and complete",
@@ -1787,7 +1787,7 @@
       "title": "腊八",
       "source": ".jieqi-artwork/expansion-20260925/clay/laba.png",
       "status": "approved",
-      "publishedAsset": "/assets/laba-clay-v1.webp",
+      "publishedAsset": "/assets/clay/laba-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "腊八 — all title characters correct and complete",
@@ -1808,7 +1808,7 @@
       "title": "五一",
       "source": ".jieqi-artwork/expansion-20260925/clay/labour-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/labour-day-clay-v1.webp",
+      "publishedAsset": "/assets/clay/labour-day-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "五一 — all title characters correct and complete",
@@ -1829,7 +1829,7 @@
       "title": "元宵节",
       "source": ".jieqi-artwork/expansion-20260925/clay/lantern-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/lantern-festival-clay-v1.webp",
+      "publishedAsset": "/assets/clay/lantern-festival-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元宵节 — all title characters correct and complete",
@@ -1850,7 +1850,7 @@
       "title": "中秋节",
       "source": ".jieqi-artwork/expansion-20260925/clay/mid-autumn.png",
       "status": "approved",
-      "publishedAsset": "/assets/mid-autumn-clay-v1.webp",
+      "publishedAsset": "/assets/clay/mid-autumn-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "中秋节 — all title characters correct and complete",
@@ -1871,7 +1871,7 @@
       "title": "国庆节",
       "source": ".jieqi-artwork/expansion-20260925/clay/national-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/national-day-clay-v1.webp",
+      "publishedAsset": "/assets/clay/national-day-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "国庆节 — all title characters correct and complete",
@@ -1892,7 +1892,7 @@
       "title": "元旦",
       "source": ".jieqi-artwork/expansion-20260925/clay/new-year.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-year-clay-v1.webp",
+      "publishedAsset": "/assets/clay/new-year-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元旦 — all title characters correct and complete",
@@ -1913,7 +1913,7 @@
       "title": "除夕",
       "source": ".jieqi-artwork/expansion-20260925/clay/new-years-eve.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-years-eve-clay-v1.webp",
+      "publishedAsset": "/assets/clay/new-years-eve-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "除夕 — all title characters correct and complete",
@@ -1934,7 +1934,7 @@
       "title": "清明节",
       "source": ".jieqi-artwork/expansion-20260925/clay/qingming-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/qingming-festival-clay-v1.webp",
+      "publishedAsset": "/assets/clay/qingming-festival-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明节 — all title characters correct and complete",
@@ -1955,7 +1955,7 @@
       "title": "七夕",
       "source": ".jieqi-artwork/expansion-20260925/clay/qixi.png",
       "status": "approved",
-      "publishedAsset": "/assets/qixi-clay-v1.webp",
+      "publishedAsset": "/assets/clay/qixi-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "七夕 — all title characters correct and complete",
@@ -1976,7 +1976,7 @@
       "title": "春节",
       "source": ".jieqi-artwork/expansion-20260925/clay/spring-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/spring-festival-clay-v1.webp",
+      "publishedAsset": "/assets/clay/spring-festival-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春节 — all title characters correct and complete",
@@ -1997,7 +1997,7 @@
       "title": "教师节",
       "source": ".jieqi-artwork/expansion-20260925/clay/teachers-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/teachers-day-clay-v1.webp",
+      "publishedAsset": "/assets/clay/teachers-day-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "教师节 — all title characters correct and complete",
@@ -2018,7 +2018,7 @@
       "title": "白露",
       "source": ".jieqi-artwork/stamp-series-20260906/bailu-clay.png",
       "status": "approved",
-      "publishedAsset": "/assets/bailu-clay.webp",
+      "publishedAsset": "/assets/clay/bailu-clay.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "白露 — all title characters correct and complete",
@@ -2038,7 +2038,7 @@
       "title": "春分",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-chunfen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chunfen-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-chunfen-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春分 — all title characters correct and complete",
@@ -2059,7 +2059,7 @@
       "title": "处暑",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-chushu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chushu-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-chushu-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "处暑 — all title characters correct and complete",
@@ -2080,7 +2080,7 @@
       "title": "大寒",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-dahan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dahan-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-dahan-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大寒 — all title characters correct and complete",
@@ -2101,7 +2101,7 @@
       "title": "大暑",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-dashu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dashu-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-dashu-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大暑 — all title characters correct and complete",
@@ -2122,7 +2122,7 @@
       "title": "大雪",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-daxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-daxue-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-daxue-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大雪 — all title characters correct and complete",
@@ -2143,7 +2143,7 @@
       "title": "冬至",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-dongzhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dongzhi-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-dongzhi-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "冬至 — all title characters correct and complete",
@@ -2164,7 +2164,7 @@
       "title": "谷雨",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-guyu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-guyu-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-guyu-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "谷雨 — all title characters correct and complete",
@@ -2185,7 +2185,7 @@
       "title": "寒露",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-hanlu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-hanlu-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-hanlu-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "寒露 — all title characters correct and complete",
@@ -2206,7 +2206,7 @@
       "title": "惊蛰",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-jingzhe.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-jingzhe-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-jingzhe-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "惊蛰 — all title characters correct and complete",
@@ -2227,7 +2227,7 @@
       "title": "立春",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-lichun.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lichun-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-lichun-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立春 — all title characters correct and complete",
@@ -2248,7 +2248,7 @@
       "title": "立冬",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-lidong-v2.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lidong-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-lidong-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立冬 — all title characters correct and complete",
@@ -2269,7 +2269,7 @@
       "title": "立秋",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-liqiu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-liqiu-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-liqiu-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立秋 — all title characters correct and complete",
@@ -2290,7 +2290,7 @@
       "title": "立夏",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-lixia.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lixia-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-lixia-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立夏 — all title characters correct and complete",
@@ -2311,7 +2311,7 @@
       "title": "芒种",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-mangzhong.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-mangzhong-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-mangzhong-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "芒种 — all title characters correct and complete",
@@ -2332,7 +2332,7 @@
       "title": "清明",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-qingming.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qingming-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-qingming-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明 — all title characters correct and complete",
@@ -2353,7 +2353,7 @@
       "title": "秋分",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-qiufen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qiufen-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-qiufen-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "秋分 — all title characters correct and complete",
@@ -2374,7 +2374,7 @@
       "title": "霜降",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-shuangjiang.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-shuangjiang-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-shuangjiang-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "霜降 — all title characters correct and complete",
@@ -2395,7 +2395,7 @@
       "title": "小寒",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-xiaohan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaohan-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-xiaohan-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小寒 — all title characters correct and complete",
@@ -2416,7 +2416,7 @@
       "title": "小满",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-xiaoman.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoman-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-xiaoman-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小满 — all title characters correct and complete",
@@ -2437,7 +2437,7 @@
       "title": "小暑",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-xiaoshu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoshu-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-xiaoshu-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小暑 — all title characters correct and complete",
@@ -2458,7 +2458,7 @@
       "title": "小雪",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-xiaoxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoxue-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-xiaoxue-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小雪 — all title characters correct and complete",
@@ -2479,7 +2479,7 @@
       "title": "夏至",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-xiazhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiazhi-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-xiazhi-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "夏至 — all title characters correct and complete",
@@ -2500,7 +2500,7 @@
       "title": "雨水",
       "source": ".jieqi-artwork/expansion-20260925/clay/term-yushui.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-yushui-clay-v1.webp",
+      "publishedAsset": "/assets/clay/term-yushui-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "雨水 — all title characters correct and complete",
@@ -2521,7 +2521,7 @@
       "title": "妇女节",
       "source": ".jieqi-artwork/expansion-20260925/clay/womens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/womens-day-clay-v1.webp",
+      "publishedAsset": "/assets/clay/womens-day-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "妇女节 — all title characters correct and complete",
@@ -2542,7 +2542,7 @@
       "title": "青年节",
       "source": ".jieqi-artwork/expansion-20260925/clay/youth-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/youth-day-clay-v1.webp",
+      "publishedAsset": "/assets/clay/youth-day-clay-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "青年节 — all title characters correct and complete",
@@ -2563,7 +2563,7 @@
       "title": "儿童节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/childrens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/childrens-day-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/childrens-day-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "儿童节 — all title characters correct and complete",
@@ -2584,7 +2584,7 @@
       "title": "重阳节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/double-ninth.png",
       "status": "approved",
-      "publishedAsset": "/assets/double-ninth-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/double-ninth-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "重阳节 — all title characters correct and complete",
@@ -2605,7 +2605,7 @@
       "title": "端午节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/dragon-boat.png",
       "status": "approved",
-      "publishedAsset": "/assets/dragon-boat-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/dragon-boat-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "端午节 — all title characters correct and complete",
@@ -2626,7 +2626,7 @@
       "title": "腊八",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/laba.png",
       "status": "approved",
-      "publishedAsset": "/assets/laba-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/laba-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "腊八 — all title characters correct and complete",
@@ -2647,7 +2647,7 @@
       "title": "五一",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/labour-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/labour-day-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/labour-day-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "五一 — all title characters correct and complete",
@@ -2668,7 +2668,7 @@
       "title": "元宵节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/lantern-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/lantern-festival-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/lantern-festival-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元宵节 — all title characters correct and complete",
@@ -2689,7 +2689,7 @@
       "title": "中秋节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/mid-autumn.png",
       "status": "approved",
-      "publishedAsset": "/assets/mid-autumn-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/mid-autumn-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "中秋节 — all title characters correct and complete",
@@ -2710,7 +2710,7 @@
       "title": "国庆节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/national-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/national-day-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/national-day-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "国庆节 — all title characters correct and complete",
@@ -2731,7 +2731,7 @@
       "title": "元旦",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/new-year.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-year-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/new-year-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元旦 — all title characters correct and complete",
@@ -2752,7 +2752,7 @@
       "title": "除夕",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/new-years-eve.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-years-eve-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/new-years-eve-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "除夕 — all title characters correct and complete",
@@ -2773,7 +2773,7 @@
       "title": "清明节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/qingming-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/qingming-festival-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/qingming-festival-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明节 — all title characters correct and complete",
@@ -2794,7 +2794,7 @@
       "title": "七夕",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/qixi.png",
       "status": "approved",
-      "publishedAsset": "/assets/qixi-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/qixi-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "七夕 — all title characters correct and complete",
@@ -2815,7 +2815,7 @@
       "title": "春节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/spring-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/spring-festival-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/spring-festival-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春节 — all title characters correct and complete",
@@ -2836,7 +2836,7 @@
       "title": "教师节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/teachers-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/teachers-day-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/teachers-day-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "教师节 — all title characters correct and complete",
@@ -2857,7 +2857,7 @@
       "title": "白露",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-bailu.png",
       "status": "approved",
-      "publishedAsset": "/assets/bailu-woodblock.webp",
+      "publishedAsset": "/assets/woodblock/bailu-woodblock.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "白露 — all title characters correct and complete",
@@ -2878,7 +2878,7 @@
       "title": "春分",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-chunfen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chunfen-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-chunfen-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春分 — all title characters correct and complete",
@@ -2899,7 +2899,7 @@
       "title": "处暑",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-chushu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chushu-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-chushu-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "处暑 — all title characters correct and complete",
@@ -2920,7 +2920,7 @@
       "title": "大寒",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-dahan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dahan-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-dahan-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大寒 — all title characters correct and complete",
@@ -2941,7 +2941,7 @@
       "title": "大暑",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-dashu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dashu-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-dashu-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大暑 — all title characters correct and complete",
@@ -2962,7 +2962,7 @@
       "title": "大雪",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-daxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-daxue-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-daxue-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大雪 — all title characters correct and complete",
@@ -2983,7 +2983,7 @@
       "title": "冬至",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-dongzhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dongzhi-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-dongzhi-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "冬至 — all title characters correct and complete",
@@ -3004,7 +3004,7 @@
       "title": "谷雨",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-guyu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-guyu-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-guyu-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "谷雨 — all title characters correct and complete",
@@ -3025,7 +3025,7 @@
       "title": "寒露",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-hanlu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-hanlu-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-hanlu-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "寒露 — all title characters correct and complete",
@@ -3046,7 +3046,7 @@
       "title": "惊蛰",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-jingzhe.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-jingzhe-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-jingzhe-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "惊蛰 — all title characters correct and complete",
@@ -3067,7 +3067,7 @@
       "title": "立春",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-lichun.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lichun-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-lichun-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立春 — all title characters correct and complete",
@@ -3088,7 +3088,7 @@
       "title": "立冬",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-lidong.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lidong-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-lidong-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立冬 — all title characters correct and complete",
@@ -3109,7 +3109,7 @@
       "title": "立秋",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-liqiu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-liqiu-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-liqiu-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立秋 — all title characters correct and complete",
@@ -3130,7 +3130,7 @@
       "title": "立夏",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-lixia.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lixia-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-lixia-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立夏 — all title characters correct and complete",
@@ -3151,7 +3151,7 @@
       "title": "芒种",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-mangzhong.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-mangzhong-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-mangzhong-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "芒种 — all title characters correct and complete",
@@ -3172,7 +3172,7 @@
       "title": "清明",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-qingming.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qingming-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-qingming-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明 — all title characters correct and complete",
@@ -3193,7 +3193,7 @@
       "title": "秋分",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-qiufen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qiufen-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-qiufen-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "秋分 — all title characters correct and complete",
@@ -3214,7 +3214,7 @@
       "title": "霜降",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-shuangjiang.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-shuangjiang-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-shuangjiang-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "霜降 — all title characters correct and complete",
@@ -3235,7 +3235,7 @@
       "title": "小寒",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-xiaohan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaohan-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-xiaohan-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小寒 — all title characters correct and complete",
@@ -3256,7 +3256,7 @@
       "title": "小满",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-xiaoman.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoman-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-xiaoman-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小满 — all title characters correct and complete",
@@ -3277,7 +3277,7 @@
       "title": "小暑",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-xiaoshu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoshu-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-xiaoshu-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小暑 — all title characters correct and complete",
@@ -3298,7 +3298,7 @@
       "title": "小雪",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-xiaoxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoxue-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-xiaoxue-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小雪 — all title characters correct and complete",
@@ -3319,7 +3319,7 @@
       "title": "夏至",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-xiazhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiazhi-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-xiazhi-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "夏至 — all title characters correct and complete",
@@ -3340,7 +3340,7 @@
       "title": "雨水",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/term-yushui.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-yushui-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/term-yushui-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "雨水 — all title characters correct and complete",
@@ -3361,7 +3361,7 @@
       "title": "妇女节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/womens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/womens-day-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/womens-day-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "妇女节 — all title characters correct and complete",
@@ -3382,7 +3382,7 @@
       "title": "青年节",
       "source": ".jieqi-artwork/expansion-20260925/woodblock/youth-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/youth-day-woodblock-v1.webp",
+      "publishedAsset": "/assets/woodblock/youth-day-woodblock-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "青年节 — all title characters correct and complete",
@@ -3403,7 +3403,7 @@
       "title": "儿童节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/childrens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/childrens-day-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/childrens-day-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "儿童节 — all title characters correct and complete",
@@ -3424,7 +3424,7 @@
       "title": "重阳节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/double-ninth.png",
       "status": "approved",
-      "publishedAsset": "/assets/double-ninth-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/double-ninth-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "重阳节 — all title characters correct and complete",
@@ -3445,7 +3445,7 @@
       "title": "端午节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/dragon-boat.png",
       "status": "approved",
-      "publishedAsset": "/assets/dragon-boat-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/dragon-boat-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "端午节 — all title characters correct and complete",
@@ -3466,7 +3466,7 @@
       "title": "腊八",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/laba.png",
       "status": "approved",
-      "publishedAsset": "/assets/laba-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/laba-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "腊八 — all title characters correct and complete",
@@ -3487,7 +3487,7 @@
       "title": "五一",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/labour-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/labour-day-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/labour-day-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "五一 — all title characters correct and complete",
@@ -3508,7 +3508,7 @@
       "title": "元宵节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/lantern-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/lantern-festival-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/lantern-festival-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元宵节 — all title characters correct and complete",
@@ -3529,7 +3529,7 @@
       "title": "中秋节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/mid-autumn.png",
       "status": "approved",
-      "publishedAsset": "/assets/mid-autumn-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/mid-autumn-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "中秋节 — all title characters correct and complete",
@@ -3550,7 +3550,7 @@
       "title": "国庆节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/national-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/national-day-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/national-day-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "国庆节 — all title characters correct and complete",
@@ -3571,7 +3571,7 @@
       "title": "元旦",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/new-year.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-year-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/new-year-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "元旦 — all title characters correct and complete",
@@ -3592,7 +3592,7 @@
       "title": "除夕",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/new-years-eve.png",
       "status": "approved",
-      "publishedAsset": "/assets/new-years-eve-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/new-years-eve-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "除夕 — all title characters correct and complete",
@@ -3613,7 +3613,7 @@
       "title": "清明节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/qingming-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/qingming-festival-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/qingming-festival-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明节 — all title characters correct and complete",
@@ -3634,7 +3634,7 @@
       "title": "七夕",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/qixi.png",
       "status": "approved",
-      "publishedAsset": "/assets/qixi-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/qixi-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "七夕 — all title characters correct and complete",
@@ -3655,7 +3655,7 @@
       "title": "春节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/spring-festival.png",
       "status": "approved",
-      "publishedAsset": "/assets/spring-festival-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/spring-festival-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春节 — all title characters correct and complete",
@@ -3676,7 +3676,7 @@
       "title": "教师节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/teachers-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/teachers-day-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/teachers-day-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "教师节 — all title characters correct and complete",
@@ -3697,7 +3697,7 @@
       "title": "白露",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-bailu.png",
       "status": "approved",
-      "publishedAsset": "/assets/bailu-embroidery.webp",
+      "publishedAsset": "/assets/embroidery/bailu-embroidery.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "白露 — all title characters correct and complete",
@@ -3718,7 +3718,7 @@
       "title": "春分",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-chunfen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chunfen-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-chunfen-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "春分 — all title characters correct and complete",
@@ -3739,7 +3739,7 @@
       "title": "处暑",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-chushu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-chushu-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-chushu-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "处暑 — all title characters correct and complete",
@@ -3760,7 +3760,7 @@
       "title": "大寒",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-dahan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dahan-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-dahan-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大寒 — all title characters correct and complete",
@@ -3781,7 +3781,7 @@
       "title": "大暑",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-dashu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dashu-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-dashu-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大暑 — all title characters correct and complete",
@@ -3802,7 +3802,7 @@
       "title": "大雪",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-daxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-daxue-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-daxue-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "大雪 — all title characters correct and complete",
@@ -3823,7 +3823,7 @@
       "title": "冬至",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-dongzhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-dongzhi-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-dongzhi-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "冬至 — all title characters correct and complete",
@@ -3844,7 +3844,7 @@
       "title": "谷雨",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-guyu-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-guyu-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "谷雨 — all title characters correct and complete",
@@ -3865,7 +3865,7 @@
       "title": "寒露",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-hanlu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-hanlu-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-hanlu-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "寒露 — all title characters correct and complete",
@@ -3886,7 +3886,7 @@
       "title": "惊蛰",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-jingzhe.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-jingzhe-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-jingzhe-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "惊蛰 — all title characters correct and complete",
@@ -3907,7 +3907,7 @@
       "title": "立春",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-lichun.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lichun-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-lichun-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立春 — all title characters correct and complete",
@@ -3928,7 +3928,7 @@
       "title": "立冬",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-lidong.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lidong-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-lidong-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立冬 — all title characters correct and complete",
@@ -3949,7 +3949,7 @@
       "title": "立秋",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-liqiu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-liqiu-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-liqiu-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立秋 — all title characters correct and complete",
@@ -3970,7 +3970,7 @@
       "title": "立夏",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-lixia.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-lixia-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-lixia-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "立夏 — all title characters correct and complete",
@@ -3991,7 +3991,7 @@
       "title": "芒种",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-mangzhong.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-mangzhong-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-mangzhong-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "芒种 — all title characters correct and complete",
@@ -4012,7 +4012,7 @@
       "title": "清明",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-qingming.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qingming-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-qingming-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "清明 — all title characters correct and complete",
@@ -4033,7 +4033,7 @@
       "title": "秋分",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-qiufen.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-qiufen-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-qiufen-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "秋分 — all title characters correct and complete",
@@ -4054,7 +4054,7 @@
       "title": "霜降",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-shuangjiang.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-shuangjiang-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-shuangjiang-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "霜降 — all title characters correct and complete",
@@ -4075,7 +4075,7 @@
       "title": "小寒",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-xiaohan.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaohan-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-xiaohan-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小寒 — all title characters correct and complete",
@@ -4096,7 +4096,7 @@
       "title": "小满",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-xiaoman.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoman-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-xiaoman-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小满 — all title characters correct and complete",
@@ -4117,7 +4117,7 @@
       "title": "小暑",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-xiaoshu.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoshu-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-xiaoshu-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小暑 — all title characters correct and complete",
@@ -4138,7 +4138,7 @@
       "title": "小雪",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-xiaoxue.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiaoxue-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-xiaoxue-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "小雪 — all title characters correct and complete",
@@ -4159,7 +4159,7 @@
       "title": "夏至",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-xiazhi.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-xiazhi-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-xiazhi-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "夏至 — all title characters correct and complete",
@@ -4180,7 +4180,7 @@
       "title": "雨水",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/term-yushui.png",
       "status": "approved",
-      "publishedAsset": "/assets/term-yushui-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-yushui-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "雨水 — all title characters correct and complete",
@@ -4201,7 +4201,7 @@
       "title": "妇女节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/womens-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/womens-day-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/womens-day-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "妇女节 — all title characters correct and complete",
@@ -4222,7 +4222,7 @@
       "title": "青年节",
       "source": ".jieqi-artwork/expansion-20260925/embroidery/youth-day.png",
       "status": "approved",
-      "publishedAsset": "/assets/youth-day-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/youth-day-embroidery-v1.webp",
       "qa": {
         "method": "visual inspection of enlarged title and complete card across the 40-card style series",
         "characters": "青年节 — all title characters correct and complete",

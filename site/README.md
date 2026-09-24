@@ -93,6 +93,6 @@ window.Jieqi.destroy();
 
 ## 部署结构
 
-`.openai/hosting.json` 保存现有 Sites 项目标识，重复发布复用，不新建。使用 Vinext + Sites Vite 插件构建 Worker。`public/assets/` 保存网站用WebP，`public/v1/widget.js`直接对外提供。注册域名并不会自动改动DNS；域名接入记录需要在域名服务商配置。
+`.openai/hosting.json` 保存现有 Sites 项目标识，重复发布复用，不新建。使用 Vinext + Sites Vite 插件构建 Worker。`public/assets/` 按插画风格分目录保存网站用 WebP；`public/v1/widget.js` 直接对外提供。注册域名并不会自动改动DNS；域名接入记录需要在域名服务商配置。
 
 本次将模板的React服务端组件及Vinext更新到有修复的兼容版本，锁文件记录实际依赖。其余构建工具遵循模板依赖，未进行无关大版本升级。

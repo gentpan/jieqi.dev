@@ -21,7 +21,7 @@
       "title": "儿童节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/childrens-day.png",
-      "publishedAsset": "/assets/childrens-day-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/childrens-day-minimal-v1.webp",
       "qa": {
         "method": "visual inspection",
         "characters": "儿童节 all three characters correct and complete",
@@ -41,7 +41,7 @@
       "title": "重阳节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/double-ninth.png",
-      "publishedAsset": "/assets/double-ninth-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/double-ninth-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -81,7 +81,7 @@
       "title": "端午节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/dragon-boat.png",
-      "publishedAsset": "/assets/dragon-boat-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/dragon-boat-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -121,7 +121,7 @@
       "title": "腊八",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/laba.png",
-      "publishedAsset": "/assets/laba-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/laba-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -161,7 +161,7 @@
       "title": "五一",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/labour-day.png",
-      "publishedAsset": "/assets/labour-day-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/labour-day-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -201,7 +201,7 @@
       "title": "元宵节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/lantern-festival.png",
-      "publishedAsset": "/assets/lantern-festival-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/lantern-festival-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -241,7 +241,7 @@
       "title": "中秋节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/mid-autumn.png",
-      "publishedAsset": "/assets/mid-autumn-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/mid-autumn-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -281,7 +281,7 @@
       "title": "国庆节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/national-day.png",
-      "publishedAsset": "/assets/national-day-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/national-day-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -321,7 +321,7 @@
       "title": "元旦",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/new-year.png",
-      "publishedAsset": "/assets/new-year-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/new-year-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -361,7 +361,7 @@
       "title": "除夕",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/new-years-eve-v2.png",
-      "publishedAsset": "/assets/new-years-eve-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/new-years-eve-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -417,7 +417,7 @@
       "title": "清明节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/qingming-festival.png",
-      "publishedAsset": "/assets/qingming-festival-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/qingming-festival-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -457,7 +457,7 @@
       "title": "七夕",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/qixi.png",
-      "publishedAsset": "/assets/qixi-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/qixi-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -497,7 +497,7 @@
       "title": "春节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/spring-festival.png",
-      "publishedAsset": "/assets/spring-festival-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/spring-festival-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -537,7 +537,7 @@
       "title": "教师节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/teachers-day.png",
-      "publishedAsset": "/assets/teachers-day-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/teachers-day-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -577,7 +577,7 @@
       "title": "白露",
       "status": "approved",
       "source": ".jieqi-artwork/style-samples-20260907/bailu-minimal.png",
-      "publishedAsset": "/assets/bailu-minimal.webp",
+      "publishedAsset": "/assets/minimal/bailu-minimal.webp",
       "qa": {
         "method": "visual inspection",
         "characters": "白露 correct",
@@ -598,7 +598,7 @@
       "title": "春分",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-chunfen.png",
-      "publishedAsset": "/assets/term-chunfen-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-chunfen-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -638,7 +638,7 @@
       "title": "处暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-chushu.png",
-      "publishedAsset": "/assets/term-chushu-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-chushu-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -678,7 +678,7 @@
       "title": "大寒",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-dahan.png",
-      "publishedAsset": "/assets/term-dahan-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-dahan-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -718,7 +718,7 @@
       "title": "大暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-dashu.png",
-      "publishedAsset": "/assets/term-dashu-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-dashu-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -758,7 +758,7 @@
       "title": "大雪",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-daxue.png",
-      "publishedAsset": "/assets/term-daxue-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-daxue-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -798,7 +798,7 @@
       "title": "冬至",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-dongzhi.png",
-      "publishedAsset": "/assets/term-dongzhi-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-dongzhi-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -838,7 +838,7 @@
       "title": "谷雨",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-guyu.png",
-      "publishedAsset": "/assets/term-guyu-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-guyu-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -878,7 +878,7 @@
       "title": "寒露",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-hanlu.png",
-      "publishedAsset": "/assets/term-hanlu-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-hanlu-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -918,7 +918,7 @@
       "title": "惊蛰",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-jingzhe.png",
-      "publishedAsset": "/assets/term-jingzhe-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-jingzhe-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -958,7 +958,7 @@
       "title": "立春",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-lichun.png",
-      "publishedAsset": "/assets/term-lichun-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-lichun-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -998,7 +998,7 @@
       "title": "立冬",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-lidong.png",
-      "publishedAsset": "/assets/term-lidong-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-lidong-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1038,7 +1038,7 @@
       "title": "立秋",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-liqiu.png",
-      "publishedAsset": "/assets/term-liqiu-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-liqiu-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1078,7 +1078,7 @@
       "title": "立夏",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-lixia.png",
-      "publishedAsset": "/assets/term-lixia-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-lixia-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1118,7 +1118,7 @@
       "title": "芒种",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-mangzhong.png",
-      "publishedAsset": "/assets/term-mangzhong-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-mangzhong-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1158,7 +1158,7 @@
       "title": "清明",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-qingming.png",
-      "publishedAsset": "/assets/term-qingming-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-qingming-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1198,7 +1198,7 @@
       "title": "秋分",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-qiufen.png",
-      "publishedAsset": "/assets/term-qiufen-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-qiufen-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1238,7 +1238,7 @@
       "title": "霜降",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-shuangjiang.png",
-      "publishedAsset": "/assets/term-shuangjiang-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-shuangjiang-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1278,7 +1278,7 @@
       "title": "小寒",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-xiaohan.png",
-      "publishedAsset": "/assets/term-xiaohan-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-xiaohan-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1318,7 +1318,7 @@
       "title": "小满",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-xiaoman.png",
-      "publishedAsset": "/assets/term-xiaoman-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-xiaoman-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1358,7 +1358,7 @@
       "title": "小暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-xiaoshu.png",
-      "publishedAsset": "/assets/term-xiaoshu-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-xiaoshu-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1398,7 +1398,7 @@
       "title": "小雪",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-xiaoxue.png",
-      "publishedAsset": "/assets/term-xiaoxue-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-xiaoxue-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1438,7 +1438,7 @@
       "title": "夏至",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-xiazhi.png",
-      "publishedAsset": "/assets/term-xiazhi-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-xiazhi-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1478,7 +1478,7 @@
       "title": "雨水",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/term-yushui.png",
-      "publishedAsset": "/assets/term-yushui-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/term-yushui-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1518,7 +1518,7 @@
       "title": "妇女节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/womens-day.png",
-      "publishedAsset": "/assets/womens-day-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/womens-day-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1558,7 +1558,7 @@
       "title": "青年节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/minimal/youth-day.png",
-      "publishedAsset": "/assets/youth-day-minimal-v1.webp",
+      "publishedAsset": "/assets/minimal/youth-day-minimal-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1598,7 +1598,7 @@
       "title": "儿童节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/childrens-day.png",
-      "publishedAsset": "/assets/childrens-day-character-v1.webp",
+      "publishedAsset": "/assets/character/childrens-day-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1638,7 +1638,7 @@
       "title": "重阳节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/double-ninth.png",
-      "publishedAsset": "/assets/double-ninth-character-v1.webp",
+      "publishedAsset": "/assets/character/double-ninth-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1678,7 +1678,7 @@
       "title": "端午节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/dragon-boat.png",
-      "publishedAsset": "/assets/dragon-boat-character-v1.webp",
+      "publishedAsset": "/assets/character/dragon-boat-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1718,7 +1718,7 @@
       "title": "腊八",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/laba.png",
-      "publishedAsset": "/assets/laba-character-v1.webp",
+      "publishedAsset": "/assets/character/laba-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1758,7 +1758,7 @@
       "title": "五一",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/labour-day.png",
-      "publishedAsset": "/assets/labour-day-character-v1.webp",
+      "publishedAsset": "/assets/character/labour-day-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1798,7 +1798,7 @@
       "title": "元宵节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/lantern-festival.png",
-      "publishedAsset": "/assets/lantern-festival-character-v1.webp",
+      "publishedAsset": "/assets/character/lantern-festival-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1838,7 +1838,7 @@
       "title": "中秋节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/mid-autumn.png",
-      "publishedAsset": "/assets/mid-autumn-character-v1.webp",
+      "publishedAsset": "/assets/character/mid-autumn-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1878,7 +1878,7 @@
       "title": "国庆节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/national-day.png",
-      "publishedAsset": "/assets/national-day-character-v1.webp",
+      "publishedAsset": "/assets/character/national-day-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1918,7 +1918,7 @@
       "title": "元旦",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/new-year.png",
-      "publishedAsset": "/assets/new-year-character-v1.webp",
+      "publishedAsset": "/assets/character/new-year-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1958,7 +1958,7 @@
       "title": "除夕",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/new-years-eve.png",
-      "publishedAsset": "/assets/new-years-eve-character-v1.webp",
+      "publishedAsset": "/assets/character/new-years-eve-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -1998,7 +1998,7 @@
       "title": "清明节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/qingming-festival.png",
-      "publishedAsset": "/assets/qingming-festival-character-v1.webp",
+      "publishedAsset": "/assets/character/qingming-festival-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2038,7 +2038,7 @@
       "title": "七夕",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/qixi.png",
-      "publishedAsset": "/assets/qixi-character-v1.webp",
+      "publishedAsset": "/assets/character/qixi-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2078,7 +2078,7 @@
       "title": "春节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/spring-festival.png",
-      "publishedAsset": "/assets/spring-festival-character-v1.webp",
+      "publishedAsset": "/assets/character/spring-festival-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2118,7 +2118,7 @@
       "title": "教师节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/teachers-day.png",
-      "publishedAsset": "/assets/teachers-day-character-v1.webp",
+      "publishedAsset": "/assets/character/teachers-day-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2158,7 +2158,7 @@
       "title": "白露",
       "status": "approved",
       "source": ".jieqi-artwork/style-samples-20260907/bailu-character.png",
-      "publishedAsset": "/assets/bailu-character.webp",
+      "publishedAsset": "/assets/character/bailu-character.webp",
       "qa": {
         "method": "visual inspection",
         "characters": "白露 correct",
@@ -2179,7 +2179,7 @@
       "title": "春分",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-chunfen.png",
-      "publishedAsset": "/assets/term-chunfen-character-v1.webp",
+      "publishedAsset": "/assets/character/term-chunfen-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2219,7 +2219,7 @@
       "title": "处暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-chushu-v2.png",
-      "publishedAsset": "/assets/term-chushu-character-v1.webp",
+      "publishedAsset": "/assets/character/term-chushu-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2275,7 +2275,7 @@
       "title": "大寒",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-dahan.png",
-      "publishedAsset": "/assets/term-dahan-character-v1.webp",
+      "publishedAsset": "/assets/character/term-dahan-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2315,7 +2315,7 @@
       "title": "大暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-dashu.png",
-      "publishedAsset": "/assets/term-dashu-character-v1.webp",
+      "publishedAsset": "/assets/character/term-dashu-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2355,7 +2355,7 @@
       "title": "大雪",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-daxue.png",
-      "publishedAsset": "/assets/term-daxue-character-v1.webp",
+      "publishedAsset": "/assets/character/term-daxue-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2395,7 +2395,7 @@
       "title": "冬至",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-dongzhi.png",
-      "publishedAsset": "/assets/term-dongzhi-character-v1.webp",
+      "publishedAsset": "/assets/character/term-dongzhi-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2435,7 +2435,7 @@
       "title": "谷雨",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-guyu.png",
-      "publishedAsset": "/assets/term-guyu-character-v1.webp",
+      "publishedAsset": "/assets/character/term-guyu-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2475,7 +2475,7 @@
       "title": "寒露",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-hanlu.png",
-      "publishedAsset": "/assets/term-hanlu-character-v1.webp",
+      "publishedAsset": "/assets/character/term-hanlu-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2515,7 +2515,7 @@
       "title": "惊蛰",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-jingzhe.png",
-      "publishedAsset": "/assets/term-jingzhe-character-v1.webp",
+      "publishedAsset": "/assets/character/term-jingzhe-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2555,7 +2555,7 @@
       "title": "立春",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-lichun.png",
-      "publishedAsset": "/assets/term-lichun-character-v1.webp",
+      "publishedAsset": "/assets/character/term-lichun-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2595,7 +2595,7 @@
       "title": "立冬",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-lidong.png",
-      "publishedAsset": "/assets/term-lidong-character-v1.webp",
+      "publishedAsset": "/assets/character/term-lidong-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2635,7 +2635,7 @@
       "title": "立秋",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-liqiu.png",
-      "publishedAsset": "/assets/term-liqiu-character-v1.webp",
+      "publishedAsset": "/assets/character/term-liqiu-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2675,7 +2675,7 @@
       "title": "立夏",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-lixia.png",
-      "publishedAsset": "/assets/term-lixia-character-v1.webp",
+      "publishedAsset": "/assets/character/term-lixia-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2715,7 +2715,7 @@
       "title": "芒种",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-mangzhong.png",
-      "publishedAsset": "/assets/term-mangzhong-character-v1.webp",
+      "publishedAsset": "/assets/character/term-mangzhong-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2755,7 +2755,7 @@
       "title": "清明",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-qingming.png",
-      "publishedAsset": "/assets/term-qingming-character-v1.webp",
+      "publishedAsset": "/assets/character/term-qingming-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2795,7 +2795,7 @@
       "title": "秋分",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-qiufen.png",
-      "publishedAsset": "/assets/term-qiufen-character-v1.webp",
+      "publishedAsset": "/assets/character/term-qiufen-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2835,7 +2835,7 @@
       "title": "霜降",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-shuangjiang.png",
-      "publishedAsset": "/assets/term-shuangjiang-character-v1.webp",
+      "publishedAsset": "/assets/character/term-shuangjiang-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2875,7 +2875,7 @@
       "title": "小寒",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-xiaohan.png",
-      "publishedAsset": "/assets/term-xiaohan-character-v1.webp",
+      "publishedAsset": "/assets/character/term-xiaohan-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2915,7 +2915,7 @@
       "title": "小满",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-xiaoman.png",
-      "publishedAsset": "/assets/term-xiaoman-character-v1.webp",
+      "publishedAsset": "/assets/character/term-xiaoman-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2955,7 +2955,7 @@
       "title": "小暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-xiaoshu.png",
-      "publishedAsset": "/assets/term-xiaoshu-character-v1.webp",
+      "publishedAsset": "/assets/character/term-xiaoshu-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -2995,7 +2995,7 @@
       "title": "小雪",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-xiaoxue.png",
-      "publishedAsset": "/assets/term-xiaoxue-character-v1.webp",
+      "publishedAsset": "/assets/character/term-xiaoxue-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3035,7 +3035,7 @@
       "title": "夏至",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-xiazhi.png",
-      "publishedAsset": "/assets/term-xiazhi-character-v1.webp",
+      "publishedAsset": "/assets/character/term-xiazhi-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3075,7 +3075,7 @@
       "title": "雨水",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/term-yushui.png",
-      "publishedAsset": "/assets/term-yushui-character-v1.webp",
+      "publishedAsset": "/assets/character/term-yushui-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3115,7 +3115,7 @@
       "title": "妇女节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/womens-day.png",
-      "publishedAsset": "/assets/womens-day-character-v1.webp",
+      "publishedAsset": "/assets/character/womens-day-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3155,7 +3155,7 @@
       "title": "青年节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/character/youth-day.png",
-      "publishedAsset": "/assets/youth-day-character-v1.webp",
+      "publishedAsset": "/assets/character/youth-day-character-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3195,7 +3195,7 @@
       "title": "儿童节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/childrens-day.png",
-      "publishedAsset": "/assets/childrens-day-anime-v1.webp",
+      "publishedAsset": "/assets/anime/childrens-day-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3235,7 +3235,7 @@
       "title": "重阳节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/double-ninth.png",
-      "publishedAsset": "/assets/double-ninth-anime-v1.webp",
+      "publishedAsset": "/assets/anime/double-ninth-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3275,7 +3275,7 @@
       "title": "端午节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/dragon-boat.png",
-      "publishedAsset": "/assets/dragon-boat-anime-v1.webp",
+      "publishedAsset": "/assets/anime/dragon-boat-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3315,7 +3315,7 @@
       "title": "腊八",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/laba.png",
-      "publishedAsset": "/assets/laba-anime-v1.webp",
+      "publishedAsset": "/assets/anime/laba-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3355,7 +3355,7 @@
       "title": "五一",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/labour-day.png",
-      "publishedAsset": "/assets/labour-day-anime-v1.webp",
+      "publishedAsset": "/assets/anime/labour-day-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3395,7 +3395,7 @@
       "title": "元宵节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/lantern-festival.png",
-      "publishedAsset": "/assets/lantern-festival-anime-v1.webp",
+      "publishedAsset": "/assets/anime/lantern-festival-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3435,7 +3435,7 @@
       "title": "中秋节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/mid-autumn.png",
-      "publishedAsset": "/assets/mid-autumn-anime-v1.webp",
+      "publishedAsset": "/assets/anime/mid-autumn-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3475,7 +3475,7 @@
       "title": "国庆节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/national-day.png",
-      "publishedAsset": "/assets/national-day-anime-v1.webp",
+      "publishedAsset": "/assets/anime/national-day-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3515,7 +3515,7 @@
       "title": "元旦",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/new-year.png",
-      "publishedAsset": "/assets/new-year-anime-v1.webp",
+      "publishedAsset": "/assets/anime/new-year-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3555,7 +3555,7 @@
       "title": "除夕",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/new-years-eve-v2.png",
-      "publishedAsset": "/assets/new-years-eve-anime-v1.webp",
+      "publishedAsset": "/assets/anime/new-years-eve-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3611,7 +3611,7 @@
       "title": "清明节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/qingming-festival.png",
-      "publishedAsset": "/assets/qingming-festival-anime-v1.webp",
+      "publishedAsset": "/assets/anime/qingming-festival-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3651,7 +3651,7 @@
       "title": "七夕",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/qixi.png",
-      "publishedAsset": "/assets/qixi-anime-v1.webp",
+      "publishedAsset": "/assets/anime/qixi-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3691,7 +3691,7 @@
       "title": "春节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/spring-festival.png",
-      "publishedAsset": "/assets/spring-festival-anime-v1.webp",
+      "publishedAsset": "/assets/anime/spring-festival-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3731,7 +3731,7 @@
       "title": "教师节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/teachers-day.png",
-      "publishedAsset": "/assets/teachers-day-anime-v1.webp",
+      "publishedAsset": "/assets/anime/teachers-day-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3771,7 +3771,7 @@
       "title": "白露",
       "status": "approved",
       "source": ".jieqi-artwork/style-samples-20260907/bailu-anime.png",
-      "publishedAsset": "/assets/bailu-anime.webp",
+      "publishedAsset": "/assets/anime/bailu-anime.webp",
       "qa": {
         "method": "visual inspection",
         "characters": "白露 correct",
@@ -3792,7 +3792,7 @@
       "title": "春分",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-chunfen.png",
-      "publishedAsset": "/assets/term-chunfen-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-chunfen-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3832,7 +3832,7 @@
       "title": "处暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-chushu.png",
-      "publishedAsset": "/assets/term-chushu-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-chushu-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3872,7 +3872,7 @@
       "title": "大寒",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-dahan.png",
-      "publishedAsset": "/assets/term-dahan-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-dahan-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3912,7 +3912,7 @@
       "title": "大暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-dashu.png",
-      "publishedAsset": "/assets/term-dashu-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-dashu-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3952,7 +3952,7 @@
       "title": "大雪",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-daxue.png",
-      "publishedAsset": "/assets/term-daxue-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-daxue-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -3992,7 +3992,7 @@
       "title": "冬至",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-dongzhi-v2.png",
-      "publishedAsset": "/assets/term-dongzhi-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-dongzhi-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4048,7 +4048,7 @@
       "title": "谷雨",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-guyu.png",
-      "publishedAsset": "/assets/term-guyu-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-guyu-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4088,7 +4088,7 @@
       "title": "寒露",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-hanlu.png",
-      "publishedAsset": "/assets/term-hanlu-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-hanlu-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4128,7 +4128,7 @@
       "title": "惊蛰",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-jingzhe-v2.png",
-      "publishedAsset": "/assets/term-jingzhe-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-jingzhe-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4184,7 +4184,7 @@
       "title": "立春",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-lichun.png",
-      "publishedAsset": "/assets/term-lichun-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-lichun-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4224,7 +4224,7 @@
       "title": "立冬",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-lidong.png",
-      "publishedAsset": "/assets/term-lidong-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-lidong-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4264,7 +4264,7 @@
       "title": "立秋",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-liqiu.png",
-      "publishedAsset": "/assets/term-liqiu-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-liqiu-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4304,7 +4304,7 @@
       "title": "立夏",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-lixia.png",
-      "publishedAsset": "/assets/term-lixia-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-lixia-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4344,7 +4344,7 @@
       "title": "芒种",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-mangzhong.png",
-      "publishedAsset": "/assets/term-mangzhong-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-mangzhong-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4384,7 +4384,7 @@
       "title": "清明",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-qingming.png",
-      "publishedAsset": "/assets/term-qingming-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-qingming-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4424,7 +4424,7 @@
       "title": "秋分",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-qiufen.png",
-      "publishedAsset": "/assets/term-qiufen-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-qiufen-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4464,7 +4464,7 @@
       "title": "霜降",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-shuangjiang.png",
-      "publishedAsset": "/assets/term-shuangjiang-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-shuangjiang-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4504,7 +4504,7 @@
       "title": "小寒",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-xiaohan.png",
-      "publishedAsset": "/assets/term-xiaohan-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-xiaohan-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4544,7 +4544,7 @@
       "title": "小满",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-xiaoman.png",
-      "publishedAsset": "/assets/term-xiaoman-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-xiaoman-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4584,7 +4584,7 @@
       "title": "小暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-xiaoshu.png",
-      "publishedAsset": "/assets/term-xiaoshu-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-xiaoshu-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4624,7 +4624,7 @@
       "title": "小雪",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-xiaoxue.png",
-      "publishedAsset": "/assets/term-xiaoxue-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-xiaoxue-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4664,7 +4664,7 @@
       "title": "夏至",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-xiazhi-v2.png",
-      "publishedAsset": "/assets/term-xiazhi-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-xiazhi-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4720,7 +4720,7 @@
       "title": "雨水",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/term-yushui.png",
-      "publishedAsset": "/assets/term-yushui-anime-v1.webp",
+      "publishedAsset": "/assets/anime/term-yushui-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4760,7 +4760,7 @@
       "title": "妇女节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/womens-day.png",
-      "publishedAsset": "/assets/womens-day-anime-v1.webp",
+      "publishedAsset": "/assets/anime/womens-day-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4800,7 +4800,7 @@
       "title": "青年节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/anime/youth-day.png",
-      "publishedAsset": "/assets/youth-day-anime-v1.webp",
+      "publishedAsset": "/assets/anime/youth-day-anime-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4840,7 +4840,7 @@
       "title": "儿童节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/childrens-day.png",
-      "publishedAsset": "/assets/childrens-day-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/childrens-day-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4880,7 +4880,7 @@
       "title": "重阳节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/double-ninth.png",
-      "publishedAsset": "/assets/double-ninth-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/double-ninth-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4920,7 +4920,7 @@
       "title": "端午节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/dragon-boat.png",
-      "publishedAsset": "/assets/dragon-boat-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/dragon-boat-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -4960,7 +4960,7 @@
       "title": "腊八",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/laba.png",
-      "publishedAsset": "/assets/laba-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/laba-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5000,7 +5000,7 @@
       "title": "五一",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/labour-day.png",
-      "publishedAsset": "/assets/labour-day-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/labour-day-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5040,7 +5040,7 @@
       "title": "元宵节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/lantern-festival.png",
-      "publishedAsset": "/assets/lantern-festival-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/lantern-festival-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5080,7 +5080,7 @@
       "title": "中秋节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/mid-autumn.png",
-      "publishedAsset": "/assets/mid-autumn-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/mid-autumn-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5120,7 +5120,7 @@
       "title": "国庆节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/national-day.png",
-      "publishedAsset": "/assets/national-day-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/national-day-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5160,7 +5160,7 @@
       "title": "元旦",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/new-year.png",
-      "publishedAsset": "/assets/new-year-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/new-year-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5200,7 +5200,7 @@
       "title": "除夕",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/new-years-eve-v2.png",
-      "publishedAsset": "/assets/new-years-eve-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/new-years-eve-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5256,7 +5256,7 @@
       "title": "清明节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/qingming-festival.png",
-      "publishedAsset": "/assets/qingming-festival-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/qingming-festival-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5296,7 +5296,7 @@
       "title": "七夕",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/qixi.png",
-      "publishedAsset": "/assets/qixi-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/qixi-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5336,7 +5336,7 @@
       "title": "春节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/spring-festival.png",
-      "publishedAsset": "/assets/spring-festival-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/spring-festival-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5376,7 +5376,7 @@
       "title": "教师节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/teachers-day.png",
-      "publishedAsset": "/assets/teachers-day-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/teachers-day-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5416,7 +5416,7 @@
       "title": "白露",
       "status": "approved",
       "source": ".jieqi-artwork/style-samples-20260907/bailu-sweet.png",
-      "publishedAsset": "/assets/bailu-sweet.webp",
+      "publishedAsset": "/assets/sweet/bailu-sweet.webp",
       "qa": {
         "method": "visual inspection",
         "characters": "白露 correct",
@@ -5436,7 +5436,7 @@
       "title": "春分",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-chunfen.png",
-      "publishedAsset": "/assets/term-chunfen-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-chunfen-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5476,7 +5476,7 @@
       "title": "处暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-chushu.png",
-      "publishedAsset": "/assets/term-chushu-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-chushu-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5516,7 +5516,7 @@
       "title": "大寒",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-dahan.png",
-      "publishedAsset": "/assets/term-dahan-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-dahan-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5556,7 +5556,7 @@
       "title": "大暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-dashu.png",
-      "publishedAsset": "/assets/term-dashu-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-dashu-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5596,7 +5596,7 @@
       "title": "大雪",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-daxue.png",
-      "publishedAsset": "/assets/term-daxue-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-daxue-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5636,7 +5636,7 @@
       "title": "冬至",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-dongzhi-v2.png",
-      "publishedAsset": "/assets/term-dongzhi-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-dongzhi-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5692,7 +5692,7 @@
       "title": "谷雨",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-guyu.png",
-      "publishedAsset": "/assets/term-guyu-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-guyu-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5732,7 +5732,7 @@
       "title": "寒露",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-hanlu.png",
-      "publishedAsset": "/assets/term-hanlu-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-hanlu-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5772,7 +5772,7 @@
       "title": "惊蛰",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-jingzhe.png",
-      "publishedAsset": "/assets/term-jingzhe-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-jingzhe-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5812,7 +5812,7 @@
       "title": "立春",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-lichun.png",
-      "publishedAsset": "/assets/term-lichun-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-lichun-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5852,7 +5852,7 @@
       "title": "立冬",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-lidong.png",
-      "publishedAsset": "/assets/term-lidong-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-lidong-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5892,7 +5892,7 @@
       "title": "立秋",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-liqiu.png",
-      "publishedAsset": "/assets/term-liqiu-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-liqiu-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5932,7 +5932,7 @@
       "title": "立夏",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-lixia.png",
-      "publishedAsset": "/assets/term-lixia-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-lixia-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -5972,7 +5972,7 @@
       "title": "芒种",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-mangzhong.png",
-      "publishedAsset": "/assets/term-mangzhong-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-mangzhong-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6012,7 +6012,7 @@
       "title": "清明",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-qingming.png",
-      "publishedAsset": "/assets/term-qingming-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-qingming-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6052,7 +6052,7 @@
       "title": "秋分",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-qiufen.png",
-      "publishedAsset": "/assets/term-qiufen-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-qiufen-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6092,7 +6092,7 @@
       "title": "霜降",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-shuangjiang.png",
-      "publishedAsset": "/assets/term-shuangjiang-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-shuangjiang-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6132,7 +6132,7 @@
       "title": "小寒",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-xiaohan.png",
-      "publishedAsset": "/assets/term-xiaohan-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-xiaohan-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6172,7 +6172,7 @@
       "title": "小满",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-xiaoman.png",
-      "publishedAsset": "/assets/term-xiaoman-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-xiaoman-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6212,7 +6212,7 @@
       "title": "小暑",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-xiaoshu.png",
-      "publishedAsset": "/assets/term-xiaoshu-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-xiaoshu-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6252,7 +6252,7 @@
       "title": "小雪",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-xiaoxue.png",
-      "publishedAsset": "/assets/term-xiaoxue-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-xiaoxue-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6292,7 +6292,7 @@
       "title": "夏至",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-xiazhi.png",
-      "publishedAsset": "/assets/term-xiazhi-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-xiazhi-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6332,7 +6332,7 @@
       "title": "雨水",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/term-yushui.png",
-      "publishedAsset": "/assets/term-yushui-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/term-yushui-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6372,7 +6372,7 @@
       "title": "妇女节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/womens-day.png",
-      "publishedAsset": "/assets/womens-day-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/womens-day-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
@@ -6412,7 +6412,7 @@
       "title": "青年节",
       "status": "approved",
       "source": ".jieqi-artwork/complete-series-20260907/sweet/youth-day.png",
-      "publishedAsset": "/assets/youth-day-sweet-v1.webp",
+      "publishedAsset": "/assets/sweet/youth-day-sweet-v1.webp",
       "qa": {
         "status": "approved",
         "method": "individual visual inspection",
