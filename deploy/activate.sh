@@ -38,8 +38,16 @@ config=/etc/caddy/sites/jieqi.caddy
 if ! cmp -s deploy/jieqi.caddy "$config"; then
   if [ -f "$config" ]; then cp -a "$config" "/opt/jieqi/shared/jieqi.caddy.$(date -u +%Y%m%dT%H%M%SZ).bak"; fi
   install -m 644 deploy/jieqi.caddy "$config"
-  # Existing main config already imports /etc/caddy/sites/*.caddy.
-  frankenphp validate --config /etc/frankenphp/Caddyfile
-  systemctl reload frankenphp
+  # The active web server imports /etc/caddy/sites/*.caddy.
+  if systemctl is-active --quiet caddy; then
+    caddy validate --config /etc/caddy/Caddyfile
+    systemctl reload caddy
+  elif systemctl is-active --quiet frankenphp; then
+    frankenphp validate --config /etc/frankenphp/Caddyfile
+    systemctl reload frankenphp
+  else
+    echo 'Neither Caddy nor FrankenPHP is active' >&2
+    exit 1
+  fi
 fi
 printf '\nJieqi services activated; verify public TLS and domains next.\n'

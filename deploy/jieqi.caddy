@@ -1,4 +1,4 @@
-# Imported by the existing /etc/frankenphp/Caddyfile; no other sites change.
+# Imported by the existing /etc/caddy/Caddyfile; no other sites change.
 www.jieqi.dev {
   redir https://jieqi.dev{uri} 308
 }
