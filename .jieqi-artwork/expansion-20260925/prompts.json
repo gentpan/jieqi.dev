@@ -1998,9 +1998,9 @@
     "eventId": "term-guyu",
     "title": "谷雨",
     "scene": "tender tea leaves, a small rain-fed rice seedling and a few generous spring raindrops; nourishing late spring rain.",
-    "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone portrait 2:3, 1024x1536 illustrated Chinese seasonal greeting card; one complete image, not a collage.\nImage 1 is a STYLE REFERENCE ONLY for the 丝线刺绣 series. Preserve its medium, border treatment and title placement while creating a new event-specific scene.\nPrimary request: 谷雨, the 丝线刺绣 series.\nScene and seasonal subjects: tender tea leaves, a small rain-fed rice seedling and a few generous spring raindrops; nourishing late spring rain..\nStyle and composition: Match the reference's delicate Chinese silk embroidery on woven ivory linen: visible directional satin stitches, fine threads, subtle raised texture, luminous silk highlights and calm negative space. Use a restrained seasonal palette and place the motif below the title.\nText (verbatim): \"谷雨\". Exactly these 2 correct simplified Chinese characters only, large and vertically arranged near upper center, fully legible with accurate strokes and generous margins.\nAvoid: any other text, English, numbers, dates, poem, signature, logo, watermark, UI screenshot, cropped subject, postage-stamp border or perforation, watercolor washes, paper-cut layers, clay, 3D toy look.",
-    "reference": ".jieqi-artwork/expansion-20260925/embroidery/term-lichun.png",
-    "source": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu.png",
+    "prompt": "Precise edit of the provided Chinese silk embroidery artwork. Correct ONLY the dark forest-green embroidered Chinese title near the upper center. The title must read exactly 谷雨 in two vertically stacked standard simplified Chinese characters: 谷 on top, 雨 below. Make each character unmistakably legible with accurate normal Chinese glyph structure, rendered as raised satin-stitch silk thread in the same dark green and same size and placement as the current title. Do not add any other text. Preserve the entire rest of the image exactly: cream woven linen background, leaves and dew at left, falling rain, mountains, village, flooded rice paddies, palette, textures, crop and composition. Output a full 1024x1536 image.",
+    "reference": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu.png",
+    "source": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu-v2.png",
     "status": "generated"
   },
   {

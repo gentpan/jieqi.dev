@@ -3842,21 +3842,22 @@
       "styleName": "丝线刺绣",
       "eventId": "term-guyu",
       "title": "谷雨",
-      "source": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu.png",
+      "source": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu-v2.png",
       "status": "approved",
-      "publishedAsset": "/assets/embroidery/term-guyu-embroidery-v1.webp",
+      "publishedAsset": "/assets/embroidery/term-guyu-embroidery-v2.webp",
       "qa": {
-        "method": "visual inspection of enlarged title and complete card across the 40-card style series",
-        "characters": "谷雨 — all title characters correct and complete",
+        "method": "visual inspection of enlarged corrected title and complete card",
+        "characters": "谷雨 — corrected and inspected at full resolution",
         "scene": "Event-appropriate composition; style-consistent illustration",
         "status": "approved"
       },
-      "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-0e2935b1-096b-4422-a163-308a74c1cf86.png",
-      "sourceSha256": "23c50a24254ee4862656cd3eb2b71c8abf03ded4f64b0756ad58becbdfb501b1",
-      "promptFile": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu.prompt.txt",
-      "generationRecord": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu.generation.json",
-      "sha256": "427491d13936da3c3d8ab1b0a7c45cc3b412050a9ceb45ffaaa90221e09ac2ef",
-      "bytes": 584366
+      "generationSource": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu-v2.png",
+      "sourceSha256": "42f137f78987296d38069bdc9e9365ae4f22d404adc9d0240b6c68dba3343e64",
+      "promptFile": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu-v2.prompt.txt",
+      "generationRecord": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu-v2.generation.json",
+      "sha256": "09efa47149b237750d8310250f43d8e65f519925b5284428b93ed7aaa2d3327f",
+      "bytes": 509470,
+      "version": 2
     },
     {
       "style": "embroidery",

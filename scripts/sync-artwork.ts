@@ -3,7 +3,7 @@ import { dirname, join, resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { createRequire } from 'node:module';
 
-type Asset = { style: string; eventId: string; title: string; status: string; source: string; publishedAsset: string | null; sha256?: string; bytes?: number; sourceSha256?: string };
+type Asset = { style: string; eventId: string; title: string; status: string; source: string; publishedAsset: string | null; version?: number; sha256?: string; bytes?: number; sourceSha256?: string };
 type Variant = { id: string; title: string; image: string };
 const series = ['watercolor', 'papercut', 'clay', 'minimal', 'character', 'anime', 'sweet', 'woodblock', 'embroidery'];
 
@@ -37,7 +37,7 @@ export async function syncArtwork(root: string, eventIds: string[], variants: Va
   mkdirSync(join(site, 'public/assets'), { recursive: true });
   mkdirSync(join(root, 'public/assets'), { recursive: true });
   for (const asset of assets) {
-    const image = asset.eventId === 'term-bailu' ? `/assets/${asset.style}/bailu-${asset.style}.webp` : `/assets/${asset.style}/${asset.eventId}-${asset.style}-v1.webp`;
+    const image = asset.eventId === 'term-bailu' ? `/assets/${asset.style}/bailu-${asset.style}.webp` : `/assets/${asset.style}/${asset.eventId}-${asset.style}-v${asset.version ?? 1}.webp`;
     const output = join(site, 'public', image);
     const original = resolve(root, asset.source);
     mkdirSync(dirname(output), { recursive: true });

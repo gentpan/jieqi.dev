@@ -282,7 +282,7 @@ export const seriesArtwork: Record<string, Record<string, string>> = {
     "papercut": "/assets/papercut/term-guyu-papercut-v1.webp",
     "clay": "/assets/clay/term-guyu-clay-v1.webp",
     "woodblock": "/assets/woodblock/term-guyu-woodblock-v1.webp",
-    "embroidery": "/assets/embroidery/term-guyu-embroidery-v1.webp"
+    "embroidery": "/assets/embroidery/term-guyu-embroidery-v2.webp"
   },
   "term-hanlu": {
     "minimal": "/assets/minimal/term-hanlu-minimal-v1.webp",

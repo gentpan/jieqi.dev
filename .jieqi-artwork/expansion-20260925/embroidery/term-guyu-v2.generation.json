@@ -1,0 +1,11 @@
+{
+  "generator": "built-in image_gen",
+  "generationSource": "/Users/peter/.codex/generated_images/01a0d47a-914e-75d0-ab85-953a80fc5c52/exec-7a4abde1-4516-4ebc-b7b4-ae63823f61f5.png",
+  "source": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu-v2.png",
+  "promptFile": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu-v2.prompt.txt",
+  "prompt": "Precise edit of the provided Chinese silk embroidery artwork. Correct ONLY the dark forest-green embroidered Chinese title near the upper center. The title must read exactly 谷雨 in two vertically stacked standard simplified Chinese characters: 谷 on top, 雨 below. Make each character unmistakably legible with accurate normal Chinese glyph structure, rendered as raised satin-stitch silk thread in the same dark green and same size and placement as the current title. Do not add any other text. Preserve the entire rest of the image exactly: cream woven linen background, leaves and dew at left, falling rain, mountains, village, flooded rice paddies, palette, textures, crop and composition. Output a full 1024x1536 image.",
+  "generatedAt": "2026-09-24T20:04:07Z",
+  "status": "generated",
+  "replaces": ".jieqi-artwork/expansion-20260925/embroidery/term-guyu.png",
+  "reason": "Correct the malformed 谷雨 embroidered title"
+}
